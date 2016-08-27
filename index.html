@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rune Combiner</title>
+</head>
+
+<body>
+    <div id="app">
+        <input v-model="search">
+        <ul>
+            <li v-for="rune in runes | filterBy search in 'name'">
+                <p>Name <b>{{ rune.name }}</b></p>
+                <p>Required Level <b>{{ rune.requiredLevel }}</b></p>
+            </li>
+        </ul>
+    </div>
+    <script src="js/vue.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
