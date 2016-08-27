@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Exocet;
+    src: url("../font/exocet.ttf");
+}
+
+body {
+    font-family: Exocet !important;
+    padding: 10px 0;
+}
+
+li {
+    border: 1px solid #000;
+    list-style-type: none;
+}
