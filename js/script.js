@@ -185,7 +185,7 @@ var rune = [{
   properties: {
     weapon: '+75% Damage to Demons, +100 Attack Rating Against Demons',
     armorHelm: '+30% Enhanced Defense',
-    shield: '',
+    shield: '+30% Enhanced Defense',
   }
 }, {
   name: 'Um',
