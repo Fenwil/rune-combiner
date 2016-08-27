@@ -5,22 +5,17 @@
     <meta charset="UTF-8">
     <title>Rune Combiner</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
-    <div class="container-fluid" id="app">
-        <div class="row">
-            <div class="col-xs-12">
-                <input v-model="search" class="col-xs-12">
-            </div>
-            <ul class="col-xs-12">
-                <li v-for="rune in runes | filterBy search in 'name'" class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
-                    <p>Name <b>{{ rune.name }}</b></p>
-                    <p>Required Level <b>{{ rune.requiredLevel }}</b></p>
-                </li>
-            </ul>
-        </div>
+    <div id="app">
+        <input v-model="search">
+        <ul>
+            <li v-for="rune in runes | filterBy search in 'name'">
+                <p><b>{{ rune.name }}</b></p>
+                <p>Required Level <b>{{ rune.requiredLevel }}</b></p>
+            </li>
+        </ul>
     </div>
     <script src="js/vue.js"></script>
     <script src="js/script.js"></script>
