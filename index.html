@@ -16,7 +16,7 @@
             <li v-for="rune in runes | filterBy search in 'name'">
                 <p><img src="{{rune.image}}" alt="" class="img"></p>
                 <p class="subtitle">Rune</p>
-                <p><b class="name">{{ rune.name }}</b></p>
+                <p><b class="name">{{ rune.name }}</b></p>                
                 <div class="properties-container">
                     <h3>Weapon</h3>
                     <p class="prop">{{ rune.properties.weapon }}</p>
