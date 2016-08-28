@@ -192,108 +192,108 @@ var rune = [{
   image: '',
   requiredLevel: 47,
   properties: {
-    weapon: '',
-    armorHelm: '',
-    shield: '',
+    weapon: '25% Chance of Open Wounds',
+    armorHelm: 'All Resistances +15',
+    shield: 'All Resistances +22',
   }
 }, {
   name: 'Mal',
   image: '',
   requiredLevel: 49,
   properties: {
-    weapon: '',
-    armorHelm: '',
-    shield: '',
+    weapon: 'Prevent Monster Heal',
+    armorHelm: 'Magic Damage Reduced By 7',
+    shield: 'Magic Damage Reduced By 7',
   }
 }, {
   name: 'Ist',
   image: '',
   requiredLevel: 51,
   properties: {
-    weapon: '',
-    armorHelm: '',
-    shield: '',
+    weapon: '30% Better Chance of Getting Magic Items',
+    armorHelm: '25% Better Chance of Getting Magic Items',
+    shield: '25% Better Chance of Getting Magic Items',
   }
 }, {
   name: 'Gul',
   image: '',
   requiredLevel: 53,
   properties: {
-    weapon: '',
-    armorHelm: '',
-    shield: '',
+    weapon: '20% Bonus To Attack Rating',
+    armorHelm: '5% To Maximum Poison Resist',
+    shield: '5% To Maximum Poison Resist',
   }
 }, {
   name: 'Vex',
   image: '',
   requiredLevel: 55,
   properties: {
-    weapon: '',
-    armorHelm: '',
-    shield: '',
+    weapon: '7% Mana Stolen Per Hit',
+    armorHelm: '5% To Maximum Fire Resist',
+    shield: '5% To Maximum Fire Resist',
   }
 }, {
   name: 'Ohm',
   image: '',
   requiredLevel: 57,
   properties: {
-    weapon: '',
-    armorHelm: '',
-    shield: '',
+    weapon: '+50% Enhanced Damage',
+    armorHelm: '+5% To Maximum Cold Resist',
+    shield: '+5% To Maximum Cold Resist',
   }
 }, {
   name: 'Lo',
   image: '',
   requiredLevel: 59,
   properties: {
-    weapon: '',
-    armorHelm: '',
-    shield: '',
+    weapon: '20% Deadly Strike',
+    armorHelm: '5% To Maximum Lightning Resist',
+    shield: '5% To Maximum Lightning Resist',
   }
 }, {
   name: 'Sur',
   image: '',
   requiredLevel: 61,
   properties: {
-    weapon: '',
-    armorHelm: '',
-    shield: '',
+    weapon: 'Hit Blinds Target',
+    armorHelm: 'Maximum Mana 5%',
+    shield: '+50 To Mana',
   }
 }, {
   name: 'Ber',
   image: '',
   requiredLevel: 63,
   properties: {
-    weapon: '',
-    armorHelm: '',
-    shield: '',
+    weapon: '20% Chance of Crushing Blow',
+    armorHelm: 'Damage Reduced by 8%',
+    shield: 'Damage Reduced by 8%',
   }
 }, {
   name: 'Jah',
   image: '',
   requiredLevel: 65,
   properties: {
-    weapon: '',
-    armorHelm: '',
-    shield: '',
+    weapon: 'Ignore Targets Defense',
+    armorHelm: 'Increase Maximum Life 5%',
+    shield: '+50 Life',
   }
 }, {
   name: 'Cham',
   image: '',
   requiredLevel: 67,
   properties: {
-    weapon: '',
-    armorHelm: '',
-    shield: '',
+    weapon: 'Freeze Target +3',
+    armorHelm: 'Cannot Be Frozen',
+    shield: 'Cannot Be Frozen',
   }
 }, {
   name: 'Zod',
   image: '',
   requiredLevel: 69,
   properties: {
-    weapon: '',
-    armorHelm: '',
-    shield: '',
+    weapon: 'Indestructible',
+    armorHelm: 'Indestructible',
+    shield: 'Indestructible',
   }
 }]
 

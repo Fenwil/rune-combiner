@@ -14,6 +14,9 @@
             <li v-for="rune in runes | filterBy search in 'name'">
                 <p><b>{{ rune.name }}</b></p>
                 <p>Required Level <b>{{ rune.requiredLevel }}</b></p>
+                <p>{{ rune.properties.weapon }}</p>
+                <p>{{ rune.properties.armorHelm }}</p>
+                <p>{{ rune.properties.shield }}</p>
             </li>
         </ul>
     </div>
