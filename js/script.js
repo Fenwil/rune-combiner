@@ -90,7 +90,7 @@ var rune = [{
   }
 }, {
   name: 'Amn',
-  image: '',
+  image: 'img/amn.svg',
   requiredLevel: 25,
   properties: {
     weapon: '7% Life Stolen Per Hit',
@@ -296,6 +296,11 @@ var rune = [{
     shield: 'Indestructible',
   }
 }]
+
+
+var runeword = {
+  name: ''
+};
 
 new Vue({
   el: '#app',
