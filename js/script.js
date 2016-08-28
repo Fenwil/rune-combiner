@@ -1,6 +1,6 @@
 var rune = [{
   name: 'El',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 11,
   properties: {
     weapon: '+50 To Attack Rating, +1 Light Radius',
@@ -9,7 +9,7 @@ var rune = [{
   }
 }, {
   name: 'Eld',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 11,
   properties: {
     weapon: '+75% Damage To Undead, +50 Attack Rating Against Undead',
@@ -18,7 +18,7 @@ var rune = [{
   }
 }, {
   name: 'Tir',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 13,
   properties: {
     weapon: '+2 To Mana After Each Kill',
@@ -27,7 +27,7 @@ var rune = [{
   }
 }, {
   name: 'Nef',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 13,
   properties: {
     weapon: 'Knockback',
@@ -36,7 +36,7 @@ var rune = [{
   }
 }, {
   name: 'Eth',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 15,
   properties: {
     weapon: '-25% To Target Defense',
@@ -45,7 +45,7 @@ var rune = [{
   }
 }, {
   name: 'Ith',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 15,
   properties: {
     weapon: '+9 To Maximum Damage',
@@ -54,7 +54,7 @@ var rune = [{
   }
 }, {
   name: 'Tal',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 17,
   properties: {
     weapon: '+75 Poison Damage Over 5 Seconds',
@@ -63,7 +63,7 @@ var rune = [{
   }
 }, {
   name: 'Ral',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 19,
   properties: {
     weapon: 'Adds 5-30 Fire Damage',
@@ -72,7 +72,7 @@ var rune = [{
   }
 }, {
   name: 'Ort',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 21,
   properties: {
     weapon: 'Adds 1-50 Lightning Damage',
@@ -81,7 +81,7 @@ var rune = [{
   }
 }, {
   name: 'Thul',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 23,
   properties: {
     weapon: 'Adds 3-14 Cold Damage - 3 Second Duration',
@@ -99,7 +99,7 @@ var rune = [{
   }
 }, {
   name: 'Sol',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 27,
   properties: {
     weapon: '+9 To Minimum Damage',
@@ -108,7 +108,7 @@ var rune = [{
   }
 }, {
   name: 'Shael',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 29,
   properties: {
     weapon: '20% Increased Attack Speed',
@@ -117,7 +117,7 @@ var rune = [{
   }
 }, {
   name: 'Dol',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 31,
   properties: {
     weapon: 'Hit Causes Monster To Flee 25%',
@@ -126,7 +126,7 @@ var rune = [{
   }
 }, {
   name: 'Hel',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 33,
   properties: {
     weapon: 'Requirements -20%',
@@ -135,7 +135,7 @@ var rune = [{
   }
 }, {
   name: 'Io',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 35,
   properties: {
     weapon: '+10 To Vitality',
@@ -144,7 +144,7 @@ var rune = [{
   }
 }, {
   name: 'Lum',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 37,
   properties: {
     weapon: '+10 To Energy',
@@ -153,7 +153,7 @@ var rune = [{
   }
 }, {
   name: 'Ko',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 39,
   properties: {
     weapon: '+10 To Dexterity',
@@ -162,7 +162,7 @@ var rune = [{
   }
 }, {
   name: 'Fal',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 41,
   properties: {
     weapon: '+10 To Strength',
@@ -171,7 +171,7 @@ var rune = [{
   }
 }, {
   name: 'Lem',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 43,
   properties: {
     weapon: '75% Extra Gold From Monsters',
@@ -180,7 +180,7 @@ var rune = [{
   }
 }, {
   name: 'Pul',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 45,
   properties: {
     weapon: '+75% Damage to Demons, +100 Attack Rating Against Demons',
@@ -189,7 +189,7 @@ var rune = [{
   }
 }, {
   name: 'Um',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 47,
   properties: {
     weapon: '25% Chance of Open Wounds',
@@ -198,7 +198,7 @@ var rune = [{
   }
 }, {
   name: 'Mal',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 49,
   properties: {
     weapon: 'Prevent Monster Heal',
@@ -207,7 +207,7 @@ var rune = [{
   }
 }, {
   name: 'Ist',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 51,
   properties: {
     weapon: '30% Better Chance of Getting Magic Items',
@@ -216,7 +216,7 @@ var rune = [{
   }
 }, {
   name: 'Gul',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 53,
   properties: {
     weapon: '20% Bonus To Attack Rating',
@@ -225,7 +225,7 @@ var rune = [{
   }
 }, {
   name: 'Vex',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 55,
   properties: {
     weapon: '7% Mana Stolen Per Hit',
@@ -234,7 +234,7 @@ var rune = [{
   }
 }, {
   name: 'Ohm',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 57,
   properties: {
     weapon: '+50% Enhanced Damage',
@@ -243,7 +243,7 @@ var rune = [{
   }
 }, {
   name: 'Lo',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 59,
   properties: {
     weapon: '20% Deadly Strike',
@@ -252,7 +252,7 @@ var rune = [{
   }
 }, {
   name: 'Sur',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 61,
   properties: {
     weapon: 'Hit Blinds Target',
@@ -261,7 +261,7 @@ var rune = [{
   }
 }, {
   name: 'Ber',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 63,
   properties: {
     weapon: '20% Chance of Crushing Blow',
@@ -270,7 +270,7 @@ var rune = [{
   }
 }, {
   name: 'Jah',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 65,
   properties: {
     weapon: 'Ignore Targets Defense',
@@ -279,7 +279,7 @@ var rune = [{
   }
 }, {
   name: 'Cham',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 67,
   properties: {
     weapon: 'Freeze Target +3',
@@ -288,7 +288,7 @@ var rune = [{
   }
 }, {
   name: 'Zod',
-  image: '',
+  image: 'img/stone.svg',
   requiredLevel: 69,
   properties: {
     weapon: 'Indestructible',

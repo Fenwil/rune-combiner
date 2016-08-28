@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rune Combiner</title>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <div id="app">
-        <input v-model="search" placeholder="Runa">
+        <input v-model="search" placeholder="Rune">
         <ul>
             <li v-for="rune in runes | filterBy search in 'name'">
                 <p><img src="{{rune.image}}" alt="" class="img"></p>
@@ -30,7 +30,7 @@
             </li>
         </ul>
     </div>
-    <script src="js/vue.js"></script>
+    <script src="js/vue.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
