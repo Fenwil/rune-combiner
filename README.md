@@ -20,6 +20,6 @@ Development, Leonardo Galante
 
 Design and Idea, Matias Caire
 
-## License
+## Try it
 
-A short snippet describing the license (MIT, Apache, etc.)
+http://rune-combiner.herokuapp.com/
