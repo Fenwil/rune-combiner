@@ -1,3 +1,41 @@
+var runeword = [{
+  name: 'Steel',
+  combinationOrder: 'Tir El',
+  requiredLevel: 13,
+  requiredItems: 'Swords, Axes & Maces',
+  properties: ['+25% Increased Attack Speed', '+20% Enhanced Damage', '+3 to Minimum Damage', '+3 to Maximum Damage', '+50 to Attack Rating', '50% Chance of Open Wounds', '+2 to Mana After Each Kill', '+1 to Light Radius']
+}, {
+  name: 'Nadir',
+  combinationOrder: 'Nef Tir',
+  requiredLevel: 13,
+  requiredItems: 'Headgear (all types)',
+  properties: ['+50% Enhanced Defense', '+10 Defense', '+30 Defense vs. Missile', '+5 to Strength', '+2 to Mana After Each Kill', '-33% Extra Gold from Monsters', '-3 to Light Radius', 'Level 13 Cloak of Shadows (9 charges)']
+}, {
+  name: 'Malice',
+  combinationOrder: 'Ith El Eth',
+  requiredLevel: 15,
+  requiredItems: 'All Melee Weapons',
+  properties: ['+33% Enhanced Damage', '+9 to Maximum Damage', '-25% Target Defense', '+50 to Attack Rating', '100% Chance of Open Wounds', 'Prevent Monster Heal', '-100 to Monster Defense Per Hit', 'Drain Life -5']
+}, {
+  name: 'Stealth',
+  combinationOrder: 'Tal Eth',
+  requiredLevel: 17,
+  requiredItems: 'Armor',
+  properties: ['+25% Faster Run/Walk', '+25% Faster Casting Rate', '25% Faster Hit Recovery', '+6 to Dexterity', 'Regenerate Mana 15%', '+15 Maximum Stamina', 'Poison Resist +30%', 'Magic Damage Reduced by 3']
+}, {
+  name: 'Leaf',
+  combinationOrder: 'Tir Ral',
+  requiredLevel: 19,
+  requiredItems: 'Staves',
+  properties: ['+3 to Fire Skills', 'Adds 5-30 Fire Damage', '+3 to Inferno (Sorceress Only)', '+3 to Warmth (Sorceress Only)', '+3 to Fire Bolt (Sorceress Only)', '+(2 * Character Level) Defense', 'Cold Resist +33%', '+2 to Mana After Each Kill']
+}, {
+  name: 'Ancients Pledge',
+  combinationOrder: 'Ral Ort Tal',
+  requiredLevel: 21,
+  requiredItems: 'Shields',
+  properties: ['+50% Enhanced Defense', 'Cold Resist +43%', 'Lightning Resist +48%', 'Fire Resist +48%', 'Poison Resist +48%', '10% Damage Taken Goes to Mana']
+}]
+
 var rune = [{
   name: 'El',
   image: 'img/stone.svg',
@@ -297,17 +335,13 @@ var rune = [{
   }
 }]
 
-
-var runeword = {
-  name: ''
-};
-
 new Vue({
   el: '#app',
 
   data: {
     search: '',
-    runes: rune
+    runes: rune,
+    runewords: runeword
   },
 
   methods: {
@@ -315,5 +349,5 @@ new Vue({
   }
 })
 
-// var audio = new Audio('../wav/Cain_greetings.wav');
+// var audio = new Audio('../mp3/greetings.mp3');
 // audio.play();

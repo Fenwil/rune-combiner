@@ -11,7 +11,7 @@
 
 <body>
     <div id="app">
-        <input v-model="search" placeholder="Rune" class="rune-search">
+        <input v-model="search" placeholder="Insert runes you have separated by a comma" class="rune-search">
         <ul>
             <li v-for="rune in runes | filterBy search in 'name'" class="rune-box">
                 <p><img src="{{rune.image}}" alt="" class="rune-img"></p>
@@ -28,10 +28,22 @@
                     <p class="rune-prop">{{ rune.requiredLevel }}</p>
                 </div>
             </li>
+            <li v-for="runeword in runewords | filterBy search in 'name'" class="rune-box">
+                <p class="rune-sub">Runeword</p>
+                <p><b class="rune-name">{{ runeword.name }}</b></p>
+                <p>{{ runeword.combinationOrder }}</p>
+                <p>{{ runeword.requiredLevel }}</p>
+                <p>{{ runeword.requiredItems }}</p>
+                <div class="rune-prop-box">
+                    <ul class="rune-prop">
+                        <li v-for="properties in runeword">{{runeword.properties[$index]}}</li>
+                    </ul>
+                </div>
+            </li>
         </ul>
     </div>
     <script src="js/vue.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/script.min.js"></script>
 </body>
 
 </html>
