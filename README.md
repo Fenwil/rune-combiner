@@ -10,11 +10,18 @@ There was no actual rune combiner. Those which you can find on the internet are 
 
 We try to make a new one with new technologies with mobile support, high quality images, and acclimated to the Diablo saga.
 
-## Technologies
+## Tools / Technologies
 
+* HTML5
+* CSS3
+* JavaScript
 * Vue.js
+* SASS
+* Gulp
+* Photoshop / Illustrator
+* Heroku
 
-## Contributors
+## Creators
 
 Development, Leonardo Galante
 
