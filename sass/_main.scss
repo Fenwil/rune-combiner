@@ -53,6 +53,7 @@
             }
             .rune-prop-box {
                 background-color: #333333;
+                overflow: hidden;
                 color: #AEADAE;
                 margin-left: 8px;
                 border-radius: 6px;
@@ -68,6 +69,9 @@
                 > .rune-prop {
                     font-family: 'Open Sans', sans-serif;
                     font-size: 13px;
+                }
+                &:hover {
+                    overflow-y: auto;
                 }
             }
             &:hover .rune-img {

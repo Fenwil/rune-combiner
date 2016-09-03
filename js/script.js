@@ -29,11 +29,192 @@ var runeword = [{
   requiredItems: 'Staves',
   properties: ['+3 to Fire Skills', 'Adds 5-30 Fire Damage', '+3 to Inferno (Sorceress Only)', '+3 to Warmth (Sorceress Only)', '+3 to Fire Bolt (Sorceress Only)', '+(2 * Character Level) Defense', 'Cold Resist +33%', '+2 to Mana After Each Kill']
 }, {
+  name: 'Zephyr',
+  combinationOrder: 'Ort Eth',
+  requiredLevel: 21,
+  requiredItems: 'Missile Weapons',
+  properties: ['7% Chance to Cast Level 1 Twister When Struck', '+25% Faster Run/Walk', '+25% Increased Attack Speed', '+33% Enhanced Damage', '-25% Target Defense', '+66 to Attack Rating', 'Adds 1-50 Lightning Damage', '+25 Defense']
+}, {
   name: 'Ancients Pledge',
   combinationOrder: 'Ral Ort Tal',
   requiredLevel: 21,
   requiredItems: 'Shields',
   properties: ['+50% Enhanced Defense', 'Cold Resist +43%', 'Lightning Resist +48%', 'Fire Resist +48%', 'Poison Resist +48%', '10% Damage Taken Goes to Mana']
+}, {
+  name: 'Holy Thunder',
+  combinationOrder: 'Eth Ral Ort Tal',
+  requiredLevel: 23,
+  requiredItems: 'Scepters',
+  properties: ['+60% Enhanced Damage', '+10 to Maximum Damage', '-25% Target Defense', 'Adds 5-30 Fire Damage', 'Adds 21-110 Lightning Damage', '+75 Poison Damage Over 5 Seconds', '+3 to Holy Shock (Paladin Only)', '+5% to Maximum Lightning Resist', 'Lightning Resist +60%', 'Level 7 Chain Lightning (60 charges)']
+}, {
+  name: 'Strength',
+  combinationOrder: 'Amn Tir',
+  requiredLevel: 25,
+  requiredItems: 'Melee Weapons',
+  properties: ['+35% Enhanced Damage', '7% Life Stolen Per Hit', '25% Chance of Crushing Blow', '+20 to Strength', '+10 to Vitality', '+2 to Mana After Each Kill']
+}, {
+  name: 'Edge',
+  combinationOrder: 'Tir Tal Amn',
+  requiredLevel: 25,
+  requiredItems: 'Missile Weapons',
+  properties: ['Level 15 Thorns Aura When Equipped', '+35% Increased Attack Speed', '+320-380% Damage to Demons (varies)', '+280% Damage to Undead', '+75 Poison  Damage Over 5 Seconds', '7% Life Stolen Per Hit', 'Prevent Monster Heal', '+5-10 to All Attributes (varies)', '+2 to Mana After Each Kill', 'Reduces All Vendor Prices 15%']
+}, {
+  name: 'Kings Grace',
+  combinationOrder: 'Amn Ral Thul',
+  requiredLevel: 25,
+  requiredItems: 'Swords & Scepters',
+  properties: ['+100% Enhanced Damage', '+150 to Attack Rating', '+100% Damage to Demons', '+100 to Attack Rating Against Demons', '+50% Damage to Undead', '+100 to Attack Rating Against Undead', 'Adds 5-30 Fire Damage', 'Adds 3-14 Cold Damage', '7% Life Stole Per Hit']
+}, {
+  name: 'Spirit',
+  combinationOrder: 'Tal Thul Ort Amn',
+  requiredLevel: 25,
+  requiredItems: 'Shields & Swords',
+  properties: ['+2 to All Skills', '+25-35% Faster Cast Rate (varies)', '+55% Faster Hit Recovery', '+250 Defense vs. Missile', '+22 to Vitality', '+89-112 to Mana (varies)', '+3-8 Magic Absorb (varies)']
+}, {
+  name: 'Myth',
+  combinationOrder: 'Hel Amn Nef',
+  requiredLevel: 25,
+  requiredItems: 'Armor',
+  properties: ['3% Chance to Cast Level Howl When Struck', '10% Chance to Cast Level 1 Taunt on Striking', '+2 to Barbarian Skill Levels', '+30 Defense vs. Missile', 'Replenish Life +10', 'Attacker Takes Damage of 14', 'Requirements -15%']
+}, {
+  name: 'Radiance',
+  combinationOrder: 'Nef Sol Ith',
+  requiredLevel: 27,
+  requiredItems: 'Headgear',
+  properties: ['+75% Enhanced Defense', '+30 Defense vs. Missiles', '+10 to Vitality', '+10 to Energy', '+33 to Mana', 'Damage Reduced by 7', 'Magic Damage Reduced by 3', '15% Damage Taken Goes to Mana', '+5 to Light Radius']
+}, {
+  name: 'Insight',
+  combinationOrder: 'Ral Tir Tal Sol',
+  requiredLevel: 27,
+  requiredItems: 'Polearms & Staves',
+  properties: ['Level 12-17 Meditation Aura When Equipped (varies)', '+35% Faster Cast Rate', '+200-260% Enhanced Damage (varies)', '+9 to Minimum Damage', '180-250% Bonus to Attack Rating (varies)', 'Adds 5-30 Fire Damage', '+75 Poison Damage Over 5 Seconds', '+1-6 to Critical Strike (varies)', '+5 to All Attributes', '+2 to Mana After Each Kill', '23% Better Chance of Getting Magic Items']
+}, {
+  name: 'Lore',
+  combinationOrder: 'Ort Sol',
+  requiredLevel: 27,
+  requiredItems: 'Headgear',
+  properties: ['+1 to All Skills', '+10 to Energy', 'Lightning Resist +30%', 'Damage Reduced by 7', '+2 to Mana After Each Kill', '+2 to Light Radius']
+}, {
+  name: 'Honor',
+  combinationOrder: 'Amn El Ith Tir Sol',
+  requiredLevel: 27,
+  requiredItems: 'All Melee Weapons',
+  properties: ['+1 to All Skills', '+160% Enhanced Damage', '+9 to Minimum Damage', '+9 to Maximum Damage', '+250 Attack Rating', '7% Life Stolen per Hit', '25% Deadly Strike', '+10 to Strength Replenish Life', '+2 to Mana After Each Kill', '+1 to Light Radius']
+}, {
+  name: 'Rhyme',
+  combinationOrder: 'Shael Eth',
+  requiredLevel: 29,
+  requiredItems: 'Shields',
+  properties: ['+40% Faster Block Rate', '20% Increased Chance of Blocking', 'Regenerate Mana 15%', 'All Resistances +25', 'Cannot be Frozen', '50% Extra Gold from Monsters', '25% Better Chance of Getting Magic Items']
+}, {
+  name: 'Peace',
+  combinationOrder: 'Shael Thul Amn',
+  requiredLevel: 29,
+  requiredItems: 'Armor',
+  properties: ['4% Chance to Cast Level 5 Slow Missiles When Struck', '2% Chance to Cast Level 15 Valkyrie on Striking', '+2 to Amazon Skill Levels', '+20% Faster Hit Recovery', '+2 to Critical Strike', 'Cold Resist +30%', 'Attacker Takes Damage of 14']
+}, {
+  name: 'Black',
+  combinationOrder: 'Thul Io Nef',
+  requiredLevel: 35,
+  requiredItems: 'Clubs, Hammers, Maces',
+  properties: ['+15% Increased Attack Speed', '+120% Enhanced Damage', '+200 to Attack Rating', 'Adds 3-14 Cold Damage (3 sec)', '40% Chance of Crushing Blow', 'Knockback', '+10 to Vitality', 'Magic Damage Reduced by 2', 'Level 4 Corpse Explosion (12 Charges)']
+}, {
+  name: 'White',
+  combinationOrder: 'Dol Io',
+  requiredLevel: 35,
+  requiredItems: 'Wands',
+  properties: ['+3 to Poison and Bone Skills (Necromancer Only)', '+20% Faster Cast Rate', '+2 to Bone spear (Necromancer Only)', '+4 to Skeleton Mastery (Necromancer Only)', '+3 to Bone armor (Necromancer Only)', 'Hit Causes Monster to Flee 25%', '+10 to Vitality', '+13 to Mana', 'Magic Damage Reduced by 4']
+}, {
+  name: 'Smoke',
+  combinationOrder: 'Nef Lum',
+  requiredLevel: 37,
+  requiredItems: 'Armor',
+  properties: ['+20% Faster Hit Recovery', '+75% Enhanced Defense', '+280 Defense vs. Missiles', '+10 to Energy', 'All Resistances +50', '-1 to Light Radius', 'Level 6 Weaken (18 charges)']
+}, {
+  name: 'Splendor',
+  combinationOrder: 'Eth Lum',
+  requiredLevel: 37,
+  requiredItems: 'Shields',
+  properties: ['+1 to All Skills', '+10% Faster Cast Rate', '+20% Faster Block Rate', '+60-100% Enhanced Defense (varies)', '+10 to Energy', 'Regenerate Mana 15%', '50% Extra Gold from Monsters', '20% Better Chance of Getting Magic Items', '+3 to Light Radius']
+}, {
+  name: 'Memory',
+  combinationOrder: 'Lum Io Sol Eth',
+  requiredLevel: 37,
+  requiredItems: 'Staves',
+  properties: ['+3 to Sorceress Skill Levels', '+33% Faster Cast Rate', '+9 to Minimum Damage', '-25% Target Defense', '+3 to Energy Shield (Sorceress Only)', '+2 to Static Field (Sorceress Only)', '+50% Enhanced Defense', '+10 Vitality', '+10 Energy', 'Increase Maximum Mana 20%', 'Magic Damage Reduced by 7']
+}, {
+  name: 'Harmony',
+  combinationOrder: 'Tir Ith Sol Ko',
+  requiredLevel: 39,
+  requiredItems: 'Missile Weapons',
+  properties: ['Level 10 Vigor Aura When Equipped', '+200-275% Enhanced Damage (varies)', '+9 to Minimum Damage', '+9 to Maximum Damage', 'Adds 55-160 Fire Damage', 'Adds 55-160 Lightning Damage', 'Adds 55-160 Cold Damage', '+2-6 to Valkyrie (varies)', '+10 to Dexterity', 'Regenerate Mana 20%', '+2 to Mana After Each Kill', '+2 to Light Radius', 'Level 20 Revive (25 charges)']
+}, {
+  name: 'Melody',
+  combinationOrder: 'Shael Ko Nef',
+  requiredLevel: 39,
+  requiredItems: 'Missile Weapons',
+  properties: ['+3 to Bow and Crossbow Skills (Amazon Only)', '+20% Increased Attack Speed', '+50% Enhanced Damage', '+300% Damage to Undead', '+3 to Slow Missiles (Amazon Only)', '+3 to Dodge (Amazon Only)', '+3 to Critical Strike (Amazon Only)', '+10 to Dexterity']
+}, {
+  name: 'Lionheart',
+  combinationOrder: 'Hel Lum Fal',
+  requiredLevel: 41,
+  requiredItems: 'Armor',
+  properties: ['+20% Enhanced Damage','+25 to Strength','+15 to Dexterity','+20 to Vitality','+10 to Energy','+50 to Life','All Resistances +30','Requirements -15%']
+}, {
+  name: 'Obedience',
+  combinationOrder: 'Hel Ko Thul Eth Fal',
+  requiredLevel: 41,
+  requiredItems: 'Polearms',
+  properties: ['+30% Chance to Cast Level 21 Enchant When You Kill an Enemy','+40% Faster Hit Recovery','+370% Enhanced Damage','-25% Target Defense','Adds 3-14 Cold Damage (3 sec)','-25% to Enemy Fire Resistance','40% Chance of Crushing Blow','+200-300 Defense (varies)','+10 to Strength','+10 to Dexterity','All Resistances +20-30 (varies)','Requirements -20%']
+}, {
+  name: 'Treachery',
+  combinationOrder: 'Shael Thul Lem',
+  requiredLevel: 43,
+  requiredItems: 'Mace & Swords',
+  properties: ['+5% Chance to Cast Level 15 Fade When Struck','25% Chance to Cast Level 15 Venom On Striking','+2 to Assasin Skill','+45% Increased Attack Speed','+20% Faster Hit Recovery','Cold Resist +30%','50% Extra Gold from Monsters']
+}, {
+  name: 'Passion',
+  combinationOrder: 'Dol Ort Eld Lem',
+  requiredLevel: 43,
+  requiredItems: 'All Weapons',
+  properties: ['+25% Increased Attack Speed','+160-210% Enhanced Damage (varies)','50-80% Bonus to Attack Rating (varies)','+75% Damage to Undead','+50 to Attack Rating Against Undead','Adds 1-50 Lightning Damage','+1 to Berserk','+1 to Zeal','Hit Blinds Target +10','Hit Causes Monster to Flee 25%','75% Extra Gold from Monsters','Level 3 Heart of Wolverine (12 charges)']
+}, {
+  name: 'Voice of Reason',
+  combinationOrder: 'Lem Ko El Eld',
+  requiredLevel: 43,
+  requiredItems: 'Maces & Swords',
+  properties: ['+15% Chance to Cast Level 13 Frozen Orb on Striking','+18% Chance to Cast Level 20 Ice Blast on Striking','+50 to Attack Rating','+220-350% Damage to Demons (varies)','+355-375% Damage to Undead (varies)','+50 to Attack Rating Against Undead','Adds 100-220 Cold Damage','-24% to Enemy Cold Resistance','+10 to Dexterity','Cannot be Frozen','75% Extra Gold From Monsters','+1 to Light Radius']
+}, {
+  name: 'Wealth',
+  combinationOrder: 'Lem Ko Tir',
+  requiredLevel: 43,
+  requiredItems: 'Armor',
+  properties: ['+10 to Dexterity','+2 to Mana After Each Kill','300% Extra Gold from Monsters','100% Better Chance of Getting Magic Items']
+}, {
+  name: 'Lawbringer',
+  combinationOrder: 'Amn Lem Ko',
+  requiredLevel: 43,
+  requiredItems: 'Hammer, Scepters & Swords',
+  properties: ['20% Chance to cast Level 15 Decrepify on Striking','Level 16-18 Sanctuary Aura When Equipped (varies)','-50% Target Defense','Adds 150-210 Fire Damage','Adds 130-180 Cold Damage','7% Life Stolen Per Hit','Slain Monsters Rest in Peace','+200-250 Defense vs. Missile (varies)','+10 to Dexterity','75% Extra Gold from Monsters']
+}, {
+  name: 'Enlightenment',
+  combinationOrder: 'Pul Ral Sol',
+  requiredLevel: 45,
+  requiredItems: 'Armor',
+  properties: ['5% Chance to Cast Level 15 Blaze When Struck','5% Chance to Cast Level 15 Fire Ball on Striking','+2 to Sorceress Skill Levels','+1 to Warmth','+30%  Enhanced Defense','Fire Resist +30%','Damage reduced by 7']
+}, {
+  name: 'Crescent Moon',
+  combinationOrder: 'Shael Um Tir',
+  requiredLevel: 47,
+  requiredItems: 'Axes, Polearms & Swords',
+  properties: ['10% Chance to Cast Level 17 Chain Lightning on Striking','7% Chance to Cast Level 13 Static Field on Striking','+20% Increased Attack Speed','+180-220% Enhanced Damage (varies)','Ignore Targets Defense','-35% to Enemy Lightning Resistance','25% Chance of Open Wounds','+9-11 Magic Absorb (varies)','+2 to Mana After Each Kill','Level 18 Summon Spirit Wolf (30 charges)']
+}, {
+  //Seguir acá
+  name: 'Duress',
+  combinationOrder: 'Shael Um Tir',
+  requiredLevel: 47,
+  requiredItems: 'Axes, Polearms & Swords',
+  properties: ['10% Chance to Cast Level 17 Chain Lightning on Striking','7% Chance to Cast Level 13 Static Field on Striking','+20% Increased Attack Speed','+180-220% Enhanced Damage (varies)','Ignore Targets Defense','-35% to Enemy Lightning Resistance','25% Chance of Open Wounds','+9-11 Magic Absorb (varies)','+2 to Mana After Each Kill','Level 18 Summon Spirit Wolf (30 charges)']
 }]
 
 var rune = [{
