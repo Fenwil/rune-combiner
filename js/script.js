@@ -339,43 +339,133 @@ var runeword = [{
   combinationOrder: 'Sur El',
   requiredLevel: 61,
   requiredItems: 'Melee Weapons',
-  properties: ['10% Chance to Cast Level 9 Tornado on Strking', '+20% Faster Run/Walk','+40% Increased Attack Speed','+15% Faster Hit Recovery','+120-160% Enhanced Damage (varies)','-50% Target Defense','+50% Target Defense','+50 to Attack Rating','Hit Blinds Target','+1 to Light Radius','Level 13 Twister (127 charges)']
+  properties: ['10% Chance to Cast Level 9 Tornado on Strking', '+20% Faster Run/Walk', '+40% Increased Attack Speed', '+15% Faster Hit Recovery', '+120-160% Enhanced Damage (varies)', '-50% Target Defense', '+50% Target Defense', '+50 to Attack Rating', 'Hit Blinds Target', '+1 to Light Radius', 'Level 13 Twister (127 charges)']
 }, {
   name: 'Bramble',
   combinationOrder: 'Ral Ohm Sur Eth',
   requiredLevel: 61,
   requiredItems: 'Armor',
-  properties: ['Level 15-21 Thorns Aura When Equipped (varies)','+50% Faster Hit Recovery','+25-50% to Poison Skill Damage (varies)','+300 Defense','Increase Maximum Mana 5%','Regenerate Mana 15%','+5% to Maximum Cold Resist','Fire Resist +30%','Poison Resist +100%','+13 Life After Each Kill','Level 13 Spirit of Barbs (33 charges)']
+  properties: ['Level 15-21 Thorns Aura When Equipped (varies)', '+50% Faster Hit Recovery', '+25-50% to Poison Skill Damage (varies)', '+300 Defense', 'Increase Maximum Mana 5%', 'Regenerate Mana 15%', '+5% to Maximum Cold Resist', 'Fire Resist +30%', 'Poison Resist +100%', '+13 Life After Each Kill', 'Level 13 Spirit of Barbs (33 charges)']
 }, {
   name: 'Dragon',
   combinationOrder: 'Sur Lo Sol',
   requiredLevel: 61,
   requiredItems: 'Armor & Shields',
-  properties: ['20% Chance to Cast Level 18 Venom When Struck','12% Chance to Cast Level 15 Hydra on Striking','Level 14 Holy Fire Aura When Equipped','+360 Defense','+230 Defense vs. Missile','+3-5 to All Attributes (varies)','+(0.375 * Character Level) to Strength','+5% to Maximum Lightning Resist','Damage Reduced by 7']
+  properties: ['20% Chance to Cast Level 18 Venom When Struck', '12% Chance to Cast Level 15 Hydra on Striking', 'Level 14 Holy Fire Aura When Equipped', '+360 Defense', '+230 Defense vs. Missile', '+3-5 to All Attributes (varies)', '+(0.375 * Character Level) to Strength', '+5% to Maximum Lightning Resist', 'Damage Reduced by 7']
 }, {
   name: 'Wrath',
   combinationOrder: 'Pul Lum Ber Mal',
   requiredLevel: 63,
   requiredItems: 'Missile Weapons',
-  properties: ['30% Chance to Cast Level 1 Decrepify on Striking','5% Chance to Cast Level 10 Life Tap on Striking','+375% Damage to Demons','+100 to Attack Rating Against Demons','+250-300% Damage to Undead (varies)','Adds 85-120 Magic Damage','Adds 41-240 Lightning Damage','20% Chance of Crushing Blow',' Prevent Monster Heal','+10 to Energy','Cannot be Frozen']
+  properties: ['30% Chance to Cast Level 1 Decrepify on Striking', '5% Chance to Cast Level 10 Life Tap on Striking', '+375% Damage to Demons', '+100 to Attack Rating Against Demons', '+250-300% Damage to Undead (varies)', 'Adds 85-120 Magic Damage', 'Adds 41-240 Lightning Damage', '20% Chance of Crushing Blow', ' Prevent Monster Heal', '+10 to Energy', 'Cannot be Frozen']
 }, {
   name: 'Beast',
   combinationOrder: 'Ber Tir Um Mal Lum',
   requiredLevel: 63,
   requiredItems: 'Axes, Hammers & Scepters',
-  properties: ['Level 9 Fanaticism Aura When Equipped','+40% Increased Attack Speed','+240-270% Enhanced Damage (varies)','20% Chance of Crushing Blow','25% Chance of Open Wounds','+3 to Werebear','+3 to Lycanthropy','Prevent Monster Heal','+25-40 to Strength (varies)','+10 to Energy','+2 to Mana After Each Kill','Level 13 Summon Grizzly (5 charges)']
+  properties: ['Level 9 Fanaticism Aura When Equipped', '+40% Increased Attack Speed', '+240-270% Enhanced Damage (varies)', '20% Chance of Crushing Blow', '25% Chance of Open Wounds', '+3 to Werebear', '+3 to Lycanthropy', 'Prevent Monster Heal', '+25-40 to Strength (varies)', '+10 to Energy', '+2 to Mana After Each Kill', 'Level 13 Summon Grizzly (5 charges)']
 }, {
   name: 'Chains of Honor',
   combinationOrder: 'Dol Um Ber Ist',
   requiredLevel: 63,
   requiredItems: 'Armor',
-  properties: ['+2 to All Skills','+200% Damage to Demons','+100% Damage to Undead','8% Life Stolen Per Hit','+70% Enhanced Defense','+20 to Strength','Replenish Life +7','All Resistances +65','Damage Reduced by 8%','25% Better Chance of Getting Magic Items']
+  properties: ['+2 to All Skills', '+200% Damage to Demons', '+100% Damage to Undead', '8% Life Stolen Per Hit', '+70% Enhanced Defense', '+20 to Strength', 'Replenish Life +7', 'All Resistances +65', 'Damage Reduced by 8%', '25% Better Chance of Getting Magic Items']
 }, {
   name: 'Infinity',
-  combinationOrder: 'Dol Um Ber Ist',
+  combinationOrder: 'Ber Mal Ber Ist',
   requiredLevel: 63,
   requiredItems: 'Armor',
-  properties: ['+2 to All Skills','+200% Damage to Demons','+100% Damage to Undead','8% Life Stolen Per Hit','+70% Enhanced Defense','+20 to Strength','Replenish Life +7','All Resistances +65','Damage Reduced by 8%','25% Better Chance of Getting Magic Items']
+  properties: ['50% Chance to Cast Level 20 Chaing Lightning When You Kill an Enemy', 'Level 12 Conviction Aura When Equipped', '+35% Faster Run/Walk', '+255-325% Enhanced Damage (varies)', '-(45-55)% to Enemy Lightning Resistance (varies)', '40% Chance of Crushing Blow', 'Prevent Monster Heal', '+(0.5 * Character Level) to Vitality', '30% Better Chance of Getting Magic Items', 'Level 21 Cyclone Armor (30 charges)']
+}, {
+  name: 'Ice',
+  combinationOrder: 'Amn Shael Jah Lo',
+  requiredLevel: 65,
+  requiredItems: 'Missile Weapons',
+  properties: ['100% Chance to Cast Level 40 Blizzard When You Level-Up', '25% Chance to Cast Level 22 Frost Nova on Striking', 'Level 18 Holy Freeze Aura When Equipped', '+20% Increased Attack Speed', '+140-210% Enhanced Damage (varies)', 'Ignore Targets Defense', '+25-30% to Cold Skill Damage (varies)', '7% Life Stolen Per Hit', '-20% to Enemy Cold Resistance', '20% Deadly Strike', '(3.125 * Character Level)% Extra Gold From Monsters']
+}, {
+  name: 'Dream',
+  combinationOrder: 'Io Jah Pul',
+  requiredLevel: 65,
+  requiredItems: 'Headgear & Shields',
+  properties: ['10% Chance to Cast Level 15 Confuse When Struck', 'Level 15 Holy Shock Aura When Equipped', '+20-30% Faster Hit Recovery (varies)', '+30% Enhanced Defense', '+150-220 Defense (varies)', '+10 to Vitality', '+(0.625 * Character Level) to Mana', 'All Resistances +5-20 (varies)', '12-25% Better Chance of Getting Magic Items (varies)', 'Increase Maximum Life 5% (Headgear)', '+50 to Life (Sheilds)']
+}, {
+  name: 'Fury',
+  combinationOrder: 'Jah Gul Eth',
+  requiredLevel: 65,
+  requiredItems: 'All Melee Weapons',
+  properties: ['40% Increased Attack Speed', '+209% Enhanced Damage', 'Ignores Target Defense', '-25% Target Defense', '20% Bonus to Attack Rating', '6% Life Stolen Per Hit', '33% Chance of Deadly Strike', '66% Chance of Open Wounds', '+5 to Frenzy (Barbarian Only)', 'Prevent Monster Heal']
+}, {
+  name: 'Famine',
+  combinationOrder: 'Fal Ohm Ort Jah',
+  requiredLevel: 65,
+  requiredItems: 'Axes & Hammers',
+  properties: ['+30% Increased Attack Speed', '+320-370% Enhanced Damage (varies)', 'Ignore Targets Defense', 'Adds 180-200 Magic Damage', 'Adds 50-200 Fire Damage', 'Adds 51-250 Lightning Damage', 'Adds 50-200 Cold Damage', '12% Life Stolen Per Hit', 'Prevent Monster Heal', '+10 to Strength']
+}, {
+  name: 'Faith',
+  combinationOrder: 'Ohm Jah Lem Eld',
+  requiredLevel: 65,
+  requiredItems: 'Missile Weapons',
+  properties: ['Level 12-15 Fanaticism Aura When Equipped (varies)', '+1-2 to All Skills (varies)', '+330% Enhanced Damage', 'Ignore Targets Defense', '300% Bonus to Attack Rating', '+75% Damage to Undead', '+50 to Attack Rating Against Undead', '+120 Fire Damage', 'All Resistances +15', '10% Reanimate As: Returned', '75% Extra Gold From Monsters']
+}, {
+  name: 'Brand',
+  combinationOrder: 'Jah Lo Mal Gul',
+  requiredLevel: 65,
+  requiredItems: 'Missile Weapons',
+  properties: ['35% Chance to Cast Level 14 Amplify Damage When Struck', '100% Chance to Cast Level 18 Bone Spear on Striking', 'Fire Explosive Arrows or Bolts (15)', '+260-340% Enhanced Damage (varies)', 'Ignore Targets Defense', '20% Bonus to Attack Rating', '+280-330% Damage to Demons (varies)', '20% Deadly Strike', 'Prevent Monster Heal', 'Knockback']
+}, {
+  name: 'Phoenix',
+  combinationOrder: 'Vex Vex Lo Jah',
+  requiredLevel: 65,
+  requiredItems: 'Weapons & Shields',
+  properties: ['100% Chance to Cast Level 40 Blaze When You Level-Up', '40% Chance to Cast Level 22 Firestorm on Striking', 'Level 10-15 Redemption Aura When Equipped (varies)', '+350-400% Enhanced Damage (varies)', '-28% to Enemy Fire Resistance', '+350-400 Defense vs. Missile (varies)', '+15-21 Fire Absorb (varies)', 'Ignores Targets Defense (Weapons)', '14% Mana Stolen Per Hit (Weapons)', '20% Deadly Strike (Weapons)', '+50 to Life (Shields)', '+5% to Maximum Lightning Resist', '+10% to Maximum Fire Resist']
+}, {
+  name: 'Enigma',
+  combinationOrder: 'Jah Ith Ber',
+  requiredLevel: 65,
+  requiredItems: 'Armor',
+  properties: ['+2 to All Skills', '+45% Faster Run/Walk', '+1 to Teleport', '+750-775 Defense (Varies)', '+(0.75 * Character Level) to Strength', 'Increase Maximum Life 5%', 'Damage Reduced by 8%', '+14 Life After Each Kill', '+15% Damage Taken Goes to Mana', '(1 * Character Level)% Better Chance of Getting Magic Items']
+}, {
+  name: 'Destruction',
+  combinationOrder: 'Vex Lo Ber Jah Ko',
+  requiredLevel: 65,
+  requiredItems: 'Polearms & Swords',
+  properties: ['23% Chance to Cast Level 12 Volcano on Striking', '5% Chance to Cast Level 23 Molten Boulder on Striking', '100% Chance to Cast Level 45 Meteor When You Die', '15% Chance to Cast Level 22 Nova on Attack', '+350% Enhanced Damage', 'Ignore Targets Defense', 'Adds 100-180 Magic Damage', '7% Mana Stolen Per Hit', '20% Chance of Crushing Blow', '20% Deadly Strike', 'Prevent Monster Heal', '+10 to Dexterity']
+}, {
+  name: 'Last Wish',
+  combinationOrder: 'Jah Mal Jah Sur Jah Ber',
+  requiredLevel: 65,
+  requiredItems: 'Axes, Hammers & Swords',
+  properties: ['6% Chance to Cast Level 11 Fade When Struck', '10% Chance to Cast Level 18 Life Tap on Striking', '20% Chance to Cast Level 20 Charged Bolt on Attack', 'Level 17 Might Aura When Equipped', '+330-375% Enhanced Damage (varies)', 'Ignore Targets Defense', '60-70% Chance of Crushing Blow (varies)', 'Prevent Monster Heal', 'Hit Blinds Target', '(0.5 * Character Level)% Chance of Getting Magic Items']
+}, {
+  name: 'Doom',
+  combinationOrder: 'Hel Ohm Um Lo Cham',
+  requiredLevel: 67,
+  requiredItems: 'Axes, Hammers & Swords',
+  properties: ['5% Chance to Cast Level 18 Volcano on Striking', 'Level 12 Holy Freeze Aura When Equipped', '+2 to All Skills', '+45% Increased Attack Speed', '+330-370% Enhanced Damage (varies)', '-40-60% to Enemy Cold Resistance (varies)', '20% Deadly strike', '25% Chance of Open Wounds', 'Prevent Monster Heal', 'Freezes Target +3', 'Requirements -20%']
+}, {
+  name: 'Eternity',
+  combinationOrder: 'Amn Ber Ist Sol Sur',
+  requiredLevel: 67,
+  requiredItems: 'All Melee Weapons',
+  properties: ['Indestructible', '+260-310% Enhanced Damage (varies)', '+9 to Minimum Damage', '7% Life Stolen Per Hit', '20% Chance of Crushing Blow', 'Hit Blinds Target', 'Slows Target by 33%', 'Replenish Mana 16%', 'Cannot be Frozen', '30$ Better Chance of Getting Magic Items', 'Level 8 Revive (88 charges)']
+}, {
+  name: 'Hand of Justice',
+  combinationOrder: 'Sur Cham Amn Lo',
+  requiredLevel: 67,
+  requiredItems: 'All Weapons',
+  properties: ['100% Chance to Cast Level 36 Blaze When You Level-Up', '100% Chance to Cast Level 48 Meteor When You Die', 'Level 16 Holy Fire Aura When Equipped', '+33% Increased Attack Speed', '+280-330% Enhanced Damage (varies)', 'Ignore Targets Defense', '-20% to Enemy Fire Resistance', '7% Life Stolen Per Hit', '20% Deadly Strike', 'Hit Blinds Target', 'Freezes Target +3']
+}, {
+  name: 'Pride',
+  combinationOrder: 'Cham Sur Io Lo',
+  requiredLevel: 67,
+  requiredItems: 'Polearms',
+  properties: ['25% Chance to Cast Level 17 Fire Wall When Struck', 'Level 16-20 Concentration Aura When Equipped (varies)', '260-300% Bonus to Attack Rating (varies)', '+(1 * Character Level)% Damage to Demons', 'Adds 50-280 Lightning Damage', '20% Deadly Strike', 'Hit Blinds Target', 'Freezes Target +3', '+10 to Vitality', 'Replenish Life +8', '(1.875 * Character Level)% Extra Gold from Monsters']
+}, {
+  name: 'Breath of the Dying',
+  combinationOrder: 'Vex Hel El Eld Zod Eth',
+  requiredLevel: 69,
+  requiredItems: 'All Weapons',
+  properties: ['50% Chance to Cast Level 20 Poison Nova When You Kill an Enemy', 'Indestructible', '+60% Increased Attack Speed', '+350-400% Enhanced Damage (varies)', '-25% Target Defense', '+50 to Attack Rating', '+200% Damage to Undead', '+50 to Attack Rating Against Undead', '7% Mana Stolen Per Hit', '12-15% Life Stolen Per Hit (varies)', 'Prevent Monster Heal', '+30 to All Attributes', '+1 to Light Radius', 'Requirements -20%']
 }]
 
 var rune = [{
