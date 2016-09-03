@@ -159,62 +159,223 @@ var runeword = [{
   combinationOrder: 'Hel Lum Fal',
   requiredLevel: 41,
   requiredItems: 'Armor',
-  properties: ['+20% Enhanced Damage','+25 to Strength','+15 to Dexterity','+20 to Vitality','+10 to Energy','+50 to Life','All Resistances +30','Requirements -15%']
+  properties: ['+20% Enhanced Damage', '+25 to Strength', '+15 to Dexterity', '+20 to Vitality', '+10 to Energy', '+50 to Life', 'All Resistances +30', 'Requirements -15%']
 }, {
   name: 'Obedience',
   combinationOrder: 'Hel Ko Thul Eth Fal',
   requiredLevel: 41,
   requiredItems: 'Polearms',
-  properties: ['+30% Chance to Cast Level 21 Enchant When You Kill an Enemy','+40% Faster Hit Recovery','+370% Enhanced Damage','-25% Target Defense','Adds 3-14 Cold Damage (3 sec)','-25% to Enemy Fire Resistance','40% Chance of Crushing Blow','+200-300 Defense (varies)','+10 to Strength','+10 to Dexterity','All Resistances +20-30 (varies)','Requirements -20%']
+  properties: ['+30% Chance to Cast Level 21 Enchant When You Kill an Enemy', '+40% Faster Hit Recovery', '+370% Enhanced Damage', '-25% Target Defense', 'Adds 3-14 Cold Damage (3 sec)', '-25% to Enemy Fire Resistance', '40% Chance of Crushing Blow', '+200-300 Defense (varies)', '+10 to Strength', '+10 to Dexterity', 'All Resistances +20-30 (varies)', 'Requirements -20%']
 }, {
   name: 'Treachery',
   combinationOrder: 'Shael Thul Lem',
   requiredLevel: 43,
   requiredItems: 'Mace & Swords',
-  properties: ['+5% Chance to Cast Level 15 Fade When Struck','25% Chance to Cast Level 15 Venom On Striking','+2 to Assasin Skill','+45% Increased Attack Speed','+20% Faster Hit Recovery','Cold Resist +30%','50% Extra Gold from Monsters']
+  properties: ['+5% Chance to Cast Level 15 Fade When Struck', '25% Chance to Cast Level 15 Venom On Striking', '+2 to Assasin Skill', '+45% Increased Attack Speed', '+20% Faster Hit Recovery', 'Cold Resist +30%', '50% Extra Gold from Monsters']
 }, {
   name: 'Passion',
   combinationOrder: 'Dol Ort Eld Lem',
   requiredLevel: 43,
   requiredItems: 'All Weapons',
-  properties: ['+25% Increased Attack Speed','+160-210% Enhanced Damage (varies)','50-80% Bonus to Attack Rating (varies)','+75% Damage to Undead','+50 to Attack Rating Against Undead','Adds 1-50 Lightning Damage','+1 to Berserk','+1 to Zeal','Hit Blinds Target +10','Hit Causes Monster to Flee 25%','75% Extra Gold from Monsters','Level 3 Heart of Wolverine (12 charges)']
+  properties: ['+25% Increased Attack Speed', '+160-210% Enhanced Damage (varies)', '50-80% Bonus to Attack Rating (varies)', '+75% Damage to Undead', '+50 to Attack Rating Against Undead', 'Adds 1-50 Lightning Damage', '+1 to Berserk', '+1 to Zeal', 'Hit Blinds Target +10', 'Hit Causes Monster to Flee 25%', '75% Extra Gold from Monsters', 'Level 3 Heart of Wolverine (12 charges)']
 }, {
   name: 'Voice of Reason',
   combinationOrder: 'Lem Ko El Eld',
   requiredLevel: 43,
   requiredItems: 'Maces & Swords',
-  properties: ['+15% Chance to Cast Level 13 Frozen Orb on Striking','+18% Chance to Cast Level 20 Ice Blast on Striking','+50 to Attack Rating','+220-350% Damage to Demons (varies)','+355-375% Damage to Undead (varies)','+50 to Attack Rating Against Undead','Adds 100-220 Cold Damage','-24% to Enemy Cold Resistance','+10 to Dexterity','Cannot be Frozen','75% Extra Gold From Monsters','+1 to Light Radius']
+  properties: ['+15% Chance to Cast Level 13 Frozen Orb on Striking', '+18% Chance to Cast Level 20 Ice Blast on Striking', '+50 to Attack Rating', '+220-350% Damage to Demons (varies)', '+355-375% Damage to Undead (varies)', '+50 to Attack Rating Against Undead', 'Adds 100-220 Cold Damage', '-24% to Enemy Cold Resistance', '+10 to Dexterity', 'Cannot be Frozen', '75% Extra Gold From Monsters', '+1 to Light Radius']
 }, {
   name: 'Wealth',
   combinationOrder: 'Lem Ko Tir',
   requiredLevel: 43,
   requiredItems: 'Armor',
-  properties: ['+10 to Dexterity','+2 to Mana After Each Kill','300% Extra Gold from Monsters','100% Better Chance of Getting Magic Items']
+  properties: ['+10 to Dexterity', '+2 to Mana After Each Kill', '300% Extra Gold from Monsters', '100% Better Chance of Getting Magic Items']
 }, {
   name: 'Lawbringer',
   combinationOrder: 'Amn Lem Ko',
   requiredLevel: 43,
   requiredItems: 'Hammer, Scepters & Swords',
-  properties: ['20% Chance to cast Level 15 Decrepify on Striking','Level 16-18 Sanctuary Aura When Equipped (varies)','-50% Target Defense','Adds 150-210 Fire Damage','Adds 130-180 Cold Damage','7% Life Stolen Per Hit','Slain Monsters Rest in Peace','+200-250 Defense vs. Missile (varies)','+10 to Dexterity','75% Extra Gold from Monsters']
+  properties: ['20% Chance to cast Level 15 Decrepify on Striking', 'Level 16-18 Sanctuary Aura When Equipped (varies)', '-50% Target Defense', 'Adds 150-210 Fire Damage', 'Adds 130-180 Cold Damage', '7% Life Stolen Per Hit', 'Slain Monsters Rest in Peace', '+200-250 Defense vs. Missile (varies)', '+10 to Dexterity', '75% Extra Gold from Monsters']
 }, {
   name: 'Enlightenment',
   combinationOrder: 'Pul Ral Sol',
   requiredLevel: 45,
   requiredItems: 'Armor',
-  properties: ['5% Chance to Cast Level 15 Blaze When Struck','5% Chance to Cast Level 15 Fire Ball on Striking','+2 to Sorceress Skill Levels','+1 to Warmth','+30%  Enhanced Defense','Fire Resist +30%','Damage reduced by 7']
+  properties: ['5% Chance to Cast Level 15 Blaze When Struck', '5% Chance to Cast Level 15 Fire Ball on Striking', '+2 to Sorceress Skill Levels', '+1 to Warmth', '+30%  Enhanced Defense', 'Fire Resist +30%', 'Damage reduced by 7']
 }, {
   name: 'Crescent Moon',
   combinationOrder: 'Shael Um Tir',
   requiredLevel: 47,
   requiredItems: 'Axes, Polearms & Swords',
-  properties: ['10% Chance to Cast Level 17 Chain Lightning on Striking','7% Chance to Cast Level 13 Static Field on Striking','+20% Increased Attack Speed','+180-220% Enhanced Damage (varies)','Ignore Targets Defense','-35% to Enemy Lightning Resistance','25% Chance of Open Wounds','+9-11 Magic Absorb (varies)','+2 to Mana After Each Kill','Level 18 Summon Spirit Wolf (30 charges)']
+  properties: ['10% Chance to Cast Level 17 Chain Lightning on Striking', '7% Chance to Cast Level 13 Static Field on Striking', '+20% Increased Attack Speed', '+180-220% Enhanced Damage (varies)', 'Ignore Targets Defense', '-35% to Enemy Lightning Resistance', '25% Chance of Open Wounds', '+9-11 Magic Absorb (varies)', '+2 to Mana After Each Kill', 'Level 18 Summon Spirit Wolf (30 charges)']
 }, {
-  //Seguir acá
   name: 'Duress',
   combinationOrder: 'Shael Um Tir',
   requiredLevel: 47,
-  requiredItems: 'Axes, Polearms & Swords',
-  properties: ['10% Chance to Cast Level 17 Chain Lightning on Striking','7% Chance to Cast Level 13 Static Field on Striking','+20% Increased Attack Speed','+180-220% Enhanced Damage (varies)','Ignore Targets Defense','-35% to Enemy Lightning Resistance','25% Chance of Open Wounds','+9-11 Magic Absorb (varies)','+2 to Mana After Each Kill','Level 18 Summon Spirit Wolf (30 charges)']
+  requiredItems: 'Armor',
+  properties: ['40% Faster Hit Recovery', '+10-20% Enhanced Damage (varies)', 'Adds 37-113 Cold Damage', '15% Crushing Blow', '33% Open Wounds', '+150-200% Enhanced Defense (varies)', '-20% Slower Stamina Drain', 'Cold Resist +45%', 'Lightning Resist +15%', 'Fire Resist +15%', 'Poison Resist +15%']
+}, {
+  name: 'Stone',
+  combinationOrder: 'Shael Um Pul Lum',
+  requiredLevel: 47,
+  requiredItems: 'Armor',
+  properties: ['+60% Faster Hit Recovery', '+250-290% Enhanced Defense (varies)', '+300 Defense vs. Missile', '+16 to Strength', '+16 to Vitality', '+10 to Energy', 'All Resistances +15', 'Level 16 Molten Boulder (80 charges)', 'Level 16 Clay Golem (16 Charges)']
+}, {
+  name: 'Gloom',
+  combinationOrder: 'Fal Um pul',
+  requiredLevel: 47,
+  requiredItems: 'Armor',
+  properties: ['15% Chance to Cast Level 3 Dim Vision When Struck', '+10% Faster Hit Recovery', '+200-260% Enhanced Defense (varies)', '+10 to Strength', 'All Resistances +45', 'Half Freeze Duration', '5% Damage Taken Goes to Mana', '-3 to Light Radius']
+}, {
+  name: 'Bone',
+  combinationOrder: 'Sol Um Um',
+  requiredLevel: 47,
+  requiredItems: 'Armor',
+  properties: ['15% Chance to Cast Level 10 Bone Armor When Struck', '15% Chance to Cast Level 10 Bone Spear on Striking', '+2 to Necromancer Skill Levels', '+100-150 to Mana (varies)', 'All Resistances +30', 'Damage Reduced by 7']
+}, {
+  name: 'Prudence',
+  combinationOrder: 'Mal Tir',
+  requiredLevel: 49,
+  requiredItems: 'Armor',
+  properties: ['+25% Faster Hit Recovery', '+140-170% Enhanced Defense (varies)', 'All Resistances +25-35 (varies)', 'Damage Reduced by 3', 'Magic Damage Reduced by 17', '+2 to Mana After Each Kill', '+1 to Light Radius', 'Rapairs Durability 1 in 4 Seconds']
+}, {
+  name: 'Rain',
+  combinationOrder: 'Ort Mal Ith',
+  requiredLevel: 49,
+  requiredItems: 'Armor',
+  properties: ['5% Chance to Cast Level 15 Cyclone Armor When Struck', '5% Chance to Cast Level 15 Twister On Striking', '+2 to Druid Skills', '+100-150 to Mana (varies)', 'Lightning Resist +30%', 'Magic Damage Reduced by 7', '15% Damage Taken Goes to Mana']
+}, {
+  name: 'Venom',
+  combinationOrder: 'Tal Dol Mal',
+  requiredLevel: 49,
+  requiredItems: 'All Weapons',
+  properties: ['Ignore Targets Defense', '+273 Poison Damage Over 6 Seconds', '7% Mana Stolen Per Hit', 'Prevent Monster Heal', 'Hit Causes Monster to Flee 25%', 'Level 13 Poison Nova (11 charges)', 'Level 15 Poison Explosion (27 charges)']
+}, {
+  name: 'Sanctuary',
+  combinationOrder: 'Ko Ko Mal',
+  requiredLevel: 49,
+  requiredItems: 'Shields',
+  properties: ['+20% Faster Hit Recovery', '+20% Faster Block Rate', '20% Increased Chance of Blocking', '+130-160% Enhanced Defense (varies)', '+250 Defense vs. Missile', '+20 to Dexterity', 'All Resistances +50-70 (varies)', 'Magic Damage Reduced by 7', 'Level 12 Slow Missiles (60 charges)']
+}, {
+  name: 'Oath',
+  combinationOrder: 'Shael Pul Mal Lum',
+  requiredLevel: 49,
+  requiredItems: 'Axes, Maces & Swords',
+  properties: ['Indestructible', '+30% Chance to Cast Level 20 Bone Spirit on Striking', '+50% Increased Attack Speed', '+210-340% Enhanced Damage (varies)', '+75% Damage to Demons', '+100 to Attack Rating Against Demons', 'Prevent Monster Heal', '+10 to Energy', '+10-15 Magic Absorb (varies)', 'Level 16 Heart of Wolverine (20 charges)', 'Level 17 Iron Golem (14 charges)']
+}, {
+  name: 'Delirium',
+  combinationOrder: 'Lem Ist Io',
+  requiredLevel: 51,
+  requiredItems: 'Headgear',
+  properties: ['1% Chance to Cast Level 50 Delirium When Struck', '6% Chance to Cast Level 14 Mind Blast When Struck', '14% Chance to Cast Level 13 Terror When Struck', '11% Chance to Cast Level 18 Confuse on Striking', '+2 to All Skills', '+261 Defense', '+10 to Vitality', '50% Extra Gold from Monsters', '25% Better Chance of Getting Magic Items', 'Level 17 Attract (60 charges)']
+}, {
+  name: 'Principle',
+  combinationOrder: 'Ral Gul Eld',
+  requiredLevel: 53,
+  requiredItems: 'Armor',
+  properties: ['100% Chance to Cast Level 5 Holy Bolt on Striking', '+2 to Paladin Skill Levels', '+50% Damage to Undead', '+100-150 to Life (varies)', '15% Slower Stamina Drain', '+5% to Maximum Poison Resist', 'Fire Resist +30%']
+}, {
+  name: 'Rift',
+  combinationOrder: 'Hel Ko Lem Gul',
+  requiredLevel: 53,
+  requiredItems: 'Polearms & Scepters',
+  properties: ['20% Chance to Cast Level 16 Tornado on Striking', '16% Chance to Cast Level 21 Frozen Orb on Attack', '20% Bonus to Attack Rating', 'Adds 160-250 Magic Damage', 'Adds 60-180 Fire Damage', '+5-10 to All Attributes (varies)', '+10 to Dexterity', '38% Damage Taken Goes to Mana', '75% Extra Gold from Monsters', 'Level 15 Iron Maiden (40 charges)', 'Requirements -20%']
+}, {
+  name: 'Kingslayer',
+  combinationOrder: 'Mal Um Gul Fal',
+  requiredLevel: 53,
+  requiredItems: 'Swords & Axes',
+  properties: ['+30% Increased Attack Speed', '+230-270% Enhanced Damage (varies)', '-25% Target Defense', '20% Bonus to Attack Rating', '33% Chance of Crushing Blow', '50% Chance of Open Wounds', '+1 to Vengeance', 'Prevent Monster Heal', '+10 to Strength', '40% Extra Gold from Monsters']
+}, {
+  name: 'Heart of the Oak',
+  combinationOrder: 'Ko Vex Pul Thul',
+  requiredLevel: 55,
+  requiredItems: 'Staves & Maces',
+  properties: ['+3 to All Skills', '+40% Faster Cast Rate', '+75% Damage to Demons', '+100 to Attack Rating Against Demons', 'Adds 3-14 Cold Damage', '7% Mana Stolen Per Hit', '+10 to Dexterity', 'Replenish Life +20', 'Increase Maximum Mana 15%', 'All Resistances +30-40 (varies)', 'Level 4 Oak Sage (25 charges)', 'Levvel 14 Raven (60 charges)']
+}, {
+  name: 'Silence',
+  combinationOrder: 'Dol Eld Hel Ist Tir Vex',
+  requiredLevel: 55,
+  requiredItems: 'Weapons',
+  properties: ['+2 to All Skills', '+20% Increased Attack Speed', '+20% Faster Hit Recovery', '+200% Enhanced Damage', '+75% Damage to Undead', '+50 to Attack Rating Against Undead', '11% Mana Stolen per Hit', 'Hit Blinds Target +33', 'Hit Causes Monster to Flee 25%', 'all Resistances +75', '+2 to Mana After Each Kill', '30% Better Chance of Getting Magic Items', 'Requirements -20%']
+}, {
+  name: 'Death',
+  combinationOrder: 'Hel El Vex Ort Gul',
+  requiredLevel: 55,
+  requiredItems: 'Swords & Axes',
+  properties: ['Indestructible', '100% Chance to Cast Level 44 Chain Lightning When You Die', '25% Chance to Cast Level 18 Glacial Spike on Attack', '+300-385% Enhanced Damage (varies)', '20% Bonus to Attack Rating', '+50 to Attack Rating', 'Adds 1-50 Lightning Damage', '7% Mana Stolen Per Hit', '50% Chance of Crushing Blow', '(0.5 * Character Level)% Deadly Strike', '+1 to Light Radius', 'Level 22 Blood Golem (15 charges)', 'Requirements -20%']
+}, {
+  name: 'Chaos',
+  combinationOrder: 'Fal Ohm Um',
+  requiredLevel: 57,
+  requiredItems: 'Claws',
+  properties: ['9% Chance to Cast Level 11 Frozen Orb on Striking', '11% Chance to Cast Level 9 Charged Bold on Striking', '+35% Increased Attack Speed', '+240-290% Enhanced Damage (varies)', 'Adds 216-471 Magic Damage', '25% Chance of Open Wounds', '+1 to Whirlwind', '+10 to Strength', '+15 Life After Each Demon Kill']
+}, {
+  name: 'Call to Arms',
+  combinationOrder: 'Amn Ral Mal Ist Ohm',
+  requiredLevel: 57,
+  requiredItems: 'Weapons',
+  properties: ['+1 to All Skills', '+40% Increased Attack Speed', '+240-290% Enhanced Damage (varies)', 'Adds 5-30 Fire Damage', '7% Life Stolen per Hit', '+2-6 to Battle Command (varies)', '+1-6 to Battle Orders (varies)', '+1-4 to Battle Cry (varies)', 'Prevent Monster Heal', 'Replenish Life +12', '30% Better Chance of Getting Magic Items']
+}, {
+  name: 'Exile',
+  combinationOrder: 'Vex Ohm Ist Dol',
+  requiredLevel: 57,
+  requiredItems: 'Shields',
+  properties: ['+15% Chance to Cast Level 5 Life Tap on Striking', 'Level 13-16 Defiance Aura When Equipped (varies)', '+2 to Offensive Auras (Paladin Only)', '+30% Faster Block Rate', 'Freezes Target', '+220-260% Enhanced Defense (varies)', 'Replenish Life +7', '+5% to Maximum Cold Resist', '5% to Maximum Fire Resist', '25% Better Chance of Getting Magic Items', 'Repairs 1 Durability Every 4 Seconds']
+}, {
+  name: 'Fortitude',
+  combinationOrder: 'El Sol Dol Lo',
+  requiredLevel: 59,
+  requiredItems: 'Weapons & Armor',
+  properties: ['20% Chance to Cast Level 15 Chilling Armor When Struck', '+25% Faster Cast Rate', '+300% Enhanced Damage', '+200% Enhanced Defense', '+((8-12) * 0.125 * Character Level) to Life (varies)', 'All Resistances +25-30 (varies)', '12% Damage Taken Goes to Mana', '+1 to Light Radius']
+}, {
+  name: 'Grief',
+  combinationOrder: 'Eth Tir Lo Mal Ral',
+  requiredLevel: 59,
+  requiredItems: 'Swords & Axes',
+  properties: ['35% Chance to Cast Level 15 Venom on Striking', '+30-40% Increased Attack Speed (varies)', 'Damage +340-400 (varies)', 'Ignore Targets Defense', '-25% Target Defense', '+(1.875 * Character Level)% Damage to Demons', 'Adds 5-30 Fire Damage', '-20-25% to Enemy Poison Resistance (varies)', '20% Deadly Strike', 'Prevent Monster Heal', '+2 to Mana After Each Kill', '+10-15 Life After Each Kill (varies)']
+}, {
+  name: 'Wind',
+  combinationOrder: 'Sur El',
+  requiredLevel: 61,
+  requiredItems: 'Melee Weapons',
+  properties: ['10% Chance to Cast Level 9 Tornado on Strking', '+20% Faster Run/Walk','+40% Increased Attack Speed','+15% Faster Hit Recovery','+120-160% Enhanced Damage (varies)','-50% Target Defense','+50% Target Defense','+50 to Attack Rating','Hit Blinds Target','+1 to Light Radius','Level 13 Twister (127 charges)']
+}, {
+  name: 'Bramble',
+  combinationOrder: 'Ral Ohm Sur Eth',
+  requiredLevel: 61,
+  requiredItems: 'Armor',
+  properties: ['Level 15-21 Thorns Aura When Equipped (varies)','+50% Faster Hit Recovery','+25-50% to Poison Skill Damage (varies)','+300 Defense','Increase Maximum Mana 5%','Regenerate Mana 15%','+5% to Maximum Cold Resist','Fire Resist +30%','Poison Resist +100%','+13 Life After Each Kill','Level 13 Spirit of Barbs (33 charges)']
+}, {
+  name: 'Dragon',
+  combinationOrder: 'Sur Lo Sol',
+  requiredLevel: 61,
+  requiredItems: 'Armor & Shields',
+  properties: ['20% Chance to Cast Level 18 Venom When Struck','12% Chance to Cast Level 15 Hydra on Striking','Level 14 Holy Fire Aura When Equipped','+360 Defense','+230 Defense vs. Missile','+3-5 to All Attributes (varies)','+(0.375 * Character Level) to Strength','+5% to Maximum Lightning Resist','Damage Reduced by 7']
+}, {
+  name: 'Wrath',
+  combinationOrder: 'Pul Lum Ber Mal',
+  requiredLevel: 63,
+  requiredItems: 'Missile Weapons',
+  properties: ['30% Chance to Cast Level 1 Decrepify on Striking','5% Chance to Cast Level 10 Life Tap on Striking','+375% Damage to Demons','+100 to Attack Rating Against Demons','+250-300% Damage to Undead (varies)','Adds 85-120 Magic Damage','Adds 41-240 Lightning Damage','20% Chance of Crushing Blow',' Prevent Monster Heal','+10 to Energy','Cannot be Frozen']
+}, {
+  name: 'Beast',
+  combinationOrder: 'Ber Tir Um Mal Lum',
+  requiredLevel: 63,
+  requiredItems: 'Axes, Hammers & Scepters',
+  properties: ['Level 9 Fanaticism Aura When Equipped','+40% Increased Attack Speed','+240-270% Enhanced Damage (varies)','20% Chance of Crushing Blow','25% Chance of Open Wounds','+3 to Werebear','+3 to Lycanthropy','Prevent Monster Heal','+25-40 to Strength (varies)','+10 to Energy','+2 to Mana After Each Kill','Level 13 Summon Grizzly (5 charges)']
+}, {
+  name: 'Chains of Honor',
+  combinationOrder: 'Dol Um Ber Ist',
+  requiredLevel: 63,
+  requiredItems: 'Armor',
+  properties: ['+2 to All Skills','+200% Damage to Demons','+100% Damage to Undead','8% Life Stolen Per Hit','+70% Enhanced Defense','+20 to Strength','Replenish Life +7','All Resistances +65','Damage Reduced by 8%','25% Better Chance of Getting Magic Items']
+}, {
+  name: 'Infinity',
+  combinationOrder: 'Dol Um Ber Ist',
+  requiredLevel: 63,
+  requiredItems: 'Armor',
+  properties: ['+2 to All Skills','+200% Damage to Demons','+100% Damage to Undead','8% Life Stolen Per Hit','+70% Enhanced Defense','+20 to Strength','Replenish Life +7','All Resistances +65','Damage Reduced by 8%','25% Better Chance of Getting Magic Items']
 }]
 
 var rune = [{
