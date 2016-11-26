@@ -1,4 +1,4 @@
-var runeword = [{
+module.exports = [{
   name: 'Steel',
   combinationOrder: 'Tir El',
   requiredLevel: 13,

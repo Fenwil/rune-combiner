@@ -18,15 +18,10 @@ We try to make a new one with new technologies with mobile support, high quality
 * Vue.js
 * SASS
 * Gulp
+* Browserify
 * Photoshop / Illustrator
-* Heroku
 
 ## Creators
 
 Development, Leonardo Galante
-
 Design and Idea, Matias Caire
-
-## Try it
-
-http://rune-combiner.herokuapp.com/
