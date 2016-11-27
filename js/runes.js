@@ -1,6 +1,6 @@
 module.exports = [{
   name: 'El',
-  image: 'img/stone.svg',
+  image: 'img/EL.svg',
   requiredLevel: 11,
   properties: {
     weapon: '+50 To Attack Rating, +1 Light Radius',
@@ -9,7 +9,7 @@ module.exports = [{
   }
 }, {
   name: 'Eld',
-  image: 'img/stone.svg',
+  image: 'img/ELD.svg',
   requiredLevel: 11,
   properties: {
     weapon: '+75% Damage To Undead, +50 Attack Rating Against Undead',
@@ -18,7 +18,7 @@ module.exports = [{
   }
 }, {
   name: 'Tir',
-  image: 'img/stone.svg',
+  image: 'img/TIR.svg',
   requiredLevel: 13,
   properties: {
     weapon: '+2 To Mana After Each Kill',
@@ -27,7 +27,7 @@ module.exports = [{
   }
 }, {
   name: 'Nef',
-  image: 'img/stone.svg',
+  image: 'img/NEF.svg',
   requiredLevel: 13,
   properties: {
     weapon: 'Knockback',
@@ -36,7 +36,7 @@ module.exports = [{
   }
 }, {
   name: 'Eth',
-  image: 'img/stone.svg',
+  image: 'img/ETH.svg',
   requiredLevel: 15,
   properties: {
     weapon: '-25% To Target Defense',
@@ -45,7 +45,7 @@ module.exports = [{
   }
 }, {
   name: 'Ith',
-  image: 'img/stone.svg',
+  image: 'img/ITH.svg',
   requiredLevel: 15,
   properties: {
     weapon: '+9 To Maximum Damage',
@@ -54,7 +54,7 @@ module.exports = [{
   }
 }, {
   name: 'Tal',
-  image: 'img/stone.svg',
+  image: 'img/TAL.svg',
   requiredLevel: 17,
   properties: {
     weapon: '+75 Poison Damage Over 5 Seconds',
@@ -63,7 +63,7 @@ module.exports = [{
   }
 }, {
   name: 'Ral',
-  image: 'img/stone.svg',
+  image: 'img/RAL.svg',
   requiredLevel: 19,
   properties: {
     weapon: 'Adds 5-30 Fire Damage',
@@ -72,7 +72,7 @@ module.exports = [{
   }
 }, {
   name: 'Ort',
-  image: 'img/stone.svg',
+  image: 'img/ORT.svg',
   requiredLevel: 21,
   properties: {
     weapon: 'Adds 1-50 Lightning Damage',
@@ -81,7 +81,7 @@ module.exports = [{
   }
 }, {
   name: 'Thul',
-  image: 'img/stone.svg',
+  image: 'img/THUL.svg',
   requiredLevel: 23,
   properties: {
     weapon: 'Adds 3-14 Cold Damage - 3 Second Duration',
@@ -90,7 +90,7 @@ module.exports = [{
   }
 }, {
   name: 'Amn',
-  image: 'img/amn.svg',
+  image: 'img/AMN.svg',
   requiredLevel: 25,
   properties: {
     weapon: '7% Life Stolen Per Hit',
@@ -99,7 +99,7 @@ module.exports = [{
   }
 }, {
   name: 'Sol',
-  image: 'img/stone.svg',
+  image: 'img/SOL.svg',
   requiredLevel: 27,
   properties: {
     weapon: '+9 To Minimum Damage',
@@ -108,7 +108,7 @@ module.exports = [{
   }
 }, {
   name: 'Shael',
-  image: 'img/stone.svg',
+  image: 'img/SHAEL.svg',
   requiredLevel: 29,
   properties: {
     weapon: '20% Increased Attack Speed',
@@ -117,7 +117,7 @@ module.exports = [{
   }
 }, {
   name: 'Dol',
-  image: 'img/stone.svg',
+  image: 'img/DOL.svg',
   requiredLevel: 31,
   properties: {
     weapon: 'Hit Causes Monster To Flee 25%',
@@ -126,7 +126,7 @@ module.exports = [{
   }
 }, {
   name: 'Hel',
-  image: 'img/stone.svg',
+  image: 'img/HEL.svg',
   requiredLevel: 33,
   properties: {
     weapon: 'Requirements -20%',
@@ -135,7 +135,7 @@ module.exports = [{
   }
 }, {
   name: 'Io',
-  image: 'img/stone.svg',
+  image: 'img/IO.svg',
   requiredLevel: 35,
   properties: {
     weapon: '+10 To Vitality',
@@ -144,7 +144,7 @@ module.exports = [{
   }
 }, {
   name: 'Lum',
-  image: 'img/stone.svg',
+  image: 'img/LUM.svg',
   requiredLevel: 37,
   properties: {
     weapon: '+10 To Energy',
@@ -153,7 +153,7 @@ module.exports = [{
   }
 }, {
   name: 'Ko',
-  image: 'img/stone.svg',
+  image: 'img/KO.svg',
   requiredLevel: 39,
   properties: {
     weapon: '+10 To Dexterity',
@@ -162,7 +162,7 @@ module.exports = [{
   }
 }, {
   name: 'Fal',
-  image: 'img/stone.svg',
+  image: 'img/FAL.svg',
   requiredLevel: 41,
   properties: {
     weapon: '+10 To Strength',
@@ -171,7 +171,7 @@ module.exports = [{
   }
 }, {
   name: 'Lem',
-  image: 'img/stone.svg',
+  image: 'img/LEM.svg',
   requiredLevel: 43,
   properties: {
     weapon: '75% Extra Gold From Monsters',
@@ -180,7 +180,7 @@ module.exports = [{
   }
 }, {
   name: 'Pul',
-  image: 'img/stone.svg',
+  image: 'img/PUL.svg',
   requiredLevel: 45,
   properties: {
     weapon: '+75% Damage to Demons, +100 Attack Rating Against Demons',
@@ -189,7 +189,7 @@ module.exports = [{
   }
 }, {
   name: 'Um',
-  image: 'img/stone.svg',
+  image: 'img/UM.svg',
   requiredLevel: 47,
   properties: {
     weapon: '25% Chance of Open Wounds',
@@ -198,7 +198,7 @@ module.exports = [{
   }
 }, {
   name: 'Mal',
-  image: 'img/stone.svg',
+  image: 'img/MAL.svg',
   requiredLevel: 49,
   properties: {
     weapon: 'Prevent Monster Heal',
@@ -207,7 +207,7 @@ module.exports = [{
   }
 }, {
   name: 'Ist',
-  image: 'img/stone.svg',
+  image: 'img/IST.svg',
   requiredLevel: 51,
   properties: {
     weapon: '30% Better Chance of Getting Magic Items',
@@ -216,7 +216,7 @@ module.exports = [{
   }
 }, {
   name: 'Gul',
-  image: 'img/stone.svg',
+  image: 'img/GUL.svg',
   requiredLevel: 53,
   properties: {
     weapon: '20% Bonus To Attack Rating',
@@ -225,7 +225,7 @@ module.exports = [{
   }
 }, {
   name: 'Vex',
-  image: 'img/stone.svg',
+  image: 'img/VEX.svg',
   requiredLevel: 55,
   properties: {
     weapon: '7% Mana Stolen Per Hit',
@@ -234,7 +234,7 @@ module.exports = [{
   }
 }, {
   name: 'Ohm',
-  image: 'img/stone.svg',
+  image: 'img/OHM.svg',
   requiredLevel: 57,
   properties: {
     weapon: '+50% Enhanced Damage',
@@ -243,7 +243,7 @@ module.exports = [{
   }
 }, {
   name: 'Lo',
-  image: 'img/stone.svg',
+  image: 'img/LO.svg',
   requiredLevel: 59,
   properties: {
     weapon: '20% Deadly Strike',
@@ -252,7 +252,7 @@ module.exports = [{
   }
 }, {
   name: 'Sur',
-  image: 'img/stone.svg',
+  image: 'img/SUR.svg',
   requiredLevel: 61,
   properties: {
     weapon: 'Hit Blinds Target',
@@ -261,7 +261,7 @@ module.exports = [{
   }
 }, {
   name: 'Ber',
-  image: 'img/stone.svg',
+  image: 'img/BER.svg',
   requiredLevel: 63,
   properties: {
     weapon: '20% Chance of Crushing Blow',
@@ -270,7 +270,7 @@ module.exports = [{
   }
 }, {
   name: 'Jah',
-  image: 'img/stone.svg',
+  image: 'img/JAH.svg',
   requiredLevel: 65,
   properties: {
     weapon: 'Ignore Targets Defense',
@@ -279,7 +279,7 @@ module.exports = [{
   }
 }, {
   name: 'Cham',
-  image: 'img/stone.svg',
+  image: 'img/CHAM.svg',
   requiredLevel: 67,
   properties: {
     weapon: 'Freeze Target +3',
@@ -288,7 +288,7 @@ module.exports = [{
   }
 }, {
   name: 'Zod',
-  image: 'img/stone.svg',
+  image: 'img/ZOD.svg',
   requiredLevel: 69,
   properties: {
     weapon: 'Indestructible',

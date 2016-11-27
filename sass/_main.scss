@@ -1,99 +1,144 @@
-        body {
-            cursor: url("../img/cursor.cur"), pointer;
-            background-color: #332929;
-            font-family: Exocet;
-            text-align: center;
-            padding-top: 10px;
-            color: #FFF;
-        }
-        
-        .entry {
-            max-width: 510px;
-            margin: 0 auto;
-            padding: 1em;
-        }
-        
-        .rune-search {
-            font-family: 'Open Sans', sans-serif;
-            padding: 0.2em 0 0.2em 0.3em;
-            margin: 1em auto 0 auto;
-            background-color: #EEE;
-            font-size: 1.1em;
-            display: block;
-            outline: none;
-            border: none;
-            height: 40px;
-            width: 100%;
-        }
-        
-        .filters {
-            text-align: right;
-            margin-top: 1em;
-        }
-        
-        .rune-box {
-            background-image: url("../img/frame.svg");
-            background-position: 50% 50%;
-            background-repeat: no-repeat;
-            background-color: #3A3A3A;
-            background-size: 98% 98%;
-            display: inline-block;
-            list-style-type: none;
-            vertical-align: top;
-            border-radius: 6px;
-            padding: 0.3em 0.6em;
-            height: 395px;
-            width: 280px;
-            margin: 1em;
-            p {
-                margin: 0.1em 0;
-            }
-            .rune-img {
-                width: 56px;
-                height: 56px;
-                margin-top: 0.5em;
-                transition: all 1s;
-            }
-            .rune-sub {
-                color: #787878;
-                margin-top: 0.4em;
-            }
-            .rune-name {
-                font-size: 1.4em;
-                color: #F15A29;
-                margin-top: 8px;
-            }
-            .rune-prop-box {
-                background-color: #333333;
-                overflow: hidden;
-                color: #AEADAE;
-                margin-left: 8px;
-                border-radius: 6px;
-                margin: 12px auto;
-                padding: 4px 8px;
-                text-align: left;
-                width: 85%;
-                height: 55%;
-                >h3 {
-                    font-size: 1em;
-                    margin: 4px 0;
+                body {
+                    cursor: url("../img/cursor.cur"), pointer;
+                    background-color: #332929;
+                    font-family: Exocet;
+                    text-align: center;
+                    padding-top: 10px;
+                    color: #FFF;
                 }
-                >.rune-prop {
+                
+                .entry {
+                    max-width: 510px;
+                    margin: 0 auto;
+                    padding: 1em;
+                }
+                
+                .rune-search {
                     font-family: 'Open Sans', sans-serif;
+                    padding: 0.2em 0 0.2em 0.3em;
+                    margin: 1em auto 0 auto;
+                    background-color: #EEE;
                     font-size: 1.1em;
-                    margin-bottom: 0.5em;
-                    >li {
-                        margin-bottom: 0.4em;
+                    display: block;
+                    outline: none;
+                    border: none;
+                    height: 40px;
+                    width: 100%;
+                }
+                
+                .filters {
+                    text-align: right;
+                    margin-top: 1em;
+                }
+                
+                .rune-box {
+                    background-image: url("../img/frame.svg");
+                    background-position: 50% 50%;
+                    background-repeat: no-repeat;
+                    background-color: #3A3A3A;
+                    background-size: 98% 98%;
+                    display: inline-block;
+                    list-style-type: none;
+                    vertical-align: top;
+                    border-radius: 6px;
+                    padding: 0.3em 0.6em;
+                    height: 395px;
+                    width: 280px;
+                    margin: 1em;
+                    p {
+                        margin: 0.1em 0;
+                    }
+                    .rune-img {
+                        width: 70px;
+                        height: 70px;
+                        margin: 0.5em auto 0 auto;
+                        transition: all 1s;
+                        background-image: url(../img/stone.svg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 100%;
+                    }
+                    .rune-inside {
+                        width: 50px;
+                        height: 50px;
+                        margin-top: 0.6em;
+                        display: inline-block;
+                    }
+                    .rune-sub {
+                        color: #787878;
+                        margin-top: 0.4em;
+                    }
+                    .rune-name {
+                        font-size: 1.4em;
+                        color: #F15A29;
+                        margin-top: 8px;
+                    }
+                    .rune-prop-box {
+                        background-color: #333333;
+                        overflow: hidden;
+                        color: #AEADAE;
+                        margin-left: 8px;
+                        border-radius: 6px;
+                        margin: 12px auto;
+                        padding: 4px 8px;
+                        text-align: left;
+                        width: 85%;
+                        height: 55%;
+                        >h3 {
+                            font-size: 1em;
+                            margin: 4px 0;
+                        }
+                        >.rune-prop {
+                            font-family: Format;
+                            font-size: 0.9em;
+                            margin-bottom: 0.8em;
+                            >li {
+                                margin-bottom: 0.4em;
+                            }
+                        }
+                        &:hover {
+                            overflow-y: auto;
+                        }
+                    }
+                    &:hover .rune-inside {
+                        animation: bw 1s 1;
+                        -webkit-animation: bw 1s 1;
+                        animation-fill-mode: forwards;
+                        -webkit-animation-fill-mode: forwards;
+                        animation-timing-function: linear;
+                        -webkit-animation-timing-function: linear;
+                    }
+                    &:hover .rune-inside path {
+                        animation: mymove 1s 1;
+                        -webkit-animation: mymove 1s 1;
+                        animation-fill-mode: forwards;
+                        -webkit-animation-fill-mode: forwards;
+                        animation-timing-function: linear;
+                        -webkit-animation-timing-function: linear;
                     }
                 }
-                &:hover {
-                    overflow-y: auto;
+                
+                @keyframes mymove {
+                    0% {
+                        fill: #000000;
+                    }
+                    30% {
+                        fill: #495057;
+                    }
+                    40% {
+                        fill: #868e96;
+                    }
+                    50% {
+                        fill: #adb5bd;
+                    }
+                    100% {
+                        fill: #f8f9fa;
+                    }
                 }
-            }
-            &:hover .rune-img {
-                -webkit-filter: drop-shadow(0px 0px 7px #FFF);
-                filter: drop-shadow(0px 0px 7px #FFF);
-                filter: url(#drop-shadow);
-                fill: #FFFFFF;
-            }
-        }
+                
+                @keyframes bw {
+                    to {
+                        -webkit-filter: drop-shadow(0px 0px 6px #6699cc);
+                        filter: drop-shadow(0px 0px 6px #6699cc);
+                    }
+                }
