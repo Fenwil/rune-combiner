@@ -7,17 +7,28 @@
             color: #FFF;
         }
         
+        .entry {
+            max-width: 510px;
+            margin: 0 auto;
+            padding: 1em;
+        }
+        
         .rune-search {
-            background-color: #EEE;
             font-family: 'Open Sans', sans-serif;
-            margin: 60px auto;
-            font-size: 18px;
+            padding: 0.2em 0 0.2em 0.3em;
+            margin: 1em auto 0 auto;
+            background-color: #EEE;
+            font-size: 1.1em;
             display: block;
             outline: none;
             border: none;
-            padding: 8px;
-            width: 510px;
             height: 40px;
+            width: 100%;
+        }
+        
+        .filters {
+            text-align: right;
+            margin-top: 1em;
         }
         
         .rune-box {
@@ -30,24 +41,25 @@
             list-style-type: none;
             vertical-align: top;
             border-radius: 6px;
-            padding: 18px;
+            padding: 0.3em 0.6em;
             height: 395px;
             width: 280px;
-            margin: 10px;
+            margin: 1em;
             p {
-                margin: 2px 0;
+                margin: 0.1em 0;
             }
             .rune-img {
                 width: 56px;
                 height: 56px;
-                margin: 12px 0 12px 0;
+                margin-top: 0.5em;
                 transition: all 1s;
             }
             .rune-sub {
                 color: #787878;
+                margin-top: 0.4em;
             }
             .rune-name {
-                font-size: 24px;
+                font-size: 1.4em;
                 color: #F15A29;
                 margin-top: 8px;
             }
@@ -60,15 +72,19 @@
                 margin: 12px auto;
                 padding: 4px 8px;
                 text-align: left;
-                width: 98%;
-                height: 200px;
-                > h3 {
-                    font-size: 16px;
+                width: 85%;
+                height: 55%;
+                >h3 {
+                    font-size: 1em;
                     margin: 4px 0;
                 }
-                > .rune-prop {
+                >.rune-prop {
                     font-family: 'Open Sans', sans-serif;
-                    font-size: 13px;
+                    font-size: 1.1em;
+                    margin-bottom: 0.5em;
+                    >li {
+                        margin-bottom: 0.4em;
+                    }
                 }
                 &:hover {
                     overflow-y: auto;

@@ -11,39 +11,50 @@
 
 <body>
     <div id="app">
-        <input v-model="search" placeholder="Insert runes you have separated by a comma" class="rune-search">
+        <div class="entry">
+            <input v-model="search" placeholder="Search for runes or runewords name" class="rune-search">
+            <input v-model="filterune" placeholder="Search for runewords by runes name separated by an space" class="rune-search">
+            <div class="filters">
+                <input type="radio" id="runes" value="Runes" v-model="picked" v-on:click="displayRunes">
+                <label for="runes">Runes</label>
+                <input type="radio" id="runewords" value="Runewords" v-model="picked" v-on:click="displayRunewords">
+                <label for="runewords">Runewords</label>
+                <input type="radio" id="all" value="all" v-model="picked" v-on:click="displayAll">
+                <label for="all">All</label>
+            </div>
+        </div>
         <ul>
-            <li v-for="rune in runes | filterBy search in 'name'" class="rune-box">
-                <p><img src="{{rune.image}}" alt="" class="rune-img"></p>
-                <p class="rune-sub">Rune</p>
-                <p><b class="rune-name">{{ rune.name }}</b></p>
-                <div class="rune-prop-box">
-                    <h3>Weapon</h3>
-                    <p class="rune-prop">{{ rune.properties.weapon }}</p>
-                    <h3>Armor / Helm</h3>
-                    <p class="rune-prop">{{ rune.properties.armorHelm }}</p>
-                    <h3>Shield</h3>
-                    <p class="rune-prop">{{ rune.properties.shield }}</p>
-                    <h3>Required Level</h3>
-                    <p class="rune-prop">{{ rune.requiredLevel }}</p>
-                </div>
-            </li>
-            <li v-for="runeword in runewords | filterBy search in 'name'" class="rune-box">
-                <p class="rune-sub">Runeword</p>
-                <p><b class="rune-name">{{ runeword.name }}</b></p>
+            <li v-for="runeword in runewords | filterBy search in 'name' | filterBy filterune in 'combinationOrder'" class="rune-box">
+                <p class="rune-sub ">Runeword</p>
+                <p><b class="rune-name ">{{ runeword.name }}</b></p>
                 <p>{{ runeword.combinationOrder }}</p>
                 <p>{{ runeword.requiredLevel }}</p>
                 <p>{{ runeword.requiredItems }}</p>
-                <div class="rune-prop-box">
-                    <ul class="rune-prop">
-                        <li v-for="properties in runeword">{{runeword.properties[$index]}}</li>
+                <div class="rune-prop-box ">
+                    <ul class="rune-prop ">
+                        <li v-for="properties in runeword ">{{runeword.properties[$index]}}</li>
                     </ul>
+                </div>
+            </li>
+            <li v-for=" rune in runes | filterBy search in 'name'" class="rune-box">
+                <p><img v-bind:src="rune.image" class="rune-img "></p>
+                <p class="rune-sub ">Rune</p>
+                <p><b class="rune-name ">{{ rune.name }}</b></p>
+                <div class="rune-prop-box ">
+                    <h3>Weapon</h3>
+                    <p class="rune-prop ">{{ rune.properties.weapon }}</p>
+                    <h3>Armor / Helm</h3>
+                    <p class="rune-prop ">{{ rune.properties.armorHelm }}</p>
+                    <h3>Shield</h3>
+                    <p class="rune-prop ">{{ rune.properties.shield }}</p>
+                    <h3>Required Level</h3>
+                    <p class="rune-prop ">{{ rune.requiredLevel }}</p>
                 </div>
             </li>
         </ul>
     </div>
-    <script src="js/vue.min.js"></script>
-    <script src="js/script.min.js"></script>
+    <script src="js/vue.js "></script>
+    <script src="js/script.min.js "></script>
 </body>
 
 </html>
