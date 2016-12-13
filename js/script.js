@@ -32,7 +32,6 @@ new Vue({
     }
   },
 
-  // This works but it's confusing to have two inputs
   filters: {
     filterune: function (val) {
       var filtered = this.runewords.filter(function (el) {

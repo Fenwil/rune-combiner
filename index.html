@@ -27,10 +27,11 @@
             <li v-for="runeword in runewords | filterBy search in 'name' | filterBy filterune in 'combinationOrder'" class="rune-box" v-bind:class="{ hidden: dRunes, show: dAll }">
                 <p class="rune-sub">Runeword</p>
                 <p><b class="rune-name ">{{ runeword.name }}</b></p>
+                <div v-html="runeword.image" class="rune-combination-box"></div>
                 <p>{{ runeword.combinationOrder }}</p>
                 <p>{{ runeword.requiredLevel }}</p>
                 <p>{{ runeword.requiredItems }}</p>
-                <div class="rune-prop-box">
+                <div class="rune-prop-box runeword-prop-box">
                     <ul class="rune-prop">
                         <li v-for="properties in runeword ">{{runeword.properties[$index]}}</li>
                     </ul>
