@@ -1,7 +1,7 @@
 var runes = require('./runes')
 var runewords = require('./runewords')
 var audio = new Audio('../mp3/greetings.mp3')
-// audio.play()
+audio.play()
 
 new Vue({
   el: '#app',
