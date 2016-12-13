@@ -24,7 +24,7 @@
             </div>
         </div>
         <ul>
-            <li v-for="runeword in runewords | filterBy search in 'name' | filterBy filterune in 'combinationOrder'" class="rune-box" v-bind:class="{ hidden: dRunes, show: dAll }">
+            <li v-for="runeword in runewords | filterBy search in 'name' | filterBy filterune in 'combinationOrder'" class="rune-box" v-bind:class="{ hidden: dRunes, show: dAll }" v-cloak>
                 <p class="rune-sub">Runeword</p>
                 <p><b class="rune-name ">{{ runeword.name }}</b></p>
                 <div v-html="runeword.image" class="rune-combination-box"></div>
@@ -37,7 +37,7 @@
                     </ul>
                 </div>
             </li>
-            <li v-for="rune in runes | filterBy search in 'name'" class="rune-box" v-bind:class="{ hidden: dRunewords, show: dAll }">
+            <li v-for="rune in runes | filterBy search in 'name'" class="rune-box" v-bind:class="{ hidden: dRunewords, show: dAll }" v-cloak>
                 <p>
                     <div class="rune-img">
                         <!--<img v-bind:src="rune.image" class="rune-inside svg">-->
