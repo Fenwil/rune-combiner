@@ -7,6 +7,14 @@
                     color: #FFF;
                 }
                 
+                .hidden {
+                    display: none !important;
+                }
+                
+                .show {
+                    display: inline-block !important;
+                }
+                
                 .entry {
                     max-width: 510px;
                     margin: 0 auto;
@@ -15,7 +23,7 @@
                 
                 .rune-search {
                     font-family: 'Open Sans', sans-serif;
-                    padding: 0.2em 0 0.2em 0.3em;
+                    padding: 0.2em 0 0.2em 0.4em;
                     margin: 1em auto 0 auto;
                     background-color: #EEE;
                     font-size: 1.1em;
@@ -42,7 +50,7 @@
                     vertical-align: top;
                     border-radius: 6px;
                     padding: 0.3em 0.6em;
-                    height: 395px;
+                    height: 400px;
                     width: 280px;
                     margin: 1em;
                     p {
@@ -51,7 +59,7 @@
                     .rune-img {
                         width: 70px;
                         height: 70px;
-                        margin: 0.5em auto 0 auto;
+                        margin: 0.8em auto 0 auto;
                         transition: all 1s;
                         background-image: url(../img/stone.svg);
                         background-position: center;
@@ -59,10 +67,12 @@
                         background-size: 100%;
                     }
                     .rune-inside {
-                        width: 50px;
-                        height: 50px;
-                        margin-top: 0.6em;
+                        margin-top: 0.9em;
                         display: inline-block;
+                        svg {
+                            width: 40px;
+                            height: 40px;
+                        }
                     }
                     .rune-sub {
                         color: #787878;
@@ -83,13 +93,14 @@
                         padding: 4px 8px;
                         text-align: left;
                         width: 85%;
-                        height: 55%;
+                        height: 53%;
                         >h3 {
                             font-size: 1em;
                             margin: 4px 0;
                         }
                         >.rune-prop {
                             font-family: Format;
+                            line-height: 1.4em;
                             font-size: 0.9em;
                             margin-bottom: 0.8em;
                             >li {
@@ -101,16 +112,16 @@
                         }
                     }
                     &:hover .rune-inside {
-                        animation: bw 1s 1;
-                        -webkit-animation: bw 1s 1;
+                        animation: shadow 1s 1;
+                        -webkit-animation: shadow 1s 1;
                         animation-fill-mode: forwards;
                         -webkit-animation-fill-mode: forwards;
                         animation-timing-function: linear;
                         -webkit-animation-timing-function: linear;
                     }
                     &:hover .rune-inside path {
-                        animation: mymove 1s 1;
-                        -webkit-animation: mymove 1s 1;
+                        animation: fillWhite 1s 1;
+                        -webkit-animation: fillWhite 1s 1;
                         animation-fill-mode: forwards;
                         -webkit-animation-fill-mode: forwards;
                         animation-timing-function: linear;
@@ -118,7 +129,7 @@
                     }
                 }
                 
-                @keyframes mymove {
+                @keyframes fillWhite {
                     0% {
                         fill: #000000;
                     }
@@ -133,13 +144,12 @@
                     }
                     100% {
                         fill: #f8f9fa;
-                        stroke: #f8f9fa;
                     }
                 }
                 
-                @keyframes bw {
+                @keyframes shadow {
                     to {
-                        -webkit-filter: drop-shadow(0px 0px 6px #6699cc);
-                        filter: drop-shadow(0px 0px 6px #6699cc);
+                        -webkit-filter: drop-shadow(4px 4px 6px #6699cc);
+                        filter: drop-shadow(4px 4px 6px #6699cc);
                     }
                 }
