@@ -1,7 +1,6 @@
+// document.getElementById('greetings').play()
 var runes = require('./runes')
 var runewords = require('./runewords')
-var audio = new Audio('../mp3/greetings.mp3')
-audio.play()
 
 new Vue({
   el: '#app',
@@ -9,9 +8,12 @@ new Vue({
     search: '',
     filterune: '',
     picked: '',
-    dRunes: false,
+    searchBy: '',
+    dRunes: true,
     dRunewords: false,
     dAll: true,
+    bRunes: true,
+    bRunewords: false,
     runes: runes,
     runewords: runewords
   },
@@ -28,7 +30,30 @@ new Vue({
       this.dAll = false
     },
     displayAll: function () {
+      this.dRunewords = true
+      this.dRunes = true
       this.dAll = true
+    },
+    byRunes: function () {
+      this.displayAll()
+      this.bRunes = true
+      this.bRunewords = false
+    },
+    byRunewords: function (e) {
+      if (e.target.checked) {
+        this.clearInput()
+        this.displayRunewords()
+        this.bRunewords = true
+        this.bRunes = false
+      } else {
+        this.clearInput()
+        this.byRunes()
+      }
+    },
+    clearInput: function () {
+      document.querySelector('.rune-search').value = ''
+      this.search = ''
+      this.filterune = ''
     }
   },
 

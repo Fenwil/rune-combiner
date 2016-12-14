@@ -12,15 +12,21 @@
 <body>
     <div id="app">
         <div class="entry">
-            <input v-model="search" placeholder="Search runes or runewords by name" class="rune-search">
-            <input v-model="filterune" placeholder="Search runewords by runes name separated by an space" class="rune-search">
+            <input v-model="search" placeholder="Search runes or runewords by name" class="rune-search" v-bind:class="{ hidden: bRunewords, show: bRunes }">
+            <input v-model="filterune" placeholder="Search runewords by runes name separated by an space" class="rune-search" v-bind:class="{ hidden: bRunes, show: bRunewords }">
             <div class="filters">
                 <input type="radio" id="runes" value="Runes" v-model="picked" v-on:click="displayRunes">
                 <label for="runes">Runes</label>
                 <input type="radio" id="runewords" value="Runewords" v-model="picked" v-on:click="displayRunewords">
                 <label for="runewords">Runewords</label>
-                <input type="radio" id="all" value="all" v-model="picked" v-on:click="displayAll">
+                <input type="radio" id="all" value="all" v-model="picked" v-on:click="displayAll" checked>
                 <label for="all">All</label>
+            </div>
+            <div class="filters">
+                <input type="checkbox" value="true" v-model="searchBy" v-on:click="byRunewords">
+                <label for="runewords">Search runewords by rune name</label>
+                <!--<input type="radio" value="search" v-model="searchBy" v-on:click="byRunes" checked>
+                <label for="runes">Search by name</label>-->
             </div>
         </div>
         <ul>
@@ -58,6 +64,7 @@
             </li>
         </ul>
     </div>
+    <audio id="greetings" src="./mp3/greetings.mp3"></audio>
     <script src="js/vue.min.js"></script>
     <script src="js/script.min.js"></script>
 </body>
