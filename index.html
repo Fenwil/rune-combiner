@@ -32,7 +32,7 @@
                 <p v-cloak>{{ runeword.requiredItems }}</p>
                 <div class="rune-prop-box runeword-prop-box">
                     <ul class="rune-prop">
-                        <li>{{ runeword.requiredLevel }}</li>
+                        <li v-cloak>{{ runeword.requiredLevel }}</li>
                         <li v-for="properties in runeword " v-cloak>{{runeword.properties[$index]}}</li>
                     </ul>
                 </div>
