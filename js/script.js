@@ -1,4 +1,3 @@
-// document.getElementById('greetings').play()
 var runes = require('./runes')
 var runewords = require('./runewords')
 

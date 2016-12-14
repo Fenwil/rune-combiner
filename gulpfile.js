@@ -39,8 +39,3 @@ gulp.task('scripts', () => {
 })
 
 gulp.task('default', ['serve'])
-
-// gulp.task('default', ['serve', 'uglify'], () => {
-//   gulp.watch('sass/*.scss', ['sass'])
-//   gulp.watch('js/script.js', ['uglify'])
-// })
