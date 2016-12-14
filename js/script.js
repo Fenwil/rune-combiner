@@ -41,17 +41,30 @@ new Vue({
     },
     byRunewords: function (e) {
       if (e.target.checked) {
+        this.disableInputRadio(true)
+        var inputs = document.querySelectorAll('input[type="radio"]')
+        inputs[1].checked = true
         this.clearInput()
         this.displayRunewords()
         this.bRunewords = true
         this.bRunes = false
       } else {
+        this.disableInputRadio(false)
+        var inputs = document.querySelectorAll('input[type="radio"]')
+        inputs[2].checked = true
         this.clearInput()
         this.byRunes()
       }
     },
+    disableInputRadio: function (bool) {
+      var inputs = document.querySelectorAll('input[type="radio"]')
+      for (var i = 0; i < inputs.length; i++) {
+        inputs[i].checked = false
+        inputs[i].disabled = bool
+      }
+    },
     clearInput: function () {
-      document.querySelector('.rune-search').value = ''
+      document.querySelectorAll('.rune-search').value = ''
       this.search = ''
       this.filterune = ''
     }
