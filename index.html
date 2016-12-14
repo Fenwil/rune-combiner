@@ -29,10 +29,10 @@
                 <p><b class="rune-name " v-cloak>{{ runeword.name }}</b></p>
                 <div v-html="runeword.image" class="rune-combination-box"></div>
                 <p v-cloak>{{ runeword.combinationOrder }}</p>
-                <p v-cloak>{{ runeword.requiredLevel }}</p>
                 <p v-cloak>{{ runeword.requiredItems }}</p>
                 <div class="rune-prop-box runeword-prop-box">
                     <ul class="rune-prop">
+                        <li>{{ runeword.requiredLevel }}</li>
                         <li v-for="properties in runeword " v-cloak>{{runeword.properties[$index]}}</li>
                     </ul>
                 </div>
