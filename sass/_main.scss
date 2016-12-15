@@ -10,7 +10,6 @@
                     padding-top: 10px;
                     color: #FFF;
                 }
-
                 
                 [v-cloak] {
                     display: none;
@@ -65,6 +64,9 @@
                     p {
                         margin: 0.2em 0;
                     }
+                    .req-items {
+                        color: #787878;
+                    }
                     .rune-img {
                         width: 60px;
                         height: 60px;
@@ -116,7 +118,7 @@
                     }
                     .runeword-prop-box {
                         margin-top: 0.4em;
-                        height: 45% !important;
+                        height: 50% !important;
                     }
                     .rune-prop-box {
                         background-color: #333333;

@@ -33,13 +33,13 @@
                 <p><b class="rune-name " v-cloak>{{ runeword.name }}</b></p>
                 <div v-html="runeword.image" class="rune-combination-box"></div>
                 <p v-cloak>{{ runeword.combinationOrder }}</p>
-                <p v-cloak>{{ runeword.requiredItems }}</p>
                 <div class="rune-prop-box runeword-prop-box">
                     <ul class="rune-prop">
                         <li v-cloak>{{ runeword.requiredLevel }}</li>
                         <li v-for="properties in runeword " v-cloak>{{runeword.properties[$index]}}</li>
                     </ul>
                 </div>
+                <p class="req-items" v-cloak>{{ runeword.requiredItems }}</p>
             </li>
             <li></li>
             <li v-for="rune in runes | filterBy search in 'name'" class="rune-box" v-bind:class="{ hidden: dRunewords, show: dAll }" v-cloak>
