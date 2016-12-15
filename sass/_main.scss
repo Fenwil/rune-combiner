@@ -65,15 +65,15 @@
                     width: 280px;
                     margin: 1em;
                     p {
-                        margin: 0.2em 0;
+                        margin: 0.1em 0;
                     }
                     .req-items {
                         color: #787878;
                     }
                     .rune-img {
-                        width: 60px;
-                        height: 60px;
-                        margin: 0.8em auto 0 auto;
+                        width: 40px;
+                        height: 40px;
+                        margin: 1em auto;
                         transition: all 1s;
                         background-image: url(../img/stone.svg);
                         background-position: center;
@@ -81,15 +81,30 @@
                         background-size: 100%;
                     }
                     .rune-inside {
-                        margin-top: 1em;
+                        margin-top: 0.5em;
                         display: inline-block;
                         svg {
-                            width: 30px;
-                            height: 30px;
+                            width: 25px;
+                            height: 25px;
                         }
                     }
                     .rune-combination-box {
                         margin: 1em auto;
+                        .rune-horadric {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                    .rune-horadric-box {
+                        margin: 0 auto 0 auto;
+                        .rune-horadric {
+                            width: 20px;
+                            height: 20px;
+                            margin: 0 0.2em;
+                            path {
+                                fill: #787878;
+                            }
+                        }
                     }
                     .runeword-img {
                         width: 38px;
@@ -112,7 +127,7 @@
                     }
                     .rune-sub {
                         color: #787878;
-                        margin-top: 1em;
+                        margin-top: 0.4em;
                     }
                     .rune-name {
                         font-size: 1.4em;
@@ -133,7 +148,7 @@
                         padding: 4px 8px;
                         text-align: left;
                         width: 85%;
-                        height: 53%;
+                        height: 57%;
                         >h3 {
                             font-size: 1em;
                             margin: 4px 0;

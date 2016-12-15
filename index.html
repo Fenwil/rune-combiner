@@ -45,13 +45,13 @@
                 <hr>
             </li>
             <li v-for="rune in runes | filterBy search in 'name'" class="rune-box" v-bind:class="{ hidden: dRunewords, show: dAll }" v-cloak>
+                <p class="rune-sub">Rune</p>
+                <p><b class="rune-name " v-cloak>{{ rune.name }}</b></p>
                 <p>
                     <div class="rune-img">
                         <div v-html="rune.image" class="rune-inside" v-cloak></div>
                     </div>
                 </p>
-                <p class="rune-sub">Rune</p>
-                <p><b class="rune-name " v-cloak>{{ rune.name }}</b></p>
                 <div class="rune-prop-box ">
                     <h3>Weapon</h3>
                     <p class="rune-prop" v-cloak>{{ rune.properties.weapon }}</p>
@@ -62,6 +62,7 @@
                     <h3>Required Level</h3>
                     <p class="rune-prop" v-cloak>{{ rune.requiredLevel }}</p>
                 </div>
+                <div v-html="rune.combination" class="rune-horadric-box"></div>
             </li>
         </ul>
     </div>
