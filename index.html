@@ -41,7 +41,9 @@
                 </div>
                 <p class="req-items" v-cloak>{{ runeword.requiredItems }}</p>
             </li>
-            <li></li>
+            <li>
+                <hr>
+            </li>
             <li v-for="rune in runes | filterBy search in 'name'" class="rune-box" v-bind:class="{ hidden: dRunewords, show: dAll }" v-cloak>
                 <p>
                     <div class="rune-img">
