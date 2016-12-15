@@ -51,16 +51,16 @@
                 }
                 
                 .rune-box {
-                    background-image: url("../img/frame.svg");
+                    box-shadow: 0px 8px 20px -8px rgba(0, 0, 0, 0.8);
+                    background-image: url("../img/base2.jpg");
                     background-position: 50% 50%;
-                    background-repeat: no-repeat;
-                    background-color: #3A3A3A;
-                    background-size: 98% 98%;
+                    background-repeat: repeat;
+                    // background-color: #3A3A3A;
+                    // background-size: 98% 98%;
                     display: inline-block;
                     list-style-type: none;
                     vertical-align: top;
                     border-radius: 6px;
-                    padding: 0.3em 0.6em;
                     height: 400px;
                     width: 280px;
                     margin: 1em;
@@ -91,6 +91,7 @@
                     .rune-combination-box {
                         margin: 1em auto;
                         .rune-horadric {
+                            display: inline-block;
                             width: 30px;
                             height: 30px;
                         }
@@ -100,10 +101,15 @@
                         .rune-horadric {
                             width: 20px;
                             height: 20px;
-                            margin: 0 0.2em;
+                            margin: 0 0.3em;
                             path {
                                 fill: #787878;
                             }
+                        }
+                        .chipped-topaz {
+                            width: 20px;
+                            height: 19px;
+                            margin: 0 0.3em;
                         }
                     }
                     .runeword-img {
@@ -134,18 +140,22 @@
                         color: #F15A29;
                         margin-top: 8px;
                     }
+                    .rune-prop-box,
+                    .runeword-prop-box {
+                        background-image: url("../img/caja2.jpg");
+                        box-shadow: inset 0px 8px 12px -8px rgba(0, 0, 0, 0.6);
+                    }
                     .runeword-prop-box {
                         margin-top: 0.4em;
-                        height: 50% !important;
+                        height: 52% !important;
                     }
                     .rune-prop-box {
-                        background-color: #333333;
                         overflow: hidden;
                         color: #AEADAE;
                         margin-left: 8px;
                         border-radius: 6px;
                         margin: 12px auto;
-                        padding: 4px 8px;
+                        padding: 0.3em 0.4em;
                         text-align: left;
                         width: 85%;
                         height: 57%;
@@ -155,6 +165,7 @@
                         }
                         >.rune-prop {
                             font-family: Format;
+                            // font-family: Nyala;
                             line-height: 1.4em;
                             font-size: 0.9em;
                             margin-bottom: 0.8em;

@@ -19,11 +19,13 @@ new Vue({
 
   methods: {
     displayRunes: function () {
+      this.hideHr()
       this.dRunes = true
       this.dRunewords = false
       this.dAll = false
     },
     displayRunewords: function () {
+      this.hideHr()
       this.dRunewords = true
       this.dRunes = false
       this.dAll = false
@@ -66,6 +68,9 @@ new Vue({
       document.querySelectorAll('.rune-search').value = ''
       this.search = ''
       this.filterune = ''
+    },
+    hideHr: function () {
+      document.querySelector('hr').classList.toggle('hidden')
     }
   },
 
