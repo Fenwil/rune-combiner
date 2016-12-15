@@ -1429,7 +1429,7 @@ module.exports = [{
 	s13.3-5.4,14.6-6.9c1.3-1.5,1.4-1.5,1.4-1.5l-0.5-6.6l3.4-0.1l5.4,11.7l-7.6-1.6l-13.7,7.6L16.8,49l-0.9,1.5l-3.8-0.9L17.5,39\
 	l2.4-7.3L8.6,39.1L0,40.7l1.4-4.6c0,0,8.1-11.3,8.8-18.2c0.7-7.2,0.2-9.7,0.2-9.7L8.5,9.1l0.4-2.6L17.4,0L19,2z"/>\
 </svg>\
-<img class="chipped-topaz" src="../img/chippedtopazRe.svg">'
+<img class="chipped-topaz" src="../img/ChippedTopaz.jpg">'
 }, {
 	name: 'Sol',
 	image: '<svg version="1.1"\
