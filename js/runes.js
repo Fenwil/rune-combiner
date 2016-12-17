@@ -1,6 +1,6 @@
 module.exports = [{
-	name: 'El',
-	image: '<svg version="1.1"\
+  name: 'El',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="40.2px" height="44.1px" viewBox="0 0 40.2 44.1" style="enable-background:new 0 0 40.2 44.1;"\
 	 xml:space="preserve">\
@@ -22,15 +22,15 @@ module.exports = [{
 		C19,29.8,21.3,31.3,21.3,33.1z"/>\
 </g>\
 </svg>',
-	requiredLevel: 11,
-	properties: {
-		weapon: '+50 To Attack Rating, +1 Light Radius',
-		armorHelm: '+15 Defense, +1 To Light Radius',
-		shield: '+15 Defense, +1 To Light Radius'
-	}
+  requiredLevel: 11,
+  properties: {
+    weapon: '+50 To Attack Rating, +1 Light Radius',
+    armorHelm: '+15 Defense, +1 To Light Radius',
+    shield: '+15 Defense, +1 To Light Radius'
+  }
 }, {
-	name: 'Eld',
-	image: '<svg version="1.1"\
+  name: 'Eld',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="34.9px" height="49.1px" viewBox="0 0 34.9 49.1" style="enable-background:new 0 0 34.9 49.1;"\
 	 xml:space="preserve">\
@@ -47,13 +47,13 @@ module.exports = [{
 	c-2.6,3.5-7.2,4.2-9.9,1.7s-1.6-3.9-3.3-3.6C18,6.3,12.2,22.3,5.1,18.9c-2.5-1.2-4.2-3.2-4.2-3.2L0,18c0,0,4.4,3.1,4.4,4.5\
 	s-2.9,4.2-2.9,4.2L4,28.8l3.5-5.9H11C11,22.9,13.1,25.9,12,31.1z"/>\
 </svg>',
-	requiredLevel: 11,
-	properties: {
-		weapon: '+75% Damage To Undead, +50 Attack Rating Against Undead',
-		armorHelm: '+15% Slower Stamina Drain',
-		shield: '7% Increased Chance of Blocking'
-	},
-	combination: '<svg class="rune-horadric" version="1.1"\
+  requiredLevel: 11,
+  properties: {
+    weapon: '+75% Damage To Undead, +50 Attack Rating Against Undead',
+    armorHelm: '+15% Slower Stamina Drain',
+    shield: '7% Increased Chance of Blocking'
+  },
+  combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="40.2px" height="44.1px" viewBox="0 0 40.2 44.1" style="enable-background:new 0 0 40.2 44.1;"\
 	 xml:space="preserve">\
@@ -118,8 +118,8 @@ module.exports = [{
 </g>\
 </svg>'
 }, {
-	name: 'Tir',
-	image: '<svg version="1.1"\
+  name: 'Tir',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="39.1px" height="44.8px" viewBox="0 0 39.1 44.8" style="enable-background:new 0 0 39.1 44.8;"\
 	 xml:space="preserve">\
@@ -177,13 +177,13 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 13,
-	properties: {
-		weapon: '+2 To Mana After Each Kill',
-		armorHelm: '+2 To Mana After Each Kill',
-		shield: '+2 To Mana After Each Kill'
-	},
-	combination: '<svg class="rune-horadric" version="1.1"\
+  requiredLevel: 13,
+  properties: {
+    weapon: '+2 To Mana After Each Kill',
+    armorHelm: '+2 To Mana After Each Kill',
+    shield: '+2 To Mana After Each Kill'
+  },
+  combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="34.9px" height="49.1px" viewBox="0 0 34.9 49.1" style="enable-background:new 0 0 34.9 49.1;"\
 	 xml:space="preserve">\
@@ -235,8 +235,8 @@ module.exports = [{
 	s-2.9,4.2-2.9,4.2L4,28.8l3.5-5.9H11C11,22.9,13.1,25.9,12,31.1z"/>\
 </svg>'
 }, {
-	name: 'Nef',
-	image: '<svg version="1.1"\
+  name: 'Nef',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="42.8px" height="49.6px" viewBox="0 0 42.8 49.6" style="enable-background:new 0 0 42.8 49.6;"\
 	 xml:space="preserve">\
@@ -296,13 +296,13 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 13,
-	properties: {
-		weapon: 'Knockback',
-		armorHelm: '+30 Defense Vs. Missile',
-		shield: '+30 Defense Vs. Missile'
-	},
-	combination: '<svg class="rune-horadric" version="1.1"\
+  requiredLevel: 13,
+  properties: {
+    weapon: 'Knockback',
+    armorHelm: '+30 Defense Vs. Missile',
+    shield: '+30 Defense Vs. Missile'
+  },
+  combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="39.1px" height="44.8px" viewBox="0 0 39.1 44.8" style="enable-background:new 0 0 39.1 44.8;"\
 	 xml:space="preserve">\
@@ -477,8 +477,8 @@ module.exports = [{
 </g>\
 </svg>'
 }, {
-	name: 'Eth',
-	image: '<svg version="1.1"\
+  name: 'Eth',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="33.6px" height="47.8px" viewBox="0 0 33.6 47.8" style="enable-background:new 0 0 33.6 47.8;"\
 	 xml:space="preserve">\
@@ -535,13 +535,13 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 15,
-	properties: {
-		weapon: '-25% To Target Defense',
-		armorHelm: 'Regenerate Mana 15%',
-		shield: 'Regenerate Mana 15%'
-	},
-	combination: '<svg class="rune-horadric" version="1.1"\
+  requiredLevel: 15,
+  properties: {
+    weapon: '-25% To Target Defense',
+    armorHelm: 'Regenerate Mana 15%',
+    shield: 'Regenerate Mana 15%'
+  },
+  combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="42.8px" height="49.6px" viewBox="0 0 42.8 49.6" style="enable-background:new 0 0 42.8 49.6;"\
 	 xml:space="preserve">\
@@ -722,8 +722,8 @@ module.exports = [{
 </g>\
 </svg>'
 }, {
-	name: 'Ith',
-	image: '<svg version="1.1"\
+  name: 'Ith',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="46.2px" height="52.1px" viewBox="0 0 46.2 52.1" style="enable-background:new 0 0 46.2 52.1;"\
 	 xml:space="preserve">\
@@ -742,13 +742,13 @@ module.exports = [{
 		C21.4,40,23,42.8,23,42.8z"/>\
 </g>\
 </svg>',
-	requiredLevel: 15,
-	properties: {
-		weapon: '+9 To Maximum Damage',
-		armorHelm: '15% Damage Taken Goes To Mana',
-		shield: '15% Damage Taken Goes To Mana'
-	},
-	combination: '<svg class="rune-horadric" version="1.1"\
+  requiredLevel: 15,
+  properties: {
+    weapon: '+9 To Maximum Damage',
+    armorHelm: '15% Damage Taken Goes To Mana',
+    shield: '15% Damage Taken Goes To Mana'
+  },
+  combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="33.6px" height="47.8px" viewBox="0 0 33.6 47.8" style="enable-background:new 0 0 33.6 47.8;"\
 	 xml:space="preserve">\
@@ -920,8 +920,8 @@ module.exports = [{
 </g>\
 </svg>'
 }, {
-	name: 'Tal',
-	image: '<svg version="1.1"\
+  name: 'Tal',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="44.1px" height="43.7px" viewBox="0 0 44.1 43.7" style="enable-background:new 0 0 44.1 43.7;"\
 	 xml:space="preserve">\
@@ -970,13 +970,13 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 17,
-	properties: {
-		weapon: '+75 Poison Damage Over 5 Seconds',
-		armorHelm: 'Poison Resist 30%',
-		shield: 'Poison Resist 35%'
-	},
-	combination: '<svg class="rune-horadric" version="1.1"\
+  requiredLevel: 17,
+  properties: {
+    weapon: '+75 Poison Damage Over 5 Seconds',
+    armorHelm: 'Poison Resist 30%',
+    shield: 'Poison Resist 35%'
+  },
+  combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="46.2px" height="52.1px" viewBox="0 0 46.2 52.1" style="enable-background:new 0 0 46.2 52.1;"\
 	 xml:space="preserve">\
@@ -1034,8 +1034,8 @@ module.exports = [{
 </g>\
 </svg>'
 }, {
-	name: 'Ral',
-	image: '<svg version="1.1"\
+  name: 'Ral',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="37.4px" height="44.8px" viewBox="0 0 37.4 44.8" style="enable-background:new 0 0 37.4 44.8;"\
 	 xml:space="preserve">\
@@ -1053,13 +1053,13 @@ module.exports = [{
 		c-2.7,0.8-8-1.5-8-1.5s5.4-4.3,5.3-5c0-0.7-1.6-1-2.3-1c-0.7,0-4.3,4.3-4.3,4.3s-4.7-2.8-3.5-8.3l4.3-0.2v-3.8H7.3z"/>\
 </g>\
 </svg>',
-	requiredLevel: 19,
-	properties: {
-		weapon: 'Adds 5-30 Fire Damage',
-		armorHelm: 'Fire Resist 30%',
-		shield: 'Fire Resist 35%'
-	},
-	combination: '<svg class="rune-horadric" version="1.1"\
+  requiredLevel: 19,
+  properties: {
+    weapon: 'Adds 5-30 Fire Damage',
+    armorHelm: 'Fire Resist 30%',
+    shield: 'Fire Resist 35%'
+  },
+  combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="44.1px" height="43.7px" viewBox="0 0 44.1 43.7" style="enable-background:new 0 0 44.1 43.7;"\
 	 xml:space="preserve">\
@@ -1207,8 +1207,8 @@ module.exports = [{
 </g>\
 </svg>'
 }, {
-	name: 'Ort',
-	image: '<svg version="1.1"\
+  name: 'Ort',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="38.2px" height="39.9px" viewBox="0 0 38.2 39.9" style="enable-background:new 0 0 38.2 39.9;"\
 	 xml:space="preserve">\
@@ -1223,13 +1223,13 @@ module.exports = [{
 	s10.5-2.7,10.5-10.1C38.2,5,36.6,1.9,32.1,1.9z M17.9,36c-4.3,0-6.8-2.6-6.8-7.5s8.1-20.4,8.1-20.4s6.2,15,6.2,20S22.1,36,17.9,36z"\
 	/>\
 </svg>',
-	requiredLevel: 21,
-	properties: {
-		weapon: 'Adds 1-50 Lightning Damage',
-		armorHelm: 'Lightning Resist 30%',
-		shield: 'Lightning Resist 35%'
-	},
-	combination: '<svg class="rune-horadric" version="1.1"\
+  requiredLevel: 21,
+  properties: {
+    weapon: 'Adds 1-50 Lightning Damage',
+    armorHelm: 'Lightning Resist 30%',
+    shield: 'Lightning Resist 35%'
+  },
+  combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="37.4px" height="44.8px" viewBox="0 0 37.4 44.8" style="enable-background:new 0 0 37.4 44.8;"\
 	 xml:space="preserve">\
@@ -1284,8 +1284,8 @@ module.exports = [{
 </g>\
 </svg>'
 }, {
-	name: 'Thul',
-	image: '<svg version="1.1"\
+  name: 'Thul',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="42.2px" height="50.5px" viewBox="0 0 42.2 50.5" style="enable-background:new 0 0 42.2 50.5;"\
 	 xml:space="preserve">\
@@ -1299,13 +1299,13 @@ module.exports = [{
 	s13.3-5.4,14.6-6.9c1.3-1.5,1.4-1.5,1.4-1.5l-0.5-6.6l3.4-0.1l5.4,11.7l-7.6-1.6l-13.7,7.6L16.8,49l-0.9,1.5l-3.8-0.9L17.5,39\
 	l2.4-7.3L8.6,39.1L0,40.7l1.4-4.6c0,0,8.1-11.3,8.8-18.2c0.7-7.2,0.2-9.7,0.2-9.7L8.5,9.1l0.4-2.6L17.4,0L19,2z"/>\
 </svg>',
-	requiredLevel: 23,
-	properties: {
-		weapon: 'Adds 3-14 Cold Damage - 3 Second Duration',
-		armorHelm: 'Cold Resist 30%',
-		shield: 'Cold Resist 35%'
-	},
-	combination: '<svg class="rune-horadric" version="1.1"\
+  requiredLevel: 23,
+  properties: {
+    weapon: 'Adds 3-14 Cold Damage - 3 Second Duration',
+    armorHelm: 'Cold Resist 30%',
+    shield: 'Cold Resist 35%'
+  },
+  combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="38.2px" height="39.9px" viewBox="0 0 38.2 39.9" style="enable-background:new 0 0 38.2 39.9;"\
 	 xml:space="preserve">\
@@ -1351,8 +1351,8 @@ module.exports = [{
 	/>\
 </svg>'
 }, {
-	name: 'Amn',
-	image: '<svg version="1.1"\
+  name: 'Amn',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="42.9px" height="46.5px" viewBox="0 0 42.9 46.5" style="enable-background:new 0 0 42.9 46.5;"\
 	 xml:space="preserve">\
@@ -1381,13 +1381,13 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 25,
-	properties: {
-		weapon: '7% Life Stolen Per Hit',
-		armorHelm: 'Attacker Takes Damage of 14',
-		shield: 'Attacker Takes Damage of 14'
-	},
-	combination: '<svg class="rune-horadric" version="1.1"\
+  requiredLevel: 25,
+  properties: {
+    weapon: '7% Life Stolen Per Hit',
+    armorHelm: 'Attacker Takes Damage of 14',
+    shield: 'Attacker Takes Damage of 14'
+  },
+  combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="42.2px" height="50.5px" viewBox="0 0 42.2 50.5" style="enable-background:new 0 0 42.2 50.5;"\
 	 xml:space="preserve">\
@@ -1431,8 +1431,8 @@ module.exports = [{
 </svg>\
 <img class="chipped-topaz" src="../img/ChippedTopaz.jpg">'
 }, {
-	name: 'Sol',
-	image: '<svg version="1.1"\
+  name: 'Sol',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="41.5px" height="53.2px" viewBox="0 0 41.5 53.2" style="enable-background:new 0 0 41.5 53.2;"\
 	 xml:space="preserve">\
@@ -1490,15 +1490,15 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 27,
-	properties: {
-		weapon: '+9 To Minimum Damage',
-		armorHelm: 'Damage Reduced by 7',
-		shield: 'Damage Reduced by 7'
-	}
+  requiredLevel: 27,
+  properties: {
+    weapon: '+9 To Minimum Damage',
+    armorHelm: 'Damage Reduced by 7',
+    shield: 'Damage Reduced by 7'
+  }
 }, {
-	name: 'Shael',
-	image: '<svg version="1.1"\
+  name: 'Shael',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="40.1px" height="47.4px" viewBox="0 0 40.1 47.4" style="enable-background:new 0 0 40.1 47.4;"\
 	 xml:space="preserve">\
@@ -1513,15 +1513,15 @@ module.exports = [{
 	c0.6-0.6,2.2,1.4,5.3-1.1s5.2-4.8,5.2-6.3c0,0-1.5-1.4-3,1s-3.3,4.1-4.7,3.8c-1.3-0.3-3.7-0.9-4.1-6s1.5-11.5,1.5-11.5\
 	s3.1,2.1,7.9,0.7s8.7-4.7,10-8.3C41,9.3,38.8,3.4,37.4,7.2z"/>\
 </svg>',
-	requiredLevel: 29,
-	properties: {
-		weapon: '20% Increased Attack Speed',
-		armorHelm: '20% Faster Hit Recovery',
-		shield: '20% Faster Block Rate'
-	}
+  requiredLevel: 29,
+  properties: {
+    weapon: '20% Increased Attack Speed',
+    armorHelm: '20% Faster Hit Recovery',
+    shield: '20% Faster Block Rate'
+  }
 }, {
-	name: 'Dol',
-	image: '<svg version="1.1"\
+  name: 'Dol',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="51px" height="49.6px" viewBox="0 0 51 49.6" style="enable-background:new 0 0 51 49.6;"\
 	 xml:space="preserve">\
@@ -1571,15 +1571,15 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 31,
-	properties: {
-		weapon: 'Hit Causes Monster To Flee 25%',
-		armorHelm: 'Replenish Life +7',
-		shield: 'Replenish Life +7'
-	}
+  requiredLevel: 31,
+  properties: {
+    weapon: 'Hit Causes Monster To Flee 25%',
+    armorHelm: 'Replenish Life +7',
+    shield: 'Replenish Life +7'
+  }
 }, {
-	name: 'Hel',
-	image: '<svg version="1.1"\
+  name: 'Hel',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="46.5px" height="41.7px" viewBox="0 0 46.5 41.7" style="enable-background:new 0 0 46.5 41.7;"\
 	 xml:space="preserve">\
@@ -1641,15 +1641,15 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 33,
-	properties: {
-		weapon: 'Requirements -20%',
-		armorHelm: 'Requirements -15%',
-		shield: 'Requirements -15%'
-	}
+  requiredLevel: 33,
+  properties: {
+    weapon: 'Requirements -20%',
+    armorHelm: 'Requirements -15%',
+    shield: 'Requirements -15%'
+  }
 }, {
-	name: 'Io',
-	image: '<svg version="1.1"\
+  name: 'Io',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="42.4px" height="40.2px" viewBox="0 0 42.4 40.2" style="enable-background:new 0 0 42.4 40.2;"\
 	 xml:space="preserve">\
@@ -1696,15 +1696,15 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 35,
-	properties: {
-		weapon: '+10 To Vitality',
-		armorHelm: '+10 To Vitality',
-		shield: '+10 To Vitality'
-	}
+  requiredLevel: 35,
+  properties: {
+    weapon: '+10 To Vitality',
+    armorHelm: '+10 To Vitality',
+    shield: '+10 To Vitality'
+  }
 }, {
-	name: 'Lum',
-	image: '<svg version="1.1"\
+  name: 'Lum',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="39.7px" height="49.3px" viewBox="0 0 39.7 49.3" style="enable-background:new 0 0 39.7 49.3;"\
 	 xml:space="preserve">\
@@ -1717,15 +1717,15 @@ module.exports = [{
 	C40.9,37.6,5,31,2.4,39.8c-1.5,5.1,5.9,9.5,5.9,9.5s-5.5-5.9-2.8-9C9.9,35.3,45.3,42.6,38.9,14z M6.8,15.5c-2,0-3.6-1.6-3.6-3.6\
 	s1.6-3.6,3.6-3.6s3.6,1.6,3.6,3.6S8.8,15.5,6.8,15.5z"/>\
 </svg>',
-	requiredLevel: 37,
-	properties: {
-		weapon: '+10 To Energy',
-		armorHelm: '+10 To Energy',
-		shield: '+10 To Energy'
-	}
+  requiredLevel: 37,
+  properties: {
+    weapon: '+10 To Energy',
+    armorHelm: '+10 To Energy',
+    shield: '+10 To Energy'
+  }
 }, {
-	name: 'Ko',
-	image: '<svg version="1.1"\
+  name: 'Ko',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="44.5px" height="49.2px" viewBox="0 0 44.5 49.2" style="enable-background:new 0 0 44.5 49.2;"\
 	 xml:space="preserve">\
@@ -1758,15 +1758,15 @@ module.exports = [{
 		c1.8-0.3,3-1.9,4.5-0.6s2.8,3.2,4.6,2.3c1.8-0.9,1.2-3-0.4-3C9.4,24.7,8.8,23.8,8.8,23.8z"/>\
 </g>\
 </svg>',
-	requiredLevel: 39,
-	properties: {
-		weapon: '+10 To Dexterity',
-		armorHelm: '+10 To Dexterity',
-		shield: '+10 To Dexterity'
-	}
+  requiredLevel: 39,
+  properties: {
+    weapon: '+10 To Dexterity',
+    armorHelm: '+10 To Dexterity',
+    shield: '+10 To Dexterity'
+  }
 }, {
-	name: 'Fal',
-	image: '<svg version="1.1"\
+  name: 'Fal',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="34.1px" height="38.1px" viewBox="0 0 34.1 38.1" style="enable-background:new 0 0 34.1 38.1;"\
 	 xml:space="preserve">\
@@ -1812,15 +1812,15 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 41,
-	properties: {
-		weapon: '+10 To Strength',
-		armorHelm: '+10 To Strength',
-		shield: '+10 To Strength'
-	}
+  requiredLevel: 41,
+  properties: {
+    weapon: '+10 To Strength',
+    armorHelm: '+10 To Strength',
+    shield: '+10 To Strength'
+  }
 }, {
-	name: 'Lem',
-	image: '<svg version="1.1"\
+  name: 'Lem',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="36.3px" height="45.8px" viewBox="0 0 36.3 45.8" style="enable-background:new 0 0 36.3 45.8;"\
 	 xml:space="preserve">\
@@ -1852,15 +1852,15 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 43,
-	properties: {
-		weapon: '75% Extra Gold From Monsters',
-		armorHelm: '50% Extra Gold From Monsters',
-		shield: '50% Extra Gold From Monsters'
-	}
+  requiredLevel: 43,
+  properties: {
+    weapon: '75% Extra Gold From Monsters',
+    armorHelm: '50% Extra Gold From Monsters',
+    shield: '50% Extra Gold From Monsters'
+  }
 }, {
-	name: 'Pul',
-	image: '<svg version="1.1"\
+  name: 'Pul',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="36.4px" height="41.7px" viewBox="0 0 36.4 41.7" style="enable-background:new 0 0 36.4 41.7;"\
 	 xml:space="preserve">\
@@ -1877,15 +1877,15 @@ module.exports = [{
 		S2.4,19.7,5.4,23.4c2.1,2.6,4.6,5,6.8,6C12.9,29.9,13.4,30.9,13.1,31.9z"/>\
 </g>\
 </svg>',
-	requiredLevel: 45,
-	properties: {
-		weapon: '+75% Damage to Demons, +100 Attack Rating Against Demons',
-		armorHelm: '+30% Enhanced Defense',
-		shield: '+30% Enhanced Defense'
-	}
+  requiredLevel: 45,
+  properties: {
+    weapon: '+75% Damage to Demons, +100 Attack Rating Against Demons',
+    armorHelm: '+30% Enhanced Defense',
+    shield: '+30% Enhanced Defense'
+  }
 }, {
-	name: 'Um',
-	image: '<svg version="1.1"\
+  name: 'Um',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="30.3px" height="40.8px" viewBox="0 0 30.3 40.8" style="enable-background:new 0 0 30.3 40.8;"\
 	 xml:space="preserve">\
@@ -1925,15 +1925,15 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 47,
-	properties: {
-		weapon: '25% Chance of Open Wounds',
-		armorHelm: 'All Resistances +15',
-		shield: 'All Resistances +22'
-	}
+  requiredLevel: 47,
+  properties: {
+    weapon: '25% Chance of Open Wounds',
+    armorHelm: 'All Resistances +15',
+    shield: 'All Resistances +22'
+  }
 }, {
-	name: 'Mal',
-	image: '<svg version="1.1"\
+  name: 'Mal',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="35.5px" height="42.6px" viewBox="0 0 35.5 42.6" style="enable-background:new 0 0 35.5 42.6;"\
 	 xml:space="preserve">\
@@ -1990,15 +1990,15 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 49,
-	properties: {
-		weapon: 'Prevent Monster Heal',
-		armorHelm: 'Magic Damage Reduced By 7',
-		shield: 'Magic Damage Reduced By 7'
-	}
+  requiredLevel: 49,
+  properties: {
+    weapon: 'Prevent Monster Heal',
+    armorHelm: 'Magic Damage Reduced By 7',
+    shield: 'Magic Damage Reduced By 7'
+  }
 }, {
-	name: 'Ist',
-	image: '<svg version="1.1"\
+  name: 'Ist',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="42.4px" height="48.7px" viewBox="0 0 42.4 48.7" style="enable-background:new 0 0 42.4 48.7;"\
 	 xml:space="preserve">\
@@ -2037,15 +2037,15 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 51,
-	properties: {
-		weapon: '30% Better Chance of Getting Magic Items',
-		armorHelm: '25% Better Chance of Getting Magic Items',
-		shield: '25% Better Chance of Getting Magic Items'
-	}
+  requiredLevel: 51,
+  properties: {
+    weapon: '30% Better Chance of Getting Magic Items',
+    armorHelm: '25% Better Chance of Getting Magic Items',
+    shield: '25% Better Chance of Getting Magic Items'
+  }
 }, {
-	name: 'Gul',
-	image: '<svg version="1.1"\
+  name: 'Gul',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="36.7px" height="35.6px" viewBox="0 0 36.7 35.6" style="enable-background:new 0 0 36.7 35.6;"\
 	 xml:space="preserve">\
@@ -2077,15 +2077,15 @@ module.exports = [{
 		C17.7,24.7,17.2,24.7,16.8,25z"/>\
 </g>\
 </svg>',
-	requiredLevel: 53,
-	properties: {
-		weapon: '20% Bonus To Attack Rating',
-		armorHelm: '5% To Maximum Poison Resist',
-		shield: '5% To Maximum Poison Resist'
-	}
+  requiredLevel: 53,
+  properties: {
+    weapon: '20% Bonus To Attack Rating',
+    armorHelm: '5% To Maximum Poison Resist',
+    shield: '5% To Maximum Poison Resist'
+  }
 }, {
-	name: 'Vex',
-	image: '<svg version="1.1"\
+  name: 'Vex',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="37px" height="44.2px" viewBox="0 0 37 44.2" style="enable-background:new 0 0 37 44.2;"\
 	 xml:space="preserve">\
@@ -2130,15 +2130,15 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 55,
-	properties: {
-		weapon: '7% Mana Stolen Per Hit',
-		armorHelm: '5% To Maximum Fire Resist',
-		shield: '5% To Maximum Fire Resist'
-	}
+  requiredLevel: 55,
+  properties: {
+    weapon: '7% Mana Stolen Per Hit',
+    armorHelm: '5% To Maximum Fire Resist',
+    shield: '5% To Maximum Fire Resist'
+  }
 }, {
-	name: 'Ohm',
-	image: '<svg version="1.1"\
+  name: 'Ohm',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="31.5px" height="43.2px" viewBox="0 0 31.5 43.2" style="enable-background:new 0 0 31.5 43.2;"\
 	 xml:space="preserve">\
@@ -2186,15 +2186,15 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 57,
-	properties: {
-		weapon: '+50% Enhanced Damage',
-		armorHelm: '+5% To Maximum Cold Resist',
-		shield: '+5% To Maximum Cold Resist'
-	}
+  requiredLevel: 57,
+  properties: {
+    weapon: '+50% Enhanced Damage',
+    armorHelm: '+5% To Maximum Cold Resist',
+    shield: '+5% To Maximum Cold Resist'
+  }
 }, {
-	name: 'Lo',
-	image: '<svg version="1.1"\
+  name: 'Lo',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="50.8px" height="43.1px" viewBox="0 0 50.8 43.1" style="enable-background:new 0 0 50.8 43.1;"\
 	 xml:space="preserve">\
@@ -2232,15 +2232,15 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 59,
-	properties: {
-		weapon: '20% Deadly Strike',
-		armorHelm: '5% To Maximum Lightning Resist',
-		shield: '5% To Maximum Lightning Resist'
-	}
+  requiredLevel: 59,
+  properties: {
+    weapon: '20% Deadly Strike',
+    armorHelm: '5% To Maximum Lightning Resist',
+    shield: '5% To Maximum Lightning Resist'
+  }
 }, {
-	name: 'Sur',
-	image: '<svg version="1.1"\
+  name: 'Sur',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="35.1px" height="39.4px" viewBox="0 0 35.1 39.4" style="enable-background:new 0 0 35.1 39.4;"\
 	 xml:space="preserve">\
@@ -2274,15 +2274,15 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 61,
-	properties: {
-		weapon: 'Hit Blinds Target',
-		armorHelm: 'Maximum Mana 5%',
-		shield: '+50 To Mana'
-	}
+  requiredLevel: 61,
+  properties: {
+    weapon: 'Hit Blinds Target',
+    armorHelm: 'Maximum Mana 5%',
+    shield: '+50 To Mana'
+  }
 }, {
-	name: 'Ber',
-	image: '<svg version="1.1"\
+  name: 'Ber',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="29.6px" height="55.8px" viewBox="0 0 29.6 55.8" style="enable-background:new 0 0 29.6 55.8;"\
 	 xml:space="preserve">\
@@ -2327,15 +2327,15 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 63,
-	properties: {
-		weapon: '20% Chance of Crushing Blow',
-		armorHelm: 'Damage Reduced by 8%',
-		shield: 'Damage Reduced by 8%'
-	}
+  requiredLevel: 63,
+  properties: {
+    weapon: '20% Chance of Crushing Blow',
+    armorHelm: 'Damage Reduced by 8%',
+    shield: 'Damage Reduced by 8%'
+  }
 }, {
-	name: 'Jah',
-	image: '<svg version="1.1"\
+  name: 'Jah',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="38.3px" height="43.1px" viewBox="0 0 38.3 43.1" style="enable-background:new 0 0 38.3 43.1;"\
 	 xml:space="preserve">\
@@ -2379,15 +2379,15 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 65,
-	properties: {
-		weapon: 'Ignore Targets Defense',
-		armorHelm: 'Increase Maximum Life 5%',
-		shield: '+50 Life'
-	}
+  requiredLevel: 65,
+  properties: {
+    weapon: 'Ignore Targets Defense',
+    armorHelm: 'Increase Maximum Life 5%',
+    shield: '+50 Life'
+  }
 }, {
-	name: 'Cham',
-	image: '<svg version="1.1"\
+  name: 'Cham',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="22.7px" height="38.6px" viewBox="0 0 22.7 38.6" style="enable-background:new 0 0 22.7 38.6;"\
 	 xml:space="preserve">\
@@ -2437,15 +2437,15 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 67,
-	properties: {
-		weapon: 'Freeze Target +3',
-		armorHelm: 'Cannot Be Frozen',
-		shield: 'Cannot Be Frozen'
-	}
+  requiredLevel: 67,
+  properties: {
+    weapon: 'Freeze Target +3',
+    armorHelm: 'Cannot Be Frozen',
+    shield: 'Cannot Be Frozen'
+  }
 }, {
-	name: 'Zod',
-	image: '<svg version="1.1"\
+  name: 'Zod',
+  image: '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="32.1px" height="43.7px" viewBox="0 0 32.1 43.7" style="enable-background:new 0 0 32.1 43.7;"\
 	 xml:space="preserve">\
@@ -2485,10 +2485,10 @@ module.exports = [{
 	</g>\
 </g>\
 </svg>',
-	requiredLevel: 69,
-	properties: {
-		weapon: 'Indestructible',
-		armorHelm: 'Indestructible',
-		shield: 'Indestructible'
-	}
+  requiredLevel: 69,
+  properties: {
+    weapon: 'Indestructible',
+    armorHelm: 'Indestructible',
+    shield: 'Indestructible'
+  }
 }]

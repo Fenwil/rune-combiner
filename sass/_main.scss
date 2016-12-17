@@ -2,6 +2,33 @@
                     cursor: url("../img/cursor.cur"), pointer;
                 }
                 
+                input[type='radio'] {
+                    -webkit-appearance: none;
+                    width: 20px;
+                    height: 20px;
+                    border: 1px solid darkgray;
+                    border-radius: 50%;
+                    outline: none;
+                    box-shadow: 0 0 5px 0px gray inset;
+                }
+                
+                input[type='radio']:hover {
+                    box-shadow: 0 0 5px 0px #F15A29 inset;
+                }
+                
+                input[type='radio']:before {
+                    content: '';
+                    display: block;
+                    width: 60%;
+                    height: 60%;
+                    margin: 21% auto;
+                    border-radius: 50%;
+                }
+                
+                input[type='radio']:checked:before {
+                    background: rgba(67, 84, 230, 0.4);
+                }
+                
                 body {
                     cursor: url("../img/cursor.cur"), pointer;
                     background-color: #332929;
