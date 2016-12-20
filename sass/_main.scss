@@ -9,7 +9,9 @@
                     border: 1px solid darkgray;
                     border-radius: 50%;
                     outline: none;
+                    vertical-align: middle;
                     box-shadow: 0 0 5px 0px gray inset;
+                    margin-left: 1em;
                 }
                 
                 input[type='radio']:hover {
@@ -19,14 +21,14 @@
                 input[type='radio']:before {
                     content: '';
                     display: block;
-                    width: 60%;
-                    height: 60%;
-                    margin: 21% auto;
+                    width: 55%;
+                    height: 55%;
+                    margin: 24% auto;
                     border-radius: 50%;
                 }
                 
                 input[type='radio']:checked:before {
-                    background: rgba(67, 84, 230, 0.4);
+                    background: rgba(67, 84, 230, 0.9);
                 }
                 
                 body {

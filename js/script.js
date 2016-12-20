@@ -8,7 +8,7 @@ new Vue({
     filterune: '',
     picked: '',
     searchBy: '',
-    dRunes: true,
+    dRunes: false, // true
     dRunewords: false,
     dAll: true,
     bRunes: true,

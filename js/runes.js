@@ -24,10 +24,10 @@ module.exports = [{
 </svg>',
   requiredLevel: 11,
   properties: {
-    weapon: '+50 To Attack Rating, +1 Light Radius',
-    armorHelm: '+15 Defense, +1 To Light Radius',
-    shield: '+15 Defense, +1 To Light Radius'
-  }
+  weapon: '+50 To Attack Rating, +1 Light Radius',
+  armorHelm: '+15 Defense, +1 To Light Radius',
+  shield: '+15 Defense, +1 To Light Radius'
+}
 }, {
   name: 'Eld',
   image: '<svg version="1.1"\
@@ -49,10 +49,10 @@ module.exports = [{
 </svg>',
   requiredLevel: 11,
   properties: {
-    weapon: '+75% Damage To Undead, +50 Attack Rating Against Undead',
-    armorHelm: '+15% Slower Stamina Drain',
-    shield: '7% Increased Chance of Blocking'
-  },
+  weapon: '+75% Damage To Undead, +50 Attack Rating Against Undead',
+  armorHelm: '+15% Slower Stamina Drain',
+  shield: '7% Increased Chance of Blocking'
+},
   combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="40.2px" height="44.1px" viewBox="0 0 40.2 44.1" style="enable-background:new 0 0 40.2 44.1;"\
@@ -179,10 +179,10 @@ module.exports = [{
 </svg>',
   requiredLevel: 13,
   properties: {
-    weapon: '+2 To Mana After Each Kill',
-    armorHelm: '+2 To Mana After Each Kill',
-    shield: '+2 To Mana After Each Kill'
-  },
+  weapon: '+2 To Mana After Each Kill',
+  armorHelm: '+2 To Mana After Each Kill',
+  shield: '+2 To Mana After Each Kill'
+},
   combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="34.9px" height="49.1px" viewBox="0 0 34.9 49.1" style="enable-background:new 0 0 34.9 49.1;"\
@@ -298,10 +298,10 @@ module.exports = [{
 </svg>',
   requiredLevel: 13,
   properties: {
-    weapon: 'Knockback',
-    armorHelm: '+30 Defense Vs. Missile',
-    shield: '+30 Defense Vs. Missile'
-  },
+  weapon: 'Knockback',
+  armorHelm: '+30 Defense Vs. Missile',
+  shield: '+30 Defense Vs. Missile'
+},
   combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="39.1px" height="44.8px" viewBox="0 0 39.1 44.8" style="enable-background:new 0 0 39.1 44.8;"\
@@ -537,10 +537,10 @@ module.exports = [{
 </svg>',
   requiredLevel: 15,
   properties: {
-    weapon: '-25% To Target Defense',
-    armorHelm: 'Regenerate Mana 15%',
-    shield: 'Regenerate Mana 15%'
-  },
+  weapon: '-25% To Target Defense',
+  armorHelm: 'Regenerate Mana 15%',
+  shield: 'Regenerate Mana 15%'
+},
   combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="42.8px" height="49.6px" viewBox="0 0 42.8 49.6" style="enable-background:new 0 0 42.8 49.6;"\
@@ -744,10 +744,10 @@ module.exports = [{
 </svg>',
   requiredLevel: 15,
   properties: {
-    weapon: '+9 To Maximum Damage',
-    armorHelm: '15% Damage Taken Goes To Mana',
-    shield: '15% Damage Taken Goes To Mana'
-  },
+  weapon: '+9 To Maximum Damage',
+  armorHelm: '15% Damage Taken Goes To Mana',
+  shield: '15% Damage Taken Goes To Mana'
+},
   combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="33.6px" height="47.8px" viewBox="0 0 33.6 47.8" style="enable-background:new 0 0 33.6 47.8;"\
@@ -972,10 +972,10 @@ module.exports = [{
 </svg>',
   requiredLevel: 17,
   properties: {
-    weapon: '+75 Poison Damage Over 5 Seconds',
-    armorHelm: 'Poison Resist 30%',
-    shield: 'Poison Resist 35%'
-  },
+  weapon: '+75 Poison Damage Over 5 Seconds',
+  armorHelm: 'Poison Resist 30%',
+  shield: 'Poison Resist 35%'
+},
   combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="46.2px" height="52.1px" viewBox="0 0 46.2 52.1" style="enable-background:new 0 0 46.2 52.1;"\
@@ -1055,10 +1055,10 @@ module.exports = [{
 </svg>',
   requiredLevel: 19,
   properties: {
-    weapon: 'Adds 5-30 Fire Damage',
-    armorHelm: 'Fire Resist 30%',
-    shield: 'Fire Resist 35%'
-  },
+  weapon: 'Adds 5-30 Fire Damage',
+  armorHelm: 'Fire Resist 30%',
+  shield: 'Fire Resist 35%'
+},
   combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="44.1px" height="43.7px" viewBox="0 0 44.1 43.7" style="enable-background:new 0 0 44.1 43.7;"\
@@ -1225,10 +1225,10 @@ module.exports = [{
 </svg>',
   requiredLevel: 21,
   properties: {
-    weapon: 'Adds 1-50 Lightning Damage',
-    armorHelm: 'Lightning Resist 30%',
-    shield: 'Lightning Resist 35%'
-  },
+  weapon: 'Adds 1-50 Lightning Damage',
+  armorHelm: 'Lightning Resist 30%',
+  shield: 'Lightning Resist 35%'
+},
   combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="37.4px" height="44.8px" viewBox="0 0 37.4 44.8" style="enable-background:new 0 0 37.4 44.8;"\
@@ -1301,10 +1301,10 @@ module.exports = [{
 </svg>',
   requiredLevel: 23,
   properties: {
-    weapon: 'Adds 3-14 Cold Damage - 3 Second Duration',
-    armorHelm: 'Cold Resist 30%',
-    shield: 'Cold Resist 35%'
-  },
+  weapon: 'Adds 3-14 Cold Damage - 3 Second Duration',
+  armorHelm: 'Cold Resist 30%',
+  shield: 'Cold Resist 35%'
+},
   combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="38.2px" height="39.9px" viewBox="0 0 38.2 39.9" style="enable-background:new 0 0 38.2 39.9;"\
@@ -1383,10 +1383,10 @@ module.exports = [{
 </svg>',
   requiredLevel: 25,
   properties: {
-    weapon: '7% Life Stolen Per Hit',
-    armorHelm: 'Attacker Takes Damage of 14',
-    shield: 'Attacker Takes Damage of 14'
-  },
+  weapon: '7% Life Stolen Per Hit',
+  armorHelm: 'Attacker Takes Damage of 14',
+  shield: 'Attacker Takes Damage of 14'
+},
   combination: '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="42.2px" height="50.5px" viewBox="0 0 42.2 50.5" style="enable-background:new 0 0 42.2 50.5;"\
@@ -1428,8 +1428,7 @@ module.exports = [{
 	L24,26c0,0,7.2-6,8.3-9.8c1.2-3.8,1-5.3,1-5.3l8.3,8.3L34.8,20l-5.5,6l-5.4,3.6c0,0-1.8,7.1-2.8,9.3c-1,2.2-3.2,6.7-3.2,6.7\
 	s13.3-5.4,14.6-6.9c1.3-1.5,1.4-1.5,1.4-1.5l-0.5-6.6l3.4-0.1l5.4,11.7l-7.6-1.6l-13.7,7.6L16.8,49l-0.9,1.5l-3.8-0.9L17.5,39\
 	l2.4-7.3L8.6,39.1L0,40.7l1.4-4.6c0,0,8.1-11.3,8.8-18.2c0.7-7.2,0.2-9.7,0.2-9.7L8.5,9.1l0.4-2.6L17.4,0L19,2z"/>\
-</svg>\
-<img class="chipped-topaz" src="../img/ChippedTopaz.jpg">'
+</svg>'
 }, {
   name: 'Sol',
   image: '<svg version="1.1"\
@@ -1492,10 +1491,97 @@ module.exports = [{
 </svg>',
   requiredLevel: 27,
   properties: {
-    weapon: '+9 To Minimum Damage',
-    armorHelm: 'Damage Reduced by 7',
-    shield: 'Damage Reduced by 7'
-  }
+  weapon: '+9 To Minimum Damage',
+  armorHelm: 'Damage Reduced by 7',
+  shield: 'Damage Reduced by 7'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="42.9px" height="46.5px" viewBox="0 0 42.9 46.5" style="enable-background:new 0 0 42.9 46.5;"\
+	 xml:space="preserve">\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_4_">\
+		<g id="XMLID_5_">\
+			<path id="XMLID_6_" d="M16.3,7.3c-2.1-1.9-0.6-4.6,2-4.6c2.5,0,5.8,1.6,5.7,4.5c-0.1,4.5-5.7,6.3-6.5,10.5\
+				c-0.7,4.1,4.6,5.9,3.2,10.1c-1.3,3.8-4.6,6.6-2.5,10.8c0.8,1.6,3.1,0.2,2.3-1.4c-1.6-3.3,2.6-6.8,3.1-10c0.4-2.4-0.5-4.1-1.9-5.9\
+				c-1.2-1.5-2.1-2.7-0.9-4.7c0.9-1.4,2.4-2.5,3.4-3.8c1.5-1.8,2.5-4,2.3-6.5c-0.2-4.4-5.9-7.2-10-6.1c-4,1-5.3,6.3-2.1,9\
+				C15.7,10.3,17.6,8.4,16.3,7.3L16.3,7.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<path id="XMLID_3_" d="M6.6,23.1c0,0-0.1,0-0.2,0c-0.1,0-0.4,0-0.6,0.1c-0.5,0.1-1.2,0.5-1.8,1.3c-0.6,0.7-1,1.9-1.2,3.2\
+			c-0.2,1.4-0.5,3-0.6,4.7c-0.1,1.7,0.1,3.5,0.8,4.9c0.2,0.4,0.4,0.7,0.7,1s0.6,0.6,1,0.8c0.7,0.5,1.6,1,2.6,1.4\
+			c1.8,0.8,4,1.2,6.2,1.5s4.6,0.5,6.9,0.5c2.3,0.1,4.6,0.1,6.7-0.1c1.1-0.1,2.1-0.3,3.2-0.6l0.4-0.1l0.4-0.1\
+			c0.3-0.1,0.5-0.2,0.8-0.2c0.5-0.1,1-0.3,1.4-0.5c1.8-0.8,3.5-1.9,4.8-3.2c0.6-0.7,1.2-1.4,1.6-2.1c0.2-0.3,0.4-0.8,0.6-1.1\
+			c0.1-0.2,0.2-0.4,0.3-0.6c0.1-0.2,0.1-0.4,0.2-0.5c0.4-1.5,0.5-3.1,0.3-4.4c-0.2-1.3-0.6-2.5-1.2-3.3c-0.5-0.9-1.1-1.4-1.5-1.8\
+			s-0.7-0.5-0.7-0.5s0.3,0.1,0.8,0.4s1.2,0.7,1.9,1.6c0.7,0.8,1.5,1.9,1.9,3.4c0.5,1.5,0.7,3.2,0.4,5.2c-0.3,0.1-0.4,0.3-0.4,0.6\
+			c-0.1,0.2-0.1,0.4-0.2,0.7c-0.2,0.5-0.3,1-0.6,1.5c-0.4,1-1,1.9-1.7,2.8c-1.4,1.7-3.3,3.2-5.4,4.3c-0.5,0.3-1.1,0.5-1.7,0.8\
+			c-0.3,0.1-0.6,0.2-0.8,0.3l-0.4,0.2l-0.4,0.1c-1.2,0.4-2.4,0.6-3.6,0.8c-2.4,0.3-4.9,0.4-7.3,0.3c-2.4-0.1-4.8-0.3-7.2-0.7\
+			s-4.8-1-7-2.1c-1-0.5-2.1-1.1-3.1-1.9c-0.5-0.4-0.9-0.8-1.3-1.4c-0.4-0.5-0.7-1-0.9-1.6c-1-2.3-0.8-4.5-0.5-6.3\
+			C0.5,30.6,1,29,1.5,27.6C2,26.2,2.7,25,3.6,24.2c0.9-0.7,1.8-0.9,2.3-1c0.3,0,0.5,0,0.6,0C6.5,23.1,6.6,23.1,6.6,23.1z"/>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="42.9px" height="46.5px" viewBox="0 0 42.9 46.5" style="enable-background:new 0 0 42.9 46.5;"\
+	 xml:space="preserve">\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_4_">\
+		<g id="XMLID_5_">\
+			<path id="XMLID_6_" d="M16.3,7.3c-2.1-1.9-0.6-4.6,2-4.6c2.5,0,5.8,1.6,5.7,4.5c-0.1,4.5-5.7,6.3-6.5,10.5\
+				c-0.7,4.1,4.6,5.9,3.2,10.1c-1.3,3.8-4.6,6.6-2.5,10.8c0.8,1.6,3.1,0.2,2.3-1.4c-1.6-3.3,2.6-6.8,3.1-10c0.4-2.4-0.5-4.1-1.9-5.9\
+				c-1.2-1.5-2.1-2.7-0.9-4.7c0.9-1.4,2.4-2.5,3.4-3.8c1.5-1.8,2.5-4,2.3-6.5c-0.2-4.4-5.9-7.2-10-6.1c-4,1-5.3,6.3-2.1,9\
+				C15.7,10.3,17.6,8.4,16.3,7.3L16.3,7.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<path id="XMLID_3_" d="M6.6,23.1c0,0-0.1,0-0.2,0c-0.1,0-0.4,0-0.6,0.1c-0.5,0.1-1.2,0.5-1.8,1.3c-0.6,0.7-1,1.9-1.2,3.2\
+			c-0.2,1.4-0.5,3-0.6,4.7c-0.1,1.7,0.1,3.5,0.8,4.9c0.2,0.4,0.4,0.7,0.7,1s0.6,0.6,1,0.8c0.7,0.5,1.6,1,2.6,1.4\
+			c1.8,0.8,4,1.2,6.2,1.5s4.6,0.5,6.9,0.5c2.3,0.1,4.6,0.1,6.7-0.1c1.1-0.1,2.1-0.3,3.2-0.6l0.4-0.1l0.4-0.1\
+			c0.3-0.1,0.5-0.2,0.8-0.2c0.5-0.1,1-0.3,1.4-0.5c1.8-0.8,3.5-1.9,4.8-3.2c0.6-0.7,1.2-1.4,1.6-2.1c0.2-0.3,0.4-0.8,0.6-1.1\
+			c0.1-0.2,0.2-0.4,0.3-0.6c0.1-0.2,0.1-0.4,0.2-0.5c0.4-1.5,0.5-3.1,0.3-4.4c-0.2-1.3-0.6-2.5-1.2-3.3c-0.5-0.9-1.1-1.4-1.5-1.8\
+			s-0.7-0.5-0.7-0.5s0.3,0.1,0.8,0.4s1.2,0.7,1.9,1.6c0.7,0.8,1.5,1.9,1.9,3.4c0.5,1.5,0.7,3.2,0.4,5.2c-0.3,0.1-0.4,0.3-0.4,0.6\
+			c-0.1,0.2-0.1,0.4-0.2,0.7c-0.2,0.5-0.3,1-0.6,1.5c-0.4,1-1,1.9-1.7,2.8c-1.4,1.7-3.3,3.2-5.4,4.3c-0.5,0.3-1.1,0.5-1.7,0.8\
+			c-0.3,0.1-0.6,0.2-0.8,0.3l-0.4,0.2l-0.4,0.1c-1.2,0.4-2.4,0.6-3.6,0.8c-2.4,0.3-4.9,0.4-7.3,0.3c-2.4-0.1-4.8-0.3-7.2-0.7\
+			s-4.8-1-7-2.1c-1-0.5-2.1-1.1-3.1-1.9c-0.5-0.4-0.9-0.8-1.3-1.4c-0.4-0.5-0.7-1-0.9-1.6c-1-2.3-0.8-4.5-0.5-6.3\
+			C0.5,30.6,1,29,1.5,27.6C2,26.2,2.7,25,3.6,24.2c0.9-0.7,1.8-0.9,2.3-1c0.3,0,0.5,0,0.6,0C6.5,23.1,6.6,23.1,6.6,23.1z"/>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="42.9px" height="46.5px" viewBox="0 0 42.9 46.5" style="enable-background:new 0 0 42.9 46.5;"\
+	 xml:space="preserve">\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_4_">\
+		<g id="XMLID_5_">\
+			<path id="XMLID_6_" d="M16.3,7.3c-2.1-1.9-0.6-4.6,2-4.6c2.5,0,5.8,1.6,5.7,4.5c-0.1,4.5-5.7,6.3-6.5,10.5\
+				c-0.7,4.1,4.6,5.9,3.2,10.1c-1.3,3.8-4.6,6.6-2.5,10.8c0.8,1.6,3.1,0.2,2.3-1.4c-1.6-3.3,2.6-6.8,3.1-10c0.4-2.4-0.5-4.1-1.9-5.9\
+				c-1.2-1.5-2.1-2.7-0.9-4.7c0.9-1.4,2.4-2.5,3.4-3.8c1.5-1.8,2.5-4,2.3-6.5c-0.2-4.4-5.9-7.2-10-6.1c-4,1-5.3,6.3-2.1,9\
+				C15.7,10.3,17.6,8.4,16.3,7.3L16.3,7.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<path id="XMLID_3_" d="M6.6,23.1c0,0-0.1,0-0.2,0c-0.1,0-0.4,0-0.6,0.1c-0.5,0.1-1.2,0.5-1.8,1.3c-0.6,0.7-1,1.9-1.2,3.2\
+			c-0.2,1.4-0.5,3-0.6,4.7c-0.1,1.7,0.1,3.5,0.8,4.9c0.2,0.4,0.4,0.7,0.7,1s0.6,0.6,1,0.8c0.7,0.5,1.6,1,2.6,1.4\
+			c1.8,0.8,4,1.2,6.2,1.5s4.6,0.5,6.9,0.5c2.3,0.1,4.6,0.1,6.7-0.1c1.1-0.1,2.1-0.3,3.2-0.6l0.4-0.1l0.4-0.1\
+			c0.3-0.1,0.5-0.2,0.8-0.2c0.5-0.1,1-0.3,1.4-0.5c1.8-0.8,3.5-1.9,4.8-3.2c0.6-0.7,1.2-1.4,1.6-2.1c0.2-0.3,0.4-0.8,0.6-1.1\
+			c0.1-0.2,0.2-0.4,0.3-0.6c0.1-0.2,0.1-0.4,0.2-0.5c0.4-1.5,0.5-3.1,0.3-4.4c-0.2-1.3-0.6-2.5-1.2-3.3c-0.5-0.9-1.1-1.4-1.5-1.8\
+			s-0.7-0.5-0.7-0.5s0.3,0.1,0.8,0.4s1.2,0.7,1.9,1.6c0.7,0.8,1.5,1.9,1.9,3.4c0.5,1.5,0.7,3.2,0.4,5.2c-0.3,0.1-0.4,0.3-0.4,0.6\
+			c-0.1,0.2-0.1,0.4-0.2,0.7c-0.2,0.5-0.3,1-0.6,1.5c-0.4,1-1,1.9-1.7,2.8c-1.4,1.7-3.3,3.2-5.4,4.3c-0.5,0.3-1.1,0.5-1.7,0.8\
+			c-0.3,0.1-0.6,0.2-0.8,0.3l-0.4,0.2l-0.4,0.1c-1.2,0.4-2.4,0.6-3.6,0.8c-2.4,0.3-4.9,0.4-7.3,0.3c-2.4-0.1-4.8-0.3-7.2-0.7\
+			s-4.8-1-7-2.1c-1-0.5-2.1-1.1-3.1-1.9c-0.5-0.4-0.9-0.8-1.3-1.4c-0.4-0.5-0.7-1-0.9-1.6c-1-2.3-0.8-4.5-0.5-6.3\
+			C0.5,30.6,1,29,1.5,27.6C2,26.2,2.7,25,3.6,24.2c0.9-0.7,1.8-0.9,2.3-1c0.3,0,0.5,0,0.6,0C6.5,23.1,6.6,23.1,6.6,23.1z"/>\
+	</g>\
+</g>\
+</svg>'
 }, {
   name: 'Shael',
   image: '<svg version="1.1"\
@@ -1515,10 +1601,184 @@ module.exports = [{
 </svg>',
   requiredLevel: 29,
   properties: {
-    weapon: '20% Increased Attack Speed',
-    armorHelm: '20% Faster Hit Recovery',
-    shield: '20% Faster Block Rate'
-  }
+  weapon: '20% Increased Attack Speed',
+  armorHelm: '20% Faster Hit Recovery',
+  shield: '20% Faster Block Rate'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="41.5px" height="53.2px" viewBox="0 0 41.5 53.2" style="enable-background:new 0 0 41.5 53.2;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<path id="XMLID_23_" class="st0" d="M12.4,0c0,0-2.7,5.3-1.2,10.2s4,10.8,7.8,9.3s6.7-6.8,6.8-9.3S23.3,4.5,24.3,3s5.7,0.7,5.5,4.3\
+		S26,18.6,23.3,20.2c-4.2,2.4-7,2.5-7,2.5l1.7,4.1L29.7,19l2.5,1.5c0,0-10.5,6.3-12,8s-3.3,6-3.3,6s-6.2-12-7.7-17.8S7.9-0.5,12.4,0\
+		z"/>\
+	<g id="XMLID_20_">\
+		<g id="XMLID_21_">\
+			<path id="XMLID_22_" d="M38.1,11.1c0-0.1,0.1-0.2,0.1-0.2c0.5-0.9,0.2-2.2-0.7-2.7c-1-0.5-2.2-0.2-2.7,0.7c0,0.1-0.1,0.2-0.1,0.2\
+				c-0.5,0.9-0.2,2.2,0.7,2.7C36.4,12.3,37.5,12.1,38.1,11.1L38.1,11.1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_17_">\
+		<g id="XMLID_18_">\
+			<path id="XMLID_19_" d="M40.2,22.5c0.1,0,0.2-0.1,0.3-0.1c1-0.4,1.3-1.9,0.7-2.7c-0.6-1-1.7-1.2-2.7-0.7c-0.1,0-0.2,0.1-0.3,0.1\
+				c-1,0.4-1.3,1.9-0.7,2.7C38.1,22.7,39.2,22.9,40.2,22.5L40.2,22.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" d="M38.5,31.5c1-0.5,1.3-1.6,1.1-2.6c-0.3-1-1.4-1.7-2.5-1.4c-1,0.3-1.7,1.4-1.4,2.5v0.1c0-0.4,0-0.7,0-1.1\
+				c0-0.1,0.1-0.2,0.1-0.3c0.2-0.2,0.5-0.5,0.7-0.7c0,0-0.1,0-0.1,0.1c-0.9,0.5-1.3,1.9-0.7,2.7C36.3,31.8,37.5,32,38.5,31.5\
+				L38.5,31.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" d="M33.6,39.7c2.6,0,2.6-4,0-4S31,39.7,33.6,39.7L33.6,39.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" d="M27.1,43.1L27.1,43.1c0-1.1-0.9-2.1-2-2.1s-2,0.9-2,2v0.1c0,1,0.9,2,2,2C26.2,45,27.1,44.2,27.1,43.1\
+				L27.1,43.1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" d="M17.5,45.6l0.1-0.1c0.7-0.7,0.8-2.1,0-2.8s-2-0.8-2.8,0l-0.1,0.1c-0.7,0.7-0.8,2.1,0,2.8\
+				C15.5,46.4,16.7,46.4,17.5,45.6L17.5,45.6z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" d="M8.4,53.1c-1.4-0.5-3.9-1.3-4.9-2.7c-4.1-5.6,4.2-6.3,7-6.4c3.1-0.1,6-0.2,9-0.9c5.5-1.4,10.7-4.5,14.2-9\
+				c5.9-7.6,6.6-20.7-1.3-27.2c-0.7-0.6-1.9,0.2-1.3,1c4.6,6.4,5.4,16.5,1,23.1c-5.4,8.3-14.4,9.5-23.4,10.1c-3.9,0.3-9,2.2-8.7,6.9\
+				c0.3,4.3,4.7,5,8.1,5.1C8.5,53.3,8.5,53.1,8.4,53.1L8.4,53.1z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="41.5px" height="53.2px" viewBox="0 0 41.5 53.2" style="enable-background:new 0 0 41.5 53.2;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<path id="XMLID_23_" class="st0" d="M12.4,0c0,0-2.7,5.3-1.2,10.2s4,10.8,7.8,9.3s6.7-6.8,6.8-9.3S23.3,4.5,24.3,3s5.7,0.7,5.5,4.3\
+		S26,18.6,23.3,20.2c-4.2,2.4-7,2.5-7,2.5l1.7,4.1L29.7,19l2.5,1.5c0,0-10.5,6.3-12,8s-3.3,6-3.3,6s-6.2-12-7.7-17.8S7.9-0.5,12.4,0\
+		z"/>\
+	<g id="XMLID_20_">\
+		<g id="XMLID_21_">\
+			<path id="XMLID_22_" d="M38.1,11.1c0-0.1,0.1-0.2,0.1-0.2c0.5-0.9,0.2-2.2-0.7-2.7c-1-0.5-2.2-0.2-2.7,0.7c0,0.1-0.1,0.2-0.1,0.2\
+				c-0.5,0.9-0.2,2.2,0.7,2.7C36.4,12.3,37.5,12.1,38.1,11.1L38.1,11.1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_17_">\
+		<g id="XMLID_18_">\
+			<path id="XMLID_19_" d="M40.2,22.5c0.1,0,0.2-0.1,0.3-0.1c1-0.4,1.3-1.9,0.7-2.7c-0.6-1-1.7-1.2-2.7-0.7c-0.1,0-0.2,0.1-0.3,0.1\
+				c-1,0.4-1.3,1.9-0.7,2.7C38.1,22.7,39.2,22.9,40.2,22.5L40.2,22.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" d="M38.5,31.5c1-0.5,1.3-1.6,1.1-2.6c-0.3-1-1.4-1.7-2.5-1.4c-1,0.3-1.7,1.4-1.4,2.5v0.1c0-0.4,0-0.7,0-1.1\
+				c0-0.1,0.1-0.2,0.1-0.3c0.2-0.2,0.5-0.5,0.7-0.7c0,0-0.1,0-0.1,0.1c-0.9,0.5-1.3,1.9-0.7,2.7C36.3,31.8,37.5,32,38.5,31.5\
+				L38.5,31.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" d="M33.6,39.7c2.6,0,2.6-4,0-4S31,39.7,33.6,39.7L33.6,39.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" d="M27.1,43.1L27.1,43.1c0-1.1-0.9-2.1-2-2.1s-2,0.9-2,2v0.1c0,1,0.9,2,2,2C26.2,45,27.1,44.2,27.1,43.1\
+				L27.1,43.1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" d="M17.5,45.6l0.1-0.1c0.7-0.7,0.8-2.1,0-2.8s-2-0.8-2.8,0l-0.1,0.1c-0.7,0.7-0.8,2.1,0,2.8\
+				C15.5,46.4,16.7,46.4,17.5,45.6L17.5,45.6z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" d="M8.4,53.1c-1.4-0.5-3.9-1.3-4.9-2.7c-4.1-5.6,4.2-6.3,7-6.4c3.1-0.1,6-0.2,9-0.9c5.5-1.4,10.7-4.5,14.2-9\
+				c5.9-7.6,6.6-20.7-1.3-27.2c-0.7-0.6-1.9,0.2-1.3,1c4.6,6.4,5.4,16.5,1,23.1c-5.4,8.3-14.4,9.5-23.4,10.1c-3.9,0.3-9,2.2-8.7,6.9\
+				c0.3,4.3,4.7,5,8.1,5.1C8.5,53.3,8.5,53.1,8.4,53.1L8.4,53.1z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="41.5px" height="53.2px" viewBox="0 0 41.5 53.2" style="enable-background:new 0 0 41.5 53.2;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<path id="XMLID_23_" class="st0" d="M12.4,0c0,0-2.7,5.3-1.2,10.2s4,10.8,7.8,9.3s6.7-6.8,6.8-9.3S23.3,4.5,24.3,3s5.7,0.7,5.5,4.3\
+		S26,18.6,23.3,20.2c-4.2,2.4-7,2.5-7,2.5l1.7,4.1L29.7,19l2.5,1.5c0,0-10.5,6.3-12,8s-3.3,6-3.3,6s-6.2-12-7.7-17.8S7.9-0.5,12.4,0\
+		z"/>\
+	<g id="XMLID_20_">\
+		<g id="XMLID_21_">\
+			<path id="XMLID_22_" d="M38.1,11.1c0-0.1,0.1-0.2,0.1-0.2c0.5-0.9,0.2-2.2-0.7-2.7c-1-0.5-2.2-0.2-2.7,0.7c0,0.1-0.1,0.2-0.1,0.2\
+				c-0.5,0.9-0.2,2.2,0.7,2.7C36.4,12.3,37.5,12.1,38.1,11.1L38.1,11.1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_17_">\
+		<g id="XMLID_18_">\
+			<path id="XMLID_19_" d="M40.2,22.5c0.1,0,0.2-0.1,0.3-0.1c1-0.4,1.3-1.9,0.7-2.7c-0.6-1-1.7-1.2-2.7-0.7c-0.1,0-0.2,0.1-0.3,0.1\
+				c-1,0.4-1.3,1.9-0.7,2.7C38.1,22.7,39.2,22.9,40.2,22.5L40.2,22.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" d="M38.5,31.5c1-0.5,1.3-1.6,1.1-2.6c-0.3-1-1.4-1.7-2.5-1.4c-1,0.3-1.7,1.4-1.4,2.5v0.1c0-0.4,0-0.7,0-1.1\
+				c0-0.1,0.1-0.2,0.1-0.3c0.2-0.2,0.5-0.5,0.7-0.7c0,0-0.1,0-0.1,0.1c-0.9,0.5-1.3,1.9-0.7,2.7C36.3,31.8,37.5,32,38.5,31.5\
+				L38.5,31.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" d="M33.6,39.7c2.6,0,2.6-4,0-4S31,39.7,33.6,39.7L33.6,39.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" d="M27.1,43.1L27.1,43.1c0-1.1-0.9-2.1-2-2.1s-2,0.9-2,2v0.1c0,1,0.9,2,2,2C26.2,45,27.1,44.2,27.1,43.1\
+				L27.1,43.1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" d="M17.5,45.6l0.1-0.1c0.7-0.7,0.8-2.1,0-2.8s-2-0.8-2.8,0l-0.1,0.1c-0.7,0.7-0.8,2.1,0,2.8\
+				C15.5,46.4,16.7,46.4,17.5,45.6L17.5,45.6z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" d="M8.4,53.1c-1.4-0.5-3.9-1.3-4.9-2.7c-4.1-5.6,4.2-6.3,7-6.4c3.1-0.1,6-0.2,9-0.9c5.5-1.4,10.7-4.5,14.2-9\
+				c5.9-7.6,6.6-20.7-1.3-27.2c-0.7-0.6-1.9,0.2-1.3,1c4.6,6.4,5.4,16.5,1,23.1c-5.4,8.3-14.4,9.5-23.4,10.1c-3.9,0.3-9,2.2-8.7,6.9\
+				c0.3,4.3,4.7,5,8.1,5.1C8.5,53.3,8.5,53.1,8.4,53.1L8.4,53.1z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>'
 }, {
   name: 'Dol',
   image: '<svg version="1.1"\
@@ -1573,10 +1833,55 @@ module.exports = [{
 </svg>',
   requiredLevel: 31,
   properties: {
-    weapon: 'Hit Causes Monster To Flee 25%',
-    armorHelm: 'Replenish Life +7',
-    shield: 'Replenish Life +7'
-  }
+  weapon: 'Hit Causes Monster To Flee 25%',
+  armorHelm: 'Replenish Life +7',
+  shield: 'Replenish Life +7'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="40.1px" height="47.4px" viewBox="0 0 40.1 47.4" style="enable-background:new 0 0 40.1 47.4;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<path id="XMLID_1_" class="st0" d="M37.4,7.2c-0.9,2.4-0.4,7.3-4.5,9.1s-6,2.5-8.9-0.8s-3.9-6.9-2-9.3s2.5-4.9-1-6s-3.3,3.9-2.8,5.6\
+	s2.1,8.5,0.9,10.5s-5.4,10.2-8.5,11.5s-8.8,2-7.8-5.1s4.3-8.1,6.1-6.3s4.6,4,5.5-0.3S8.8,7.7,6,8.3s-6.3,6.6-6,14.3\
+	c0,0-0.5,14,5.3,13.3s12.8-11.6,12.8-11.6L18,29.9c0,0-1.8,0.7-1.8,2.6c0,1.9,1.9,2.2,1.9,2.2s-0.2,11.5,0.6,12.6s2.2-6.2,2.8-6.8\
+	c0.6-0.6,2.2,1.4,5.3-1.1s5.2-4.8,5.2-6.3c0,0-1.5-1.4-3,1s-3.3,4.1-4.7,3.8c-1.3-0.3-3.7-0.9-4.1-6s1.5-11.5,1.5-11.5\
+	s3.1,2.1,7.9,0.7s8.7-4.7,10-8.3C41,9.3,38.8,3.4,37.4,7.2z"/>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="40.1px" height="47.4px" viewBox="0 0 40.1 47.4" style="enable-background:new 0 0 40.1 47.4;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<path id="XMLID_1_" class="st0" d="M37.4,7.2c-0.9,2.4-0.4,7.3-4.5,9.1s-6,2.5-8.9-0.8s-3.9-6.9-2-9.3s2.5-4.9-1-6s-3.3,3.9-2.8,5.6\
+	s2.1,8.5,0.9,10.5s-5.4,10.2-8.5,11.5s-8.8,2-7.8-5.1s4.3-8.1,6.1-6.3s4.6,4,5.5-0.3S8.8,7.7,6,8.3s-6.3,6.6-6,14.3\
+	c0,0-0.5,14,5.3,13.3s12.8-11.6,12.8-11.6L18,29.9c0,0-1.8,0.7-1.8,2.6c0,1.9,1.9,2.2,1.9,2.2s-0.2,11.5,0.6,12.6s2.2-6.2,2.8-6.8\
+	c0.6-0.6,2.2,1.4,5.3-1.1s5.2-4.8,5.2-6.3c0,0-1.5-1.4-3,1s-3.3,4.1-4.7,3.8c-1.3-0.3-3.7-0.9-4.1-6s1.5-11.5,1.5-11.5\
+	s3.1,2.1,7.9,0.7s8.7-4.7,10-8.3C41,9.3,38.8,3.4,37.4,7.2z"/>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="40.1px" height="47.4px" viewBox="0 0 40.1 47.4" style="enable-background:new 0 0 40.1 47.4;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<path id="XMLID_1_" class="st0" d="M37.4,7.2c-0.9,2.4-0.4,7.3-4.5,9.1s-6,2.5-8.9-0.8s-3.9-6.9-2-9.3s2.5-4.9-1-6s-3.3,3.9-2.8,5.6\
+	s2.1,8.5,0.9,10.5s-5.4,10.2-8.5,11.5s-8.8,2-7.8-5.1s4.3-8.1,6.1-6.3s4.6,4,5.5-0.3S8.8,7.7,6,8.3s-6.3,6.6-6,14.3\
+	c0,0-0.5,14,5.3,13.3s12.8-11.6,12.8-11.6L18,29.9c0,0-1.8,0.7-1.8,2.6c0,1.9,1.9,2.2,1.9,2.2s-0.2,11.5,0.6,12.6s2.2-6.2,2.8-6.8\
+	c0.6-0.6,2.2,1.4,5.3-1.1s5.2-4.8,5.2-6.3c0,0-1.5-1.4-3,1s-3.3,4.1-4.7,3.8c-1.3-0.3-3.7-0.9-4.1-6s1.5-11.5,1.5-11.5\
+	s3.1,2.1,7.9,0.7s8.7-4.7,10-8.3C41,9.3,38.8,3.4,37.4,7.2z"/>\
+</svg>'
 }, {
   name: 'Hel',
   image: '<svg version="1.1"\
@@ -1643,10 +1948,160 @@ module.exports = [{
 </svg>',
   requiredLevel: 33,
   properties: {
-    weapon: 'Requirements -20%',
-    armorHelm: 'Requirements -15%',
-    shield: 'Requirements -15%'
-  }
+  weapon: 'Requirements -20%',
+  armorHelm: 'Requirements -15%',
+  shield: 'Requirements -15%'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="51px" height="49.6px" viewBox="0 0 51 49.6" style="enable-background:new 0 0 51 49.6;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_17_">\
+	<g id="XMLID_18_">\
+		<path id="XMLID_19_" class="st0" d="M17.3,31.9c-2.9,1.7-3.3,6-2.4,8.9s2.7,8,6,8.8c0.5,0.1,1.1-0.2,1.1-0.8\
+			c-0.2-2.1-1.6-3.8-2.6-5.7c-0.8-1.5-1.7-3.1-1.9-4.9c-0.1-0.9,0.4-4.3,0.8-5.2C18.8,32.3,18,31.5,17.3,31.9L17.3,31.9z"/>\
+	</g>\
+</g>\
+<g id="XMLID_1_">\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M40.8,0.2c-6,3.5-10.6,8.9-16.2,13.1c-4.8,3.7-9.3,7.8-14,11.7c-3.4,2.8-9.1,5.9-10.2,10.5\
+				c-1,4.3,0,8.5,3.3,11.4c1.8,1.5,4.6-0.4,3.4-2.6c-0.9-1.7-2.9-4.9-2.9-6.8c0-3.2,3-5.3,5-7.3c3.3-3.4,6.8-6.6,10.4-9.6\
+				c3.6-3.1,7-6.3,10.6-9.3c4.1-3.3,8.5-5.2,12.1-9.1C43.2,1.1,42-0.5,40.8,0.2L40.8,0.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M17.4,2.7C18,7,24.1,10.8,27,13.9c4,4.3,6.9,9.7,11.2,13.6c1.3,1.1,3.5,0,3-1.7\
+				c-1.7-5.5-6.4-10.5-10.3-14.6c-2.9-3.1-8.2-9.6-13-9C17.5,2.1,17.4,2.3,17.4,2.7L17.4,2.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M17,40.8c4.8,9.2,18.9,5.1,25.3-0.1c4.6-3.8,6.8-8.9,8.3-14.4c1.8-6.4-2.3-9.6-7.5-12.6\
+				c-1.1-0.7-2.6,0.4-2.2,1.7c0.9,2.8,2.3,5.3,3.5,8c1.3,2.9,2.2,4.7,1.2,7.8c-0.7,2.4-2,4.4-3.7,6.2c-5.3,5.5-19.3,11.1-24.9,3.5\
+				C17,40.6,16.9,40.7,17,40.8L17,40.8z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M24.5,40.2c2.9-0.5,3.5-4.7,3.9-7.2c0.9-5.3,2.7-10.5,2.6-15.9c0-1-1.2-1.2-1.7-0.5\
+				c-2.8,4-3.4,8.9-4.2,13.6c-0.4,2.8-1.9,7.1-0.8,9.7C24.2,40.1,24.4,40.2,24.5,40.2L24.5,40.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M30.3,24.9C30.4,22,29,19.7,28,17s-1.7-5.6-2.9-8.1c-0.3-0.7-1.4-0.5-1.5,0.2\
+				c-0.6,2.8,0.4,6,1.6,8.6c1.3,2.8,2.4,5.6,4.9,7.4C30.1,25.1,30.3,25,30.3,24.9L30.3,24.9z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="51px" height="49.6px" viewBox="0 0 51 49.6" style="enable-background:new 0 0 51 49.6;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_17_">\
+	<g id="XMLID_18_">\
+		<path id="XMLID_19_" class="st0" d="M17.3,31.9c-2.9,1.7-3.3,6-2.4,8.9s2.7,8,6,8.8c0.5,0.1,1.1-0.2,1.1-0.8\
+			c-0.2-2.1-1.6-3.8-2.6-5.7c-0.8-1.5-1.7-3.1-1.9-4.9c-0.1-0.9,0.4-4.3,0.8-5.2C18.8,32.3,18,31.5,17.3,31.9L17.3,31.9z"/>\
+	</g>\
+</g>\
+<g id="XMLID_1_">\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M40.8,0.2c-6,3.5-10.6,8.9-16.2,13.1c-4.8,3.7-9.3,7.8-14,11.7c-3.4,2.8-9.1,5.9-10.2,10.5\
+				c-1,4.3,0,8.5,3.3,11.4c1.8,1.5,4.6-0.4,3.4-2.6c-0.9-1.7-2.9-4.9-2.9-6.8c0-3.2,3-5.3,5-7.3c3.3-3.4,6.8-6.6,10.4-9.6\
+				c3.6-3.1,7-6.3,10.6-9.3c4.1-3.3,8.5-5.2,12.1-9.1C43.2,1.1,42-0.5,40.8,0.2L40.8,0.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M17.4,2.7C18,7,24.1,10.8,27,13.9c4,4.3,6.9,9.7,11.2,13.6c1.3,1.1,3.5,0,3-1.7\
+				c-1.7-5.5-6.4-10.5-10.3-14.6c-2.9-3.1-8.2-9.6-13-9C17.5,2.1,17.4,2.3,17.4,2.7L17.4,2.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M17,40.8c4.8,9.2,18.9,5.1,25.3-0.1c4.6-3.8,6.8-8.9,8.3-14.4c1.8-6.4-2.3-9.6-7.5-12.6\
+				c-1.1-0.7-2.6,0.4-2.2,1.7c0.9,2.8,2.3,5.3,3.5,8c1.3,2.9,2.2,4.7,1.2,7.8c-0.7,2.4-2,4.4-3.7,6.2c-5.3,5.5-19.3,11.1-24.9,3.5\
+				C17,40.6,16.9,40.7,17,40.8L17,40.8z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M24.5,40.2c2.9-0.5,3.5-4.7,3.9-7.2c0.9-5.3,2.7-10.5,2.6-15.9c0-1-1.2-1.2-1.7-0.5\
+				c-2.8,4-3.4,8.9-4.2,13.6c-0.4,2.8-1.9,7.1-0.8,9.7C24.2,40.1,24.4,40.2,24.5,40.2L24.5,40.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M30.3,24.9C30.4,22,29,19.7,28,17s-1.7-5.6-2.9-8.1c-0.3-0.7-1.4-0.5-1.5,0.2\
+				c-0.6,2.8,0.4,6,1.6,8.6c1.3,2.8,2.4,5.6,4.9,7.4C30.1,25.1,30.3,25,30.3,24.9L30.3,24.9z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="51px" height="49.6px" viewBox="0 0 51 49.6" style="enable-background:new 0 0 51 49.6;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_17_">\
+	<g id="XMLID_18_">\
+		<path id="XMLID_19_" class="st0" d="M17.3,31.9c-2.9,1.7-3.3,6-2.4,8.9s2.7,8,6,8.8c0.5,0.1,1.1-0.2,1.1-0.8\
+			c-0.2-2.1-1.6-3.8-2.6-5.7c-0.8-1.5-1.7-3.1-1.9-4.9c-0.1-0.9,0.4-4.3,0.8-5.2C18.8,32.3,18,31.5,17.3,31.9L17.3,31.9z"/>\
+	</g>\
+</g>\
+<g id="XMLID_1_">\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M40.8,0.2c-6,3.5-10.6,8.9-16.2,13.1c-4.8,3.7-9.3,7.8-14,11.7c-3.4,2.8-9.1,5.9-10.2,10.5\
+				c-1,4.3,0,8.5,3.3,11.4c1.8,1.5,4.6-0.4,3.4-2.6c-0.9-1.7-2.9-4.9-2.9-6.8c0-3.2,3-5.3,5-7.3c3.3-3.4,6.8-6.6,10.4-9.6\
+				c3.6-3.1,7-6.3,10.6-9.3c4.1-3.3,8.5-5.2,12.1-9.1C43.2,1.1,42-0.5,40.8,0.2L40.8,0.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M17.4,2.7C18,7,24.1,10.8,27,13.9c4,4.3,6.9,9.7,11.2,13.6c1.3,1.1,3.5,0,3-1.7\
+				c-1.7-5.5-6.4-10.5-10.3-14.6c-2.9-3.1-8.2-9.6-13-9C17.5,2.1,17.4,2.3,17.4,2.7L17.4,2.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M17,40.8c4.8,9.2,18.9,5.1,25.3-0.1c4.6-3.8,6.8-8.9,8.3-14.4c1.8-6.4-2.3-9.6-7.5-12.6\
+				c-1.1-0.7-2.6,0.4-2.2,1.7c0.9,2.8,2.3,5.3,3.5,8c1.3,2.9,2.2,4.7,1.2,7.8c-0.7,2.4-2,4.4-3.7,6.2c-5.3,5.5-19.3,11.1-24.9,3.5\
+				C17,40.6,16.9,40.7,17,40.8L17,40.8z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M24.5,40.2c2.9-0.5,3.5-4.7,3.9-7.2c0.9-5.3,2.7-10.5,2.6-15.9c0-1-1.2-1.2-1.7-0.5\
+				c-2.8,4-3.4,8.9-4.2,13.6c-0.4,2.8-1.9,7.1-0.8,9.7C24.2,40.1,24.4,40.2,24.5,40.2L24.5,40.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M30.3,24.9C30.4,22,29,19.7,28,17s-1.7-5.6-2.9-8.1c-0.3-0.7-1.4-0.5-1.5,0.2\
+				c-0.6,2.8,0.4,6,1.6,8.6c1.3,2.8,2.4,5.6,4.9,7.4C30.1,25.1,30.3,25,30.3,24.9L30.3,24.9z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>'
 }, {
   name: 'Io',
   image: '<svg version="1.1"\
@@ -1698,10 +2153,196 @@ module.exports = [{
 </svg>',
   requiredLevel: 35,
   properties: {
-    weapon: '+10 To Vitality',
-    armorHelm: '+10 To Vitality',
-    shield: '+10 To Vitality'
-  }
+  weapon: '+10 To Vitality',
+  armorHelm: '+10 To Vitality',
+  shield: '+10 To Vitality'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="46.5px" height="41.7px" viewBox="0 0 46.5 41.7" style="enable-background:new 0 0 46.5 41.7;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_23_">\
+		<g id="XMLID_24_">\
+			<path id="XMLID_25_" class="st0" d="M23.2,7c2-1.1-0.4-3.8,0.4-5.6c-0.5,0.1-1,0.2-1.4,0.4c3.4,2.5,6.8,5.1,10,7.9\
+				c2.7,2.4,5.2,5.5,8.2,7.6c2.1,1.5,6.4,2.1,6.1-1.7c-0.1-1.1-1.5-1.2-1.8-0.2c-1,2.6-6.6-3.3-7.3-3.9c-1.6-1.5-3.2-2.9-4.9-4.3\
+				c-3-2.5-6.1-4.9-9.2-7.1c-0.4-0.3-1.2-0.1-1.4,0.4c-0.6,1.3-1.1,2.5-0.6,3.9c0.1,0.3,1.4,2,1.4,2.1C22.3,6.7,22.7,7.2,23.2,7\
+				L23.2,7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_20_">\
+		<g id="XMLID_21_">\
+			<path id="XMLID_22_" class="st0" d="M25.8,9.3c-4.6-2.7-10.2-5-15.4-2.5c-4.1,2-7.4,8-5.5,12.3c0.7,1.7,3,1.2,3.9,0\
+				C11,16,9.2,12,13.1,9.8c3.8-2.2,8.4-0.7,12.2,0.7C26,10.7,26.5,9.6,25.8,9.3L25.8,9.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_17_">\
+		<g id="XMLID_18_">\
+			<path id="XMLID_19_" class="st0" d="M18,15c-3.6,0.3-6.9,2.4-8.6,5.7c-1.5,2.8-1.8,9,2.4,9.6c1.2,0.2,2.8-0.8,2.2-2.2\
+				c-0.4-1-0.9-1.4-1.5-2.2c-0.9-1.3-0.7-3.1-0.1-4.5c1-2.5,3.2-4.2,5.8-4.9C19,16.3,18.9,15,18,15L18,15z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M0.1,27c4.7,3.7,6.3,11,12.2,13.2c3.5,1.3,7.8,0.5,8.9-3.4c0.2-0.7-0.7-1.2-1.3-0.7\
+				c-7.4,7-13.8-6.3-19.4-9.5C0.2,26.4-0.2,26.8,0.1,27L0.1,27z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M26,41.7c0.1,0,0.1-0.2,0-0.2C25.8,41.5,25.8,41.7,26,41.7L26,41.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M25.2,41.3c2.7-0.6,4.6-2.1,5.8-4.6c1-2.1,1.8-5.7-0.3-7.4c-0.8-0.6-1.9-0.4-2.2,0.6\
+				c-0.6,1.7,0.1,3.7-0.5,5.5c-0.6,1.8-2,3.7-3.4,4.8C24,40.7,24.6,41.4,25.2,41.3L25.2,41.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M36.8,34.7c1.3-4.3,1.1-9.1-0.7-13.2c-1.3-3.1-4.1-8.7-8.2-5.4c-0.8,0.6-0.7,1.7-0.3,2.5\
+				c0.6,1.3,1.8,1.6,3,2.2c2,1,2.7,1.8,3.5,4.1c1.1,3.1,1.5,6.6,2.1,9.8C36.3,35,36.7,34.9,36.8,34.7L36.8,34.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M22.3,27.4c0.3-0.4,0.5-0.8,0.7-1.3c0.1-0.3,0.1-0.5,0.2-0.8c0-0.1,0.1-0.2,0.1-0.3\
+				c-0.1,0.1,0,0.1,0.1-0.1c0.3-0.7,0.3-1.2,0.2-1.9c-0.1-0.7-0.8-1.3-1.5-1.5c-0.8-0.2-1.4,0.1-2.1,0.5c-0.8,0.6-0.9,1.7-1,2.7\
+				c-0.1,0.8-0.1,1.6,0.3,2.4C19.9,28,21.5,28.4,22.3,27.4L22.3,27.4z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="46.5px" height="41.7px" viewBox="0 0 46.5 41.7" style="enable-background:new 0 0 46.5 41.7;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_23_">\
+		<g id="XMLID_24_">\
+			<path id="XMLID_25_" class="st0" d="M23.2,7c2-1.1-0.4-3.8,0.4-5.6c-0.5,0.1-1,0.2-1.4,0.4c3.4,2.5,6.8,5.1,10,7.9\
+				c2.7,2.4,5.2,5.5,8.2,7.6c2.1,1.5,6.4,2.1,6.1-1.7c-0.1-1.1-1.5-1.2-1.8-0.2c-1,2.6-6.6-3.3-7.3-3.9c-1.6-1.5-3.2-2.9-4.9-4.3\
+				c-3-2.5-6.1-4.9-9.2-7.1c-0.4-0.3-1.2-0.1-1.4,0.4c-0.6,1.3-1.1,2.5-0.6,3.9c0.1,0.3,1.4,2,1.4,2.1C22.3,6.7,22.7,7.2,23.2,7\
+				L23.2,7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_20_">\
+		<g id="XMLID_21_">\
+			<path id="XMLID_22_" class="st0" d="M25.8,9.3c-4.6-2.7-10.2-5-15.4-2.5c-4.1,2-7.4,8-5.5,12.3c0.7,1.7,3,1.2,3.9,0\
+				C11,16,9.2,12,13.1,9.8c3.8-2.2,8.4-0.7,12.2,0.7C26,10.7,26.5,9.6,25.8,9.3L25.8,9.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_17_">\
+		<g id="XMLID_18_">\
+			<path id="XMLID_19_" class="st0" d="M18,15c-3.6,0.3-6.9,2.4-8.6,5.7c-1.5,2.8-1.8,9,2.4,9.6c1.2,0.2,2.8-0.8,2.2-2.2\
+				c-0.4-1-0.9-1.4-1.5-2.2c-0.9-1.3-0.7-3.1-0.1-4.5c1-2.5,3.2-4.2,5.8-4.9C19,16.3,18.9,15,18,15L18,15z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M0.1,27c4.7,3.7,6.3,11,12.2,13.2c3.5,1.3,7.8,0.5,8.9-3.4c0.2-0.7-0.7-1.2-1.3-0.7\
+				c-7.4,7-13.8-6.3-19.4-9.5C0.2,26.4-0.2,26.8,0.1,27L0.1,27z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M26,41.7c0.1,0,0.1-0.2,0-0.2C25.8,41.5,25.8,41.7,26,41.7L26,41.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M25.2,41.3c2.7-0.6,4.6-2.1,5.8-4.6c1-2.1,1.8-5.7-0.3-7.4c-0.8-0.6-1.9-0.4-2.2,0.6\
+				c-0.6,1.7,0.1,3.7-0.5,5.5c-0.6,1.8-2,3.7-3.4,4.8C24,40.7,24.6,41.4,25.2,41.3L25.2,41.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M36.8,34.7c1.3-4.3,1.1-9.1-0.7-13.2c-1.3-3.1-4.1-8.7-8.2-5.4c-0.8,0.6-0.7,1.7-0.3,2.5\
+				c0.6,1.3,1.8,1.6,3,2.2c2,1,2.7,1.8,3.5,4.1c1.1,3.1,1.5,6.6,2.1,9.8C36.3,35,36.7,34.9,36.8,34.7L36.8,34.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M22.3,27.4c0.3-0.4,0.5-0.8,0.7-1.3c0.1-0.3,0.1-0.5,0.2-0.8c0-0.1,0.1-0.2,0.1-0.3\
+				c-0.1,0.1,0,0.1,0.1-0.1c0.3-0.7,0.3-1.2,0.2-1.9c-0.1-0.7-0.8-1.3-1.5-1.5c-0.8-0.2-1.4,0.1-2.1,0.5c-0.8,0.6-0.9,1.7-1,2.7\
+				c-0.1,0.8-0.1,1.6,0.3,2.4C19.9,28,21.5,28.4,22.3,27.4L22.3,27.4z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="46.5px" height="41.7px" viewBox="0 0 46.5 41.7" style="enable-background:new 0 0 46.5 41.7;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_23_">\
+		<g id="XMLID_24_">\
+			<path id="XMLID_25_" class="st0" d="M23.2,7c2-1.1-0.4-3.8,0.4-5.6c-0.5,0.1-1,0.2-1.4,0.4c3.4,2.5,6.8,5.1,10,7.9\
+				c2.7,2.4,5.2,5.5,8.2,7.6c2.1,1.5,6.4,2.1,6.1-1.7c-0.1-1.1-1.5-1.2-1.8-0.2c-1,2.6-6.6-3.3-7.3-3.9c-1.6-1.5-3.2-2.9-4.9-4.3\
+				c-3-2.5-6.1-4.9-9.2-7.1c-0.4-0.3-1.2-0.1-1.4,0.4c-0.6,1.3-1.1,2.5-0.6,3.9c0.1,0.3,1.4,2,1.4,2.1C22.3,6.7,22.7,7.2,23.2,7\
+				L23.2,7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_20_">\
+		<g id="XMLID_21_">\
+			<path id="XMLID_22_" class="st0" d="M25.8,9.3c-4.6-2.7-10.2-5-15.4-2.5c-4.1,2-7.4,8-5.5,12.3c0.7,1.7,3,1.2,3.9,0\
+				C11,16,9.2,12,13.1,9.8c3.8-2.2,8.4-0.7,12.2,0.7C26,10.7,26.5,9.6,25.8,9.3L25.8,9.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_17_">\
+		<g id="XMLID_18_">\
+			<path id="XMLID_19_" class="st0" d="M18,15c-3.6,0.3-6.9,2.4-8.6,5.7c-1.5,2.8-1.8,9,2.4,9.6c1.2,0.2,2.8-0.8,2.2-2.2\
+				c-0.4-1-0.9-1.4-1.5-2.2c-0.9-1.3-0.7-3.1-0.1-4.5c1-2.5,3.2-4.2,5.8-4.9C19,16.3,18.9,15,18,15L18,15z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M0.1,27c4.7,3.7,6.3,11,12.2,13.2c3.5,1.3,7.8,0.5,8.9-3.4c0.2-0.7-0.7-1.2-1.3-0.7\
+				c-7.4,7-13.8-6.3-19.4-9.5C0.2,26.4-0.2,26.8,0.1,27L0.1,27z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M26,41.7c0.1,0,0.1-0.2,0-0.2C25.8,41.5,25.8,41.7,26,41.7L26,41.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M25.2,41.3c2.7-0.6,4.6-2.1,5.8-4.6c1-2.1,1.8-5.7-0.3-7.4c-0.8-0.6-1.9-0.4-2.2,0.6\
+				c-0.6,1.7,0.1,3.7-0.5,5.5c-0.6,1.8-2,3.7-3.4,4.8C24,40.7,24.6,41.4,25.2,41.3L25.2,41.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M36.8,34.7c1.3-4.3,1.1-9.1-0.7-13.2c-1.3-3.1-4.1-8.7-8.2-5.4c-0.8,0.6-0.7,1.7-0.3,2.5\
+				c0.6,1.3,1.8,1.6,3,2.2c2,1,2.7,1.8,3.5,4.1c1.1,3.1,1.5,6.6,2.1,9.8C36.3,35,36.7,34.9,36.8,34.7L36.8,34.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M22.3,27.4c0.3-0.4,0.5-0.8,0.7-1.3c0.1-0.3,0.1-0.5,0.2-0.8c0-0.1,0.1-0.2,0.1-0.3\
+				c-0.1,0.1,0,0.1,0.1-0.1c0.3-0.7,0.3-1.2,0.2-1.9c-0.1-0.7-0.8-1.3-1.5-1.5c-0.8-0.2-1.4,0.1-2.1,0.5c-0.8,0.6-0.9,1.7-1,2.7\
+				c-0.1,0.8-0.1,1.6,0.3,2.4C19.9,28,21.5,28.4,22.3,27.4L22.3,27.4z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>'
 }, {
   name: 'Lum',
   image: '<svg version="1.1"\
@@ -1719,10 +2360,151 @@ module.exports = [{
 </svg>',
   requiredLevel: 37,
   properties: {
-    weapon: '+10 To Energy',
-    armorHelm: '+10 To Energy',
-    shield: '+10 To Energy'
-  }
+  weapon: '+10 To Energy',
+  armorHelm: '+10 To Energy',
+  shield: '+10 To Energy'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="42.4px" height="40.2px" viewBox="0 0 42.4 40.2" style="enable-background:new 0 0 42.4 40.2;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_17_">\
+		<g id="XMLID_18_">\
+			<path id="XMLID_19_" class="st0" d="M19.4,40c-0.7-6.9,0.1-14.3,1.1-21.1c0.5-2.9,1.1-5.9,1.9-8.7c0.8-3.1,2.5-5.8,2.3-9\
+				c-0.1-1-1.3-1.7-2.1-0.9c-3.8,4.2-4.2,12.7-4.7,18.2c-0.7,7.4,0.2,14.2,1.3,21.5C19.3,40.2,19.4,40.2,19.4,40L19.4,40z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M12.6,37.1c2.7-1.4,6-1.9,9-1.6c3,0.3,4.9,1.9,7.5,2.9c1.9,0.7,3.2-2.3,1.4-3.3\
+				c-2.8-1.5-6.4-1.1-9.5-0.8S15.3,35.7,12.6,37.1C12.3,37,12.4,37.1,12.6,37.1L12.6,37.1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M9,11.9c-0.6,3.8,2,6.5,5.6,7c5.6,0.9,10.6,0.2,15.3-2.9c1.8-1.2,0.1-4.2-1.7-2.9\
+				c-2.4,1.7-5.1,3.2-8.1,3.1c-2.9-0.1-8.9-0.9-9.6-4.4C10.3,11.2,9.1,11.1,9,11.9L9,11.9z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M34.3,28.4c5.4-3.8,8.2-10.8,8-17.3c-0.2-5-3.6-12-9.4-11c-1.4,0.2-1.9,2.1-1.3,3.2\
+				c2.4,4,6.8,4.8,7.3,10.3c0.6,5.7-3.9,9.5-5,14.6C34,28.3,34.1,28.5,34.3,28.4L34.3,28.4z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M5,9c0.2,0,0.2-0.4,0-0.4C4.8,8.6,4.8,9,5,9L5,9z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M4.6,6.1C1,10.3-0.3,15.4,0,20.9c0.2,4,1.6,9.7,6.1,10.5C8,31.8,9.9,29.8,8.7,28\
+				c-2.1-3.4-5.2-3.8-5.3-8.5C3.3,15.3,4.1,11,6,7.3C6.5,6.3,5.3,5.3,4.6,6.1L4.6,6.1z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="42.4px" height="40.2px" viewBox="0 0 42.4 40.2" style="enable-background:new 0 0 42.4 40.2;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_17_">\
+		<g id="XMLID_18_">\
+			<path id="XMLID_19_" class="st0" d="M19.4,40c-0.7-6.9,0.1-14.3,1.1-21.1c0.5-2.9,1.1-5.9,1.9-8.7c0.8-3.1,2.5-5.8,2.3-9\
+				c-0.1-1-1.3-1.7-2.1-0.9c-3.8,4.2-4.2,12.7-4.7,18.2c-0.7,7.4,0.2,14.2,1.3,21.5C19.3,40.2,19.4,40.2,19.4,40L19.4,40z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M12.6,37.1c2.7-1.4,6-1.9,9-1.6c3,0.3,4.9,1.9,7.5,2.9c1.9,0.7,3.2-2.3,1.4-3.3\
+				c-2.8-1.5-6.4-1.1-9.5-0.8S15.3,35.7,12.6,37.1C12.3,37,12.4,37.1,12.6,37.1L12.6,37.1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M9,11.9c-0.6,3.8,2,6.5,5.6,7c5.6,0.9,10.6,0.2,15.3-2.9c1.8-1.2,0.1-4.2-1.7-2.9\
+				c-2.4,1.7-5.1,3.2-8.1,3.1c-2.9-0.1-8.9-0.9-9.6-4.4C10.3,11.2,9.1,11.1,9,11.9L9,11.9z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M34.3,28.4c5.4-3.8,8.2-10.8,8-17.3c-0.2-5-3.6-12-9.4-11c-1.4,0.2-1.9,2.1-1.3,3.2\
+				c2.4,4,6.8,4.8,7.3,10.3c0.6,5.7-3.9,9.5-5,14.6C34,28.3,34.1,28.5,34.3,28.4L34.3,28.4z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M5,9c0.2,0,0.2-0.4,0-0.4C4.8,8.6,4.8,9,5,9L5,9z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M4.6,6.1C1,10.3-0.3,15.4,0,20.9c0.2,4,1.6,9.7,6.1,10.5C8,31.8,9.9,29.8,8.7,28\
+				c-2.1-3.4-5.2-3.8-5.3-8.5C3.3,15.3,4.1,11,6,7.3C6.5,6.3,5.3,5.3,4.6,6.1L4.6,6.1z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="42.4px" height="40.2px" viewBox="0 0 42.4 40.2" style="enable-background:new 0 0 42.4 40.2;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_17_">\
+		<g id="XMLID_18_">\
+			<path id="XMLID_19_" class="st0" d="M19.4,40c-0.7-6.9,0.1-14.3,1.1-21.1c0.5-2.9,1.1-5.9,1.9-8.7c0.8-3.1,2.5-5.8,2.3-9\
+				c-0.1-1-1.3-1.7-2.1-0.9c-3.8,4.2-4.2,12.7-4.7,18.2c-0.7,7.4,0.2,14.2,1.3,21.5C19.3,40.2,19.4,40.2,19.4,40L19.4,40z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M12.6,37.1c2.7-1.4,6-1.9,9-1.6c3,0.3,4.9,1.9,7.5,2.9c1.9,0.7,3.2-2.3,1.4-3.3\
+				c-2.8-1.5-6.4-1.1-9.5-0.8S15.3,35.7,12.6,37.1C12.3,37,12.4,37.1,12.6,37.1L12.6,37.1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M9,11.9c-0.6,3.8,2,6.5,5.6,7c5.6,0.9,10.6,0.2,15.3-2.9c1.8-1.2,0.1-4.2-1.7-2.9\
+				c-2.4,1.7-5.1,3.2-8.1,3.1c-2.9-0.1-8.9-0.9-9.6-4.4C10.3,11.2,9.1,11.1,9,11.9L9,11.9z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M34.3,28.4c5.4-3.8,8.2-10.8,8-17.3c-0.2-5-3.6-12-9.4-11c-1.4,0.2-1.9,2.1-1.3,3.2\
+				c2.4,4,6.8,4.8,7.3,10.3c0.6,5.7-3.9,9.5-5,14.6C34,28.3,34.1,28.5,34.3,28.4L34.3,28.4z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M5,9c0.2,0,0.2-0.4,0-0.4C4.8,8.6,4.8,9,5,9L5,9z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M4.6,6.1C1,10.3-0.3,15.4,0,20.9c0.2,4,1.6,9.7,6.1,10.5C8,31.8,9.9,29.8,8.7,28\
+				c-2.1-3.4-5.2-3.8-5.3-8.5C3.3,15.3,4.1,11,6,7.3C6.5,6.3,5.3,5.3,4.6,6.1L4.6,6.1z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>'
 }, {
   name: 'Ko',
   image: '<svg version="1.1"\
@@ -1760,10 +2542,49 @@ module.exports = [{
 </svg>',
   requiredLevel: 39,
   properties: {
-    weapon: '+10 To Dexterity',
-    armorHelm: '+10 To Dexterity',
-    shield: '+10 To Dexterity'
-  }
+  weapon: '+10 To Dexterity',
+  armorHelm: '+10 To Dexterity',
+  shield: '+10 To Dexterity'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="39.7px" height="49.3px" viewBox="0 0 39.7 49.3" style="enable-background:new 0 0 39.7 49.3;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<path id="XMLID_1_" class="st0" d="M38.9,14C34.8-4.5,11.9-0.1,7.8,1.9s-16.7,16.4,2.6,25.7c0,0-3.6-9.5,6.8-16.1s16.4,0.7,17.4,4\
+	C40.9,37.6,5,31,2.4,39.8c-1.5,5.1,5.9,9.5,5.9,9.5s-5.5-5.9-2.8-9C9.9,35.3,45.3,42.6,38.9,14z M6.8,15.5c-2,0-3.6-1.6-3.6-3.6\
+	s1.6-3.6,3.6-3.6s3.6,1.6,3.6,3.6S8.8,15.5,6.8,15.5z"/>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="39.7px" height="49.3px" viewBox="0 0 39.7 49.3" style="enable-background:new 0 0 39.7 49.3;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<path id="XMLID_1_" class="st0" d="M38.9,14C34.8-4.5,11.9-0.1,7.8,1.9s-16.7,16.4,2.6,25.7c0,0-3.6-9.5,6.8-16.1s16.4,0.7,17.4,4\
+	C40.9,37.6,5,31,2.4,39.8c-1.5,5.1,5.9,9.5,5.9,9.5s-5.5-5.9-2.8-9C9.9,35.3,45.3,42.6,38.9,14z M6.8,15.5c-2,0-3.6-1.6-3.6-3.6\
+	s1.6-3.6,3.6-3.6s3.6,1.6,3.6,3.6S8.8,15.5,6.8,15.5z"/>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="39.7px" height="49.3px" viewBox="0 0 39.7 49.3" style="enable-background:new 0 0 39.7 49.3;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<path id="XMLID_1_" class="st0" d="M38.9,14C34.8-4.5,11.9-0.1,7.8,1.9s-16.7,16.4,2.6,25.7c0,0-3.6-9.5,6.8-16.1s16.4,0.7,17.4,4\
+	C40.9,37.6,5,31,2.4,39.8c-1.5,5.1,5.9,9.5,5.9,9.5s-5.5-5.9-2.8-9C9.9,35.3,45.3,42.6,38.9,14z M6.8,15.5c-2,0-3.6-1.6-3.6-3.6\
+	s1.6-3.6,3.6-3.6s3.6,1.6,3.6,3.6S8.8,15.5,6.8,15.5z"/>\
+</svg>'
 }, {
   name: 'Fal',
   image: '<svg version="1.1"\
@@ -1814,10 +2635,109 @@ module.exports = [{
 </svg>',
   requiredLevel: 41,
   properties: {
-    weapon: '+10 To Strength',
-    armorHelm: '+10 To Strength',
-    shield: '+10 To Strength'
-  }
+  weapon: '+10 To Strength',
+  armorHelm: '+10 To Strength',
+  shield: '+10 To Strength'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="44.5px" height="49.2px" viewBox="0 0 44.5 49.2" style="enable-background:new 0 0 44.5 49.2;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M19.8,2.7c-2,14.8-0.9,30.4-1.1,45.4c0,1.4,2.2,1.4,2.3,0c0.2-14.9,1.6-30.5,0-45.3\
+				C20.9,2.2,19.9,2,19.8,2.7L19.8,2.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M20.8,5.4c0.4-0.7,0.7-1.5,1.2-2.2c0.9-1.5-0.4-3.4-2.1-3.2c-0.8,0.1-1.4,0.6-1.7,1.3\
+				c-0.4,0.9-0.1,1.7,0.4,2.4c0.5,0.6,1.1,1.2,1.6,1.8C20.4,5.7,20.7,5.6,20.8,5.4L20.8,5.4z"/>\
+		</g>\
+	</g>\
+	<path id="XMLID_4_" class="st0" d="M39,13.3c0,0,2.3-6.8-2.6-6.3c-4.9,0.4-10.9,5.9-4.9,11.3s10.3,8.8,7.5,14.1s-10.7,5.7-10.7,5.5\
+		c0-0.1,0.2,1.7,0.3,3.2c0.1,1.1,1,1.2,2.1,1c2.6-0.6,12.6-6.2,11.4-16.1c-0.3-2.3-3.3-1.6-1.3-4.6c1.2-1.9,3.1-0.5,3.4,1\
+		s-0.4,1.8,0,3.9c1.4,6.2-2.1,12.6-8.4,16.3c-2.4,1.4-4.3,1.8-5.8,2.1c-2.1,0.4-4.1-1.2-4.1-3.4c0-2.6-0.1-5.7,0.1-5.9\
+		c0.3-0.3,6.7,0.3,9-3.4c5-8-9.9-10.2-8.3-18.9c1.8-9.3,13-9,15-6s1.4,9.3-2.9,9.8c-4.3,0.6-7.6-2.2-5.2-4.3\
+		C36.1,10.6,39,13.3,39,13.3z"/>\
+	<path id="XMLID_3_" class="st0" d="M0,29.8h9.9c0.6,0,0.8,0.8,0.2,1.1c-1.7,0.8-3.7,2-3.9,4.2C5.9,37.9,6.8,41,7.5,43\
+		c0.2,0.4-0.4,0.8-0.7,0.4C4.3,40.6-0.5,34.7,0,29.8z"/>\
+	<path id="XMLID_2_" class="st0" d="M8.8,23.8c0,0-2.1-3.6-0.7-8.4s4-4.5,2.5-7.7S6,8.2,5.7,9.8s-1.6,12.1-3,12.7s-2.2,3.7-0.4,3.4\
+		c1.8-0.3,3-1.9,4.5-0.6s2.8,3.2,4.6,2.3c1.8-0.9,1.2-3-0.4-3C9.4,24.7,8.8,23.8,8.8,23.8z"/>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="44.5px" height="49.2px" viewBox="0 0 44.5 49.2" style="enable-background:new 0 0 44.5 49.2;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M19.8,2.7c-2,14.8-0.9,30.4-1.1,45.4c0,1.4,2.2,1.4,2.3,0c0.2-14.9,1.6-30.5,0-45.3\
+				C20.9,2.2,19.9,2,19.8,2.7L19.8,2.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M20.8,5.4c0.4-0.7,0.7-1.5,1.2-2.2c0.9-1.5-0.4-3.4-2.1-3.2c-0.8,0.1-1.4,0.6-1.7,1.3\
+				c-0.4,0.9-0.1,1.7,0.4,2.4c0.5,0.6,1.1,1.2,1.6,1.8C20.4,5.7,20.7,5.6,20.8,5.4L20.8,5.4z"/>\
+		</g>\
+	</g>\
+	<path id="XMLID_4_" class="st0" d="M39,13.3c0,0,2.3-6.8-2.6-6.3c-4.9,0.4-10.9,5.9-4.9,11.3s10.3,8.8,7.5,14.1s-10.7,5.7-10.7,5.5\
+		c0-0.1,0.2,1.7,0.3,3.2c0.1,1.1,1,1.2,2.1,1c2.6-0.6,12.6-6.2,11.4-16.1c-0.3-2.3-3.3-1.6-1.3-4.6c1.2-1.9,3.1-0.5,3.4,1\
+		s-0.4,1.8,0,3.9c1.4,6.2-2.1,12.6-8.4,16.3c-2.4,1.4-4.3,1.8-5.8,2.1c-2.1,0.4-4.1-1.2-4.1-3.4c0-2.6-0.1-5.7,0.1-5.9\
+		c0.3-0.3,6.7,0.3,9-3.4c5-8-9.9-10.2-8.3-18.9c1.8-9.3,13-9,15-6s1.4,9.3-2.9,9.8c-4.3,0.6-7.6-2.2-5.2-4.3\
+		C36.1,10.6,39,13.3,39,13.3z"/>\
+	<path id="XMLID_3_" class="st0" d="M0,29.8h9.9c0.6,0,0.8,0.8,0.2,1.1c-1.7,0.8-3.7,2-3.9,4.2C5.9,37.9,6.8,41,7.5,43\
+		c0.2,0.4-0.4,0.8-0.7,0.4C4.3,40.6-0.5,34.7,0,29.8z"/>\
+	<path id="XMLID_2_" class="st0" d="M8.8,23.8c0,0-2.1-3.6-0.7-8.4s4-4.5,2.5-7.7S6,8.2,5.7,9.8s-1.6,12.1-3,12.7s-2.2,3.7-0.4,3.4\
+		c1.8-0.3,3-1.9,4.5-0.6s2.8,3.2,4.6,2.3c1.8-0.9,1.2-3-0.4-3C9.4,24.7,8.8,23.8,8.8,23.8z"/>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="44.5px" height="49.2px" viewBox="0 0 44.5 49.2" style="enable-background:new 0 0 44.5 49.2;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M19.8,2.7c-2,14.8-0.9,30.4-1.1,45.4c0,1.4,2.2,1.4,2.3,0c0.2-14.9,1.6-30.5,0-45.3\
+				C20.9,2.2,19.9,2,19.8,2.7L19.8,2.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M20.8,5.4c0.4-0.7,0.7-1.5,1.2-2.2c0.9-1.5-0.4-3.4-2.1-3.2c-0.8,0.1-1.4,0.6-1.7,1.3\
+				c-0.4,0.9-0.1,1.7,0.4,2.4c0.5,0.6,1.1,1.2,1.6,1.8C20.4,5.7,20.7,5.6,20.8,5.4L20.8,5.4z"/>\
+		</g>\
+	</g>\
+	<path id="XMLID_4_" class="st0" d="M39,13.3c0,0,2.3-6.8-2.6-6.3c-4.9,0.4-10.9,5.9-4.9,11.3s10.3,8.8,7.5,14.1s-10.7,5.7-10.7,5.5\
+		c0-0.1,0.2,1.7,0.3,3.2c0.1,1.1,1,1.2,2.1,1c2.6-0.6,12.6-6.2,11.4-16.1c-0.3-2.3-3.3-1.6-1.3-4.6c1.2-1.9,3.1-0.5,3.4,1\
+		s-0.4,1.8,0,3.9c1.4,6.2-2.1,12.6-8.4,16.3c-2.4,1.4-4.3,1.8-5.8,2.1c-2.1,0.4-4.1-1.2-4.1-3.4c0-2.6-0.1-5.7,0.1-5.9\
+		c0.3-0.3,6.7,0.3,9-3.4c5-8-9.9-10.2-8.3-18.9c1.8-9.3,13-9,15-6s1.4,9.3-2.9,9.8c-4.3,0.6-7.6-2.2-5.2-4.3\
+		C36.1,10.6,39,13.3,39,13.3z"/>\
+	<path id="XMLID_3_" class="st0" d="M0,29.8h9.9c0.6,0,0.8,0.8,0.2,1.1c-1.7,0.8-3.7,2-3.9,4.2C5.9,37.9,6.8,41,7.5,43\
+		c0.2,0.4-0.4,0.8-0.7,0.4C4.3,40.6-0.5,34.7,0,29.8z"/>\
+	<path id="XMLID_2_" class="st0" d="M8.8,23.8c0,0-2.1-3.6-0.7-8.4s4-4.5,2.5-7.7S6,8.2,5.7,9.8s-1.6,12.1-3,12.7s-2.2,3.7-0.4,3.4\
+		c1.8-0.3,3-1.9,4.5-0.6s2.8,3.2,4.6,2.3c1.8-0.9,1.2-3-0.4-3C9.4,24.7,8.8,23.8,8.8,23.8z"/>\
+</g>\
+</svg>'
 }, {
   name: 'Lem',
   image: '<svg version="1.1"\
@@ -1854,10 +2774,148 @@ module.exports = [{
 </svg>',
   requiredLevel: 43,
   properties: {
-    weapon: '75% Extra Gold From Monsters',
-    armorHelm: '50% Extra Gold From Monsters',
-    shield: '50% Extra Gold From Monsters'
-  }
+  weapon: '75% Extra Gold From Monsters',
+  armorHelm: '50% Extra Gold From Monsters',
+  shield: '50% Extra Gold From Monsters'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="34.1px" height="38.1px" viewBox="0 0 34.1 38.1" style="enable-background:new 0 0 34.1 38.1;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M14.2,0.3c-0.7,2.8,1.4,4.8,2.7,7.1c3,5.4,1.4,9.1-0.3,14.5c-1.8,5.5-0.7,12.3,4.2,15.9\
+				c1.3,1,3.3-1,2.3-2.3c-3.2-4.6-5.1-8-4.1-13.8c0.5-3.1,1.3-6.2,1.2-9.4C20.1,8.6,20.3-0.5,14.4,0C14.3,0.1,14.2,0.2,14.2,0.3\
+				L14.2,0.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M3.3,1.2C2.1,1.5,1,2.4,0.4,3.4c-1.1,2-0.1,4.6,2.1,5.2c0.9,0.2,1.9,0.1,2.7-0.4\
+				C6.3,7.5,6.9,6.4,7,5.1V5c0,0.3-0.1,0.6-0.1,0.9C6.9,5.8,7,5.7,7,5.5C6.9,5.8,6.8,6,6.7,6.3c0-0.1,0.1-0.2,0.1-0.2\
+				C6.6,6.3,6.4,6.6,6.3,6.8c0.1-0.1,0.2-0.2,0.3-0.3c0.5-0.4,0.8-1.2,0.9-1.9c0.1-0.7,0-1.5-0.4-2.1C6.2,1.5,4.8,0.9,3.3,1.2\
+				L3.3,1.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M5.6,15.5C5.6,15.5,5.7,15.6,5.6,15.5c0.3,0.2,0.6,0.1,0.7-0.1c0,0,0-0.1,0.1-0.1\
+				c0.3-0.5-0.2-1-0.7-0.9c-1.4,0.3-2.4,2.6-3.1,3.7c-0.5,0.8,0,2.1,0.9,2.3c5.4,1.2,10.6,1.2,16.1,0.9c2.6-0.1,5.1-0.6,7.7-0.6\
+				c2.1,0,4,0.5,6.1,0.2c0.5-0.1,0.8-0.8,0.5-1.2c-2.1-3.6-7-2.7-10.6-2.6c-6.5,0.3-12.9-0.2-19.3,0.2c0.5,0.7,1,1.3,1.5,2\
+				c0.3-0.9,0.6-1.9,0.7-2.9c0.5-0.8,0.2-1.3-0.7-1.4C5.4,15.3,5.5,15.4,5.6,15.5L5.6,15.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M30.9,26.8c0.2,0,0.2-0.4,0-0.4C30.7,26.4,30.7,26.8,30.9,26.8L30.9,26.8z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M26.8,32.7c2-0.6,3.8-1.6,4.8-3.6c0.9-1.7,0.9-4.7-0.7-6.1c-0.5-0.4-1.2-0.5-1.7,0\
+				c-0.9,0.9-1.8,2.7-2.1,3.9c-0.4,1.5-0.5,3.2-1.1,4.7C25.8,32.1,26.2,32.9,26.8,32.7L26.8,32.7z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="34.1px" height="38.1px" viewBox="0 0 34.1 38.1" style="enable-background:new 0 0 34.1 38.1;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M14.2,0.3c-0.7,2.8,1.4,4.8,2.7,7.1c3,5.4,1.4,9.1-0.3,14.5c-1.8,5.5-0.7,12.3,4.2,15.9\
+				c1.3,1,3.3-1,2.3-2.3c-3.2-4.6-5.1-8-4.1-13.8c0.5-3.1,1.3-6.2,1.2-9.4C20.1,8.6,20.3-0.5,14.4,0C14.3,0.1,14.2,0.2,14.2,0.3\
+				L14.2,0.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M3.3,1.2C2.1,1.5,1,2.4,0.4,3.4c-1.1,2-0.1,4.6,2.1,5.2c0.9,0.2,1.9,0.1,2.7-0.4\
+				C6.3,7.5,6.9,6.4,7,5.1V5c0,0.3-0.1,0.6-0.1,0.9C6.9,5.8,7,5.7,7,5.5C6.9,5.8,6.8,6,6.7,6.3c0-0.1,0.1-0.2,0.1-0.2\
+				C6.6,6.3,6.4,6.6,6.3,6.8c0.1-0.1,0.2-0.2,0.3-0.3c0.5-0.4,0.8-1.2,0.9-1.9c0.1-0.7,0-1.5-0.4-2.1C6.2,1.5,4.8,0.9,3.3,1.2\
+				L3.3,1.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M5.6,15.5C5.6,15.5,5.7,15.6,5.6,15.5c0.3,0.2,0.6,0.1,0.7-0.1c0,0,0-0.1,0.1-0.1\
+				c0.3-0.5-0.2-1-0.7-0.9c-1.4,0.3-2.4,2.6-3.1,3.7c-0.5,0.8,0,2.1,0.9,2.3c5.4,1.2,10.6,1.2,16.1,0.9c2.6-0.1,5.1-0.6,7.7-0.6\
+				c2.1,0,4,0.5,6.1,0.2c0.5-0.1,0.8-0.8,0.5-1.2c-2.1-3.6-7-2.7-10.6-2.6c-6.5,0.3-12.9-0.2-19.3,0.2c0.5,0.7,1,1.3,1.5,2\
+				c0.3-0.9,0.6-1.9,0.7-2.9c0.5-0.8,0.2-1.3-0.7-1.4C5.4,15.3,5.5,15.4,5.6,15.5L5.6,15.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M30.9,26.8c0.2,0,0.2-0.4,0-0.4C30.7,26.4,30.7,26.8,30.9,26.8L30.9,26.8z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M26.8,32.7c2-0.6,3.8-1.6,4.8-3.6c0.9-1.7,0.9-4.7-0.7-6.1c-0.5-0.4-1.2-0.5-1.7,0\
+				c-0.9,0.9-1.8,2.7-2.1,3.9c-0.4,1.5-0.5,3.2-1.1,4.7C25.8,32.1,26.2,32.9,26.8,32.7L26.8,32.7z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="34.1px" height="38.1px" viewBox="0 0 34.1 38.1" style="enable-background:new 0 0 34.1 38.1;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M14.2,0.3c-0.7,2.8,1.4,4.8,2.7,7.1c3,5.4,1.4,9.1-0.3,14.5c-1.8,5.5-0.7,12.3,4.2,15.9\
+				c1.3,1,3.3-1,2.3-2.3c-3.2-4.6-5.1-8-4.1-13.8c0.5-3.1,1.3-6.2,1.2-9.4C20.1,8.6,20.3-0.5,14.4,0C14.3,0.1,14.2,0.2,14.2,0.3\
+				L14.2,0.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M3.3,1.2C2.1,1.5,1,2.4,0.4,3.4c-1.1,2-0.1,4.6,2.1,5.2c0.9,0.2,1.9,0.1,2.7-0.4\
+				C6.3,7.5,6.9,6.4,7,5.1V5c0,0.3-0.1,0.6-0.1,0.9C6.9,5.8,7,5.7,7,5.5C6.9,5.8,6.8,6,6.7,6.3c0-0.1,0.1-0.2,0.1-0.2\
+				C6.6,6.3,6.4,6.6,6.3,6.8c0.1-0.1,0.2-0.2,0.3-0.3c0.5-0.4,0.8-1.2,0.9-1.9c0.1-0.7,0-1.5-0.4-2.1C6.2,1.5,4.8,0.9,3.3,1.2\
+				L3.3,1.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M5.6,15.5C5.6,15.5,5.7,15.6,5.6,15.5c0.3,0.2,0.6,0.1,0.7-0.1c0,0,0-0.1,0.1-0.1\
+				c0.3-0.5-0.2-1-0.7-0.9c-1.4,0.3-2.4,2.6-3.1,3.7c-0.5,0.8,0,2.1,0.9,2.3c5.4,1.2,10.6,1.2,16.1,0.9c2.6-0.1,5.1-0.6,7.7-0.6\
+				c2.1,0,4,0.5,6.1,0.2c0.5-0.1,0.8-0.8,0.5-1.2c-2.1-3.6-7-2.7-10.6-2.6c-6.5,0.3-12.9-0.2-19.3,0.2c0.5,0.7,1,1.3,1.5,2\
+				c0.3-0.9,0.6-1.9,0.7-2.9c0.5-0.8,0.2-1.3-0.7-1.4C5.4,15.3,5.5,15.4,5.6,15.5L5.6,15.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M30.9,26.8c0.2,0,0.2-0.4,0-0.4C30.7,26.4,30.7,26.8,30.9,26.8L30.9,26.8z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M26.8,32.7c2-0.6,3.8-1.6,4.8-3.6c0.9-1.7,0.9-4.7-0.7-6.1c-0.5-0.4-1.2-0.5-1.7,0\
+				c-0.9,0.9-1.8,2.7-2.1,3.9c-0.4,1.5-0.5,3.2-1.1,4.7C25.8,32.1,26.2,32.9,26.8,32.7L26.8,32.7z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>'
 }, {
   name: 'Pul',
   image: '<svg version="1.1"\
@@ -1879,10 +2937,106 @@ module.exports = [{
 </svg>',
   requiredLevel: 45,
   properties: {
-    weapon: '+75% Damage to Demons, +100 Attack Rating Against Demons',
-    armorHelm: '+30% Enhanced Defense',
-    shield: '+30% Enhanced Defense'
-  }
+  weapon: '+75% Damage to Demons, +100 Attack Rating Against Demons',
+  armorHelm: '+30% Enhanced Defense',
+  shield: '+30% Enhanced Defense'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="36.3px" height="45.8px" viewBox="0 0 36.3 45.8" style="enable-background:new 0 0 36.3 45.8;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M22.3,0.2c-5.7,3.4-7.5,9.9-6.9,16.3c0.4,4.7,1.8,9.4,2.3,14.1c0.5,4.4-1,8.4-0.8,12.7\
+				c0.1,2.2,2.7,3.3,4.3,1.8c4.9-4.6,2.5-12.9,0.8-18.6c-2.3-7.8-4.8-17.2,2.7-23.1C26.6,2,24.2-0.9,22.3,0.2L22.3,0.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M31.2,42.5c3.3-4.2,4-8.7,1.5-13.6c-2.1-4.1-4.4-6.6-3.4-11.4c0.8-4.4,2.8-7.7,6-10.8\
+				c3.5-3.5-3-8.5-5.3-4.1c-3.1,5.2-6.1,12.4-5.6,18.6c0.2,3.1,1.8,5.3,3.3,8c2.3,3.9,3.2,8,1.8,12.4C29.2,42.5,30.5,43.3,31.2,42.5\
+				L31.2,42.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M2,15.2c-1.4,2.3-1.4,6.1-1.9,8.7c-0.2,0.9,0.1,1.7,0.9,2.2c2.3,1.6,6.1-0.3,8.5-0.7\
+				c4.9-1,10.3-2.2,15.3-1.5c1.5,0.2,2.5-1.3,1.5-2.5c-2.5-2.8-6.6-1.5-10-1.1c-1.8,0.2-3.6,0.5-5.4,0.8c-1.1,0.2-7,2.2-7.9,1.6\
+				c0.3,0.7,0.6,1.5,0.9,2.2c0.4-3.1,2.4-8.4-1.8-9.8C2.1,15.2,2.1,15.2,2,15.2L2,15.2z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="36.3px" height="45.8px" viewBox="0 0 36.3 45.8" style="enable-background:new 0 0 36.3 45.8;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M22.3,0.2c-5.7,3.4-7.5,9.9-6.9,16.3c0.4,4.7,1.8,9.4,2.3,14.1c0.5,4.4-1,8.4-0.8,12.7\
+				c0.1,2.2,2.7,3.3,4.3,1.8c4.9-4.6,2.5-12.9,0.8-18.6c-2.3-7.8-4.8-17.2,2.7-23.1C26.6,2,24.2-0.9,22.3,0.2L22.3,0.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M31.2,42.5c3.3-4.2,4-8.7,1.5-13.6c-2.1-4.1-4.4-6.6-3.4-11.4c0.8-4.4,2.8-7.7,6-10.8\
+				c3.5-3.5-3-8.5-5.3-4.1c-3.1,5.2-6.1,12.4-5.6,18.6c0.2,3.1,1.8,5.3,3.3,8c2.3,3.9,3.2,8,1.8,12.4C29.2,42.5,30.5,43.3,31.2,42.5\
+				L31.2,42.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M2,15.2c-1.4,2.3-1.4,6.1-1.9,8.7c-0.2,0.9,0.1,1.7,0.9,2.2c2.3,1.6,6.1-0.3,8.5-0.7\
+				c4.9-1,10.3-2.2,15.3-1.5c1.5,0.2,2.5-1.3,1.5-2.5c-2.5-2.8-6.6-1.5-10-1.1c-1.8,0.2-3.6,0.5-5.4,0.8c-1.1,0.2-7,2.2-7.9,1.6\
+				c0.3,0.7,0.6,1.5,0.9,2.2c0.4-3.1,2.4-8.4-1.8-9.8C2.1,15.2,2.1,15.2,2,15.2L2,15.2z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="36.3px" height="45.8px" viewBox="0 0 36.3 45.8" style="enable-background:new 0 0 36.3 45.8;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M22.3,0.2c-5.7,3.4-7.5,9.9-6.9,16.3c0.4,4.7,1.8,9.4,2.3,14.1c0.5,4.4-1,8.4-0.8,12.7\
+				c0.1,2.2,2.7,3.3,4.3,1.8c4.9-4.6,2.5-12.9,0.8-18.6c-2.3-7.8-4.8-17.2,2.7-23.1C26.6,2,24.2-0.9,22.3,0.2L22.3,0.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M31.2,42.5c3.3-4.2,4-8.7,1.5-13.6c-2.1-4.1-4.4-6.6-3.4-11.4c0.8-4.4,2.8-7.7,6-10.8\
+				c3.5-3.5-3-8.5-5.3-4.1c-3.1,5.2-6.1,12.4-5.6,18.6c0.2,3.1,1.8,5.3,3.3,8c2.3,3.9,3.2,8,1.8,12.4C29.2,42.5,30.5,43.3,31.2,42.5\
+				L31.2,42.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M2,15.2c-1.4,2.3-1.4,6.1-1.9,8.7c-0.2,0.9,0.1,1.7,0.9,2.2c2.3,1.6,6.1-0.3,8.5-0.7\
+				c4.9-1,10.3-2.2,15.3-1.5c1.5,0.2,2.5-1.3,1.5-2.5c-2.5-2.8-6.6-1.5-10-1.1c-1.8,0.2-3.6,0.5-5.4,0.8c-1.1,0.2-7,2.2-7.9,1.6\
+				c0.3,0.7,0.6,1.5,0.9,2.2c0.4-3.1,2.4-8.4-1.8-9.8C2.1,15.2,2.1,15.2,2,15.2L2,15.2z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>'
 }, {
   name: 'Um',
   image: '<svg version="1.1"\
@@ -1927,10 +3081,44 @@ module.exports = [{
 </svg>',
   requiredLevel: 47,
   properties: {
-    weapon: '25% Chance of Open Wounds',
-    armorHelm: 'All Resistances +15',
-    shield: 'All Resistances +22'
-  }
+  weapon: '25% Chance of Open Wounds',
+  armorHelm: 'All Resistances +15',
+  shield: 'All Resistances +22'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="36.4px" height="41.7px" viewBox="0 0 36.4 41.7" style="enable-background:new 0 0 36.4 41.7;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<path id="XMLID_4_" class="st0" d="M27.4,18.3c0,4.4-3.6,8-8,8s-8-3.6-8-8s8-18.3,8-18.3S27.4,13.8,27.4,18.3z"/>\
+	<path id="XMLID_3_" class="st0" d="M23.3,31.3l3,9.8c0,0,1-7.3,2.8-9.3s7-5.7,7.3-9s-1.9-10.6-3.3-15.3c-0.6-1.9-3-2.9-2.2,0.6\
+		s4.5,11.3,1.5,15c-2.1,2.6-6,4.7-8.1,5.8C23.4,29.3,23,30.3,23.3,31.3z"/>\
+	<path id="XMLID_2_" class="st0" d="M13.1,31.9l-1.3,9.8c0,0-2.7-7.3-4.5-9.3s-7-5.7-7.3-9S7.2,11.6,8.6,6.9c0.6-1.9,3-2.9,2.2,0.6\
+		S2.4,19.7,5.4,23.4c2.1,2.6,4.6,5,6.8,6C12.9,29.9,13.4,30.9,13.1,31.9z"/>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="36.4px" height="41.7px" viewBox="0 0 36.4 41.7" style="enable-background:new 0 0 36.4 41.7;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<path id="XMLID_4_" class="st0" d="M27.4,18.3c0,4.4-3.6,8-8,8s-8-3.6-8-8s8-18.3,8-18.3S27.4,13.8,27.4,18.3z"/>\
+	<path id="XMLID_3_" class="st0" d="M23.3,31.3l3,9.8c0,0,1-7.3,2.8-9.3s7-5.7,7.3-9s-1.9-10.6-3.3-15.3c-0.6-1.9-3-2.9-2.2,0.6\
+		s4.5,11.3,1.5,15c-2.1,2.6-6,4.7-8.1,5.8C23.4,29.3,23,30.3,23.3,31.3z"/>\
+	<path id="XMLID_2_" class="st0" d="M13.1,31.9l-1.3,9.8c0,0-2.7-7.3-4.5-9.3s-7-5.7-7.3-9S7.2,11.6,8.6,6.9c0.6-1.9,3-2.9,2.2,0.6\
+		S2.4,19.7,5.4,23.4c2.1,2.6,4.6,5,6.8,6C12.9,29.9,13.4,30.9,13.1,31.9z"/>\
+</g>\
+</svg>'
 }, {
   name: 'Mal',
   image: '<svg version="1.1"\
@@ -1992,10 +3180,90 @@ module.exports = [{
 </svg>',
   requiredLevel: 49,
   properties: {
-    weapon: 'Prevent Monster Heal',
-    armorHelm: 'Magic Damage Reduced By 7',
-    shield: 'Magic Damage Reduced By 7'
-  }
+  weapon: 'Prevent Monster Heal',
+  armorHelm: 'Magic Damage Reduced By 7',
+  shield: 'Magic Damage Reduced By 7'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="30.3px" height="40.8px" viewBox="0 0 30.3 40.8" style="enable-background:new 0 0 30.3 40.8;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M2.3,3.7C-4.3,6.4,5,14.9,8.1,16.6c2.3,1.2,3.9,1.1,5.6-0.8c1.8-2,3.1-4.5,4.7-6.7\
+				c0.7-1,1.5-3,2.5-3.6c1.5-1,5.6-2.4,6.1-0.1c0.1,0.7,1.2,1.2,1.8,0.7c0.2-0.2,0.4-0.3,0.6-0.5c0.7-0.5,1-1.2,0.8-2\
+				c-1.3-5.9-7.1-3.5-9.8-0.1c-2.4,3-5,8.8-8.5,10.5c-2.2,1.1-4.3-1.2-6-3C5.2,10.2,1.8,6.5,3,5.1C3.6,4.6,3.1,3.4,2.3,3.7L2.3,3.7z\
+				"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M17.2,10.7c-2,3.9,1.4,5.6,3.4,8.7c2.2,3.5,3.7,8,1.8,11.9c-1.3,2.7-3.7,4.4-4.9,7.1\
+				c-0.5,1.1,0.4,2.9,1.8,2.3c5.3-2,5.8-8,5.8-13c0-2.8,0-5.1-1.2-7.7c-1.4-2.9-6.6-6.1-6.5-9.3C17.4,10.7,17.2,10.6,17.2,10.7\
+				L17.2,10.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M22.9,21c-4.8,2.6-8.8,6.5-13,10c0.9,0.2,1.8,0.5,2.7,0.7c-1.2-3.8-5.7-5-7.6-8.5\
+				c0,0.7,0,1.5,0,2.2c0.1-0.2,0.3-0.4,0.4-0.6c1.3-2-0.6-4.6-2.9-4.3c-2.1,0.3-3.5,3.3-1.6,4.9c1.2,1,2,2.2,3.2,3.1\
+				c1.5,1.1,4.7,2.3,5.4,4.1c0.4,1.1,1.7,1.6,2.7,0.7c3.8-3.8,8.1-7.5,11-12C23.3,21,23.1,20.9,22.9,21L22.9,21z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M18.3,9.2c-1.7,1.7-1.6,2.8-0.3,4.7c0.8,1.2,1.5,2.3,2.5,3.3c1.7,1.8,3.4,2.4,3.7,5.3\
+				c0,0.1,0.2,0.1,0.2,0c0.6-5.4-7.3-7.8-5.8-13.2C18.4,9.2,18.3,9.1,18.3,9.2L18.3,9.2z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="30.3px" height="40.8px" viewBox="0 0 30.3 40.8" style="enable-background:new 0 0 30.3 40.8;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M2.3,3.7C-4.3,6.4,5,14.9,8.1,16.6c2.3,1.2,3.9,1.1,5.6-0.8c1.8-2,3.1-4.5,4.7-6.7\
+				c0.7-1,1.5-3,2.5-3.6c1.5-1,5.6-2.4,6.1-0.1c0.1,0.7,1.2,1.2,1.8,0.7c0.2-0.2,0.4-0.3,0.6-0.5c0.7-0.5,1-1.2,0.8-2\
+				c-1.3-5.9-7.1-3.5-9.8-0.1c-2.4,3-5,8.8-8.5,10.5c-2.2,1.1-4.3-1.2-6-3C5.2,10.2,1.8,6.5,3,5.1C3.6,4.6,3.1,3.4,2.3,3.7L2.3,3.7z\
+				"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M17.2,10.7c-2,3.9,1.4,5.6,3.4,8.7c2.2,3.5,3.7,8,1.8,11.9c-1.3,2.7-3.7,4.4-4.9,7.1\
+				c-0.5,1.1,0.4,2.9,1.8,2.3c5.3-2,5.8-8,5.8-13c0-2.8,0-5.1-1.2-7.7c-1.4-2.9-6.6-6.1-6.5-9.3C17.4,10.7,17.2,10.6,17.2,10.7\
+				L17.2,10.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M22.9,21c-4.8,2.6-8.8,6.5-13,10c0.9,0.2,1.8,0.5,2.7,0.7c-1.2-3.8-5.7-5-7.6-8.5\
+				c0,0.7,0,1.5,0,2.2c0.1-0.2,0.3-0.4,0.4-0.6c1.3-2-0.6-4.6-2.9-4.3c-2.1,0.3-3.5,3.3-1.6,4.9c1.2,1,2,2.2,3.2,3.1\
+				c1.5,1.1,4.7,2.3,5.4,4.1c0.4,1.1,1.7,1.6,2.7,0.7c3.8-3.8,8.1-7.5,11-12C23.3,21,23.1,20.9,22.9,21L22.9,21z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M18.3,9.2c-1.7,1.7-1.6,2.8-0.3,4.7c0.8,1.2,1.5,2.3,2.5,3.3c1.7,1.8,3.4,2.4,3.7,5.3\
+				c0,0.1,0.2,0.1,0.2,0c0.6-5.4-7.3-7.8-5.8-13.2C18.4,9.2,18.3,9.1,18.3,9.2L18.3,9.2z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>'
 }, {
   name: 'Ist',
   image: '<svg version="1.1"\
@@ -2039,10 +3307,124 @@ module.exports = [{
 </svg>',
   requiredLevel: 51,
   properties: {
-    weapon: '30% Better Chance of Getting Magic Items',
-    armorHelm: '25% Better Chance of Getting Magic Items',
-    shield: '25% Better Chance of Getting Magic Items'
-  }
+  weapon: '30% Better Chance of Getting Magic Items',
+  armorHelm: '25% Better Chance of Getting Magic Items',
+  shield: '25% Better Chance of Getting Magic Items'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="35.5px" height="42.6px" viewBox="0 0 35.5 42.6" style="enable-background:new 0 0 35.5 42.6;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_20_">\
+		<g id="XMLID_21_">\
+			<path id="XMLID_22_" class="st0" d="M0.9,20.5c-3,2.3,2.6,6.4,4.6,7.2c3.7,1.4,8.5,0.4,10.2-3.5c0.3-0.6-0.3-1.5-1-1\
+				c-2.1,1.3-4.2,2.6-6.7,2.6c-1.8,0-3.6-0.7-4.9-1.9c-1.1-1-1.1-2.2-1.8-3.3C1.1,20.5,1,20.5,0.9,20.5L0.9,20.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_17_">\
+		<g id="XMLID_18_">\
+			<path id="XMLID_19_" class="st0" d="M3.8,11.2c-2.4,2.6-0.3,6.1,1.9,8c1.2,1,2.5,1.8,4,2.2c1.8,0.6,3,0.3,4.6-0.6\
+				c0.6-0.4,0.5-1.3-0.2-1.5c-0.9-0.3-1.7-0.7-2.7-0.9c-1.1-0.2-2-0.5-3-1c-2-1.1-3.7-3.4-3.5-5.8C5,11.1,4.2,10.8,3.8,11.2\
+				L3.8,11.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M13,6.4c-0.2,5.3-0.5,10.6-0.7,15.9c-0.2,4.4-0.9,8.8,1.1,12.8c0.4,0.8,1.7,0.8,2.1,0\
+				c1.9-4.1,1-8.4,0.7-12.8C15.8,17,15.4,11.7,15,6.4C14.8,5.1,13,5.1,13,6.4L13,6.4z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M13.8,5.9c1.6,3.2,5.8,5.2,8.6,7.4c3.7,2.7,7.2,6.2,11.3,8.4c1.3,0.7,2.3-0.9,1.5-1.9\
+				c-2.8-3.4-7.1-6.1-10.6-8.6c-2.9-2-7-5.5-10.6-5.5C13.8,5.7,13.7,5.8,13.8,5.9L13.8,5.9z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M14,16.4c1.5-0.7,3.1-1.2,4.6-1.9c1.2-0.6,2.9-1.4,3.6-2.6c0.5-0.8-0.2-1.8-1.1-1.8\
+				c-1.4-0.1-3.2,1-4.4,1.8c-1.3,0.9-2.5,2.3-3.6,3.5C12.7,15.9,13.3,16.7,14,16.4L14,16.4z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M14.3,34.6c-2.4-0.7-4.2,2.1-3.9,4.3c0.3,2.3,2.5,4.1,4.8,3.7c2.8-0.5,4.1-3.5,2.9-6\
+				c-1.1-2.2-3.8-2.7-5.8-1.4c-0.3,0.2-0.1,0.6,0.2,0.5c1.3-0.5,2.7,0,3.4,1.3c0.7,1.3-0.2,2.6-1.2,3.4c-1.6,1.3-3.1-0.5-3-2.2\
+				c0.1-1.6,1.5-2.2,2.6-2.9C14.7,35.1,14.7,34.7,14.3,34.6L14.3,34.6z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M26.1,15.5c4,2.3,8-3.9,8.2-7.2C34.4,6,34,3.2,32.4,1.4c-2-2.2-5.4-1.8-6.2,1.3\
+				c-0.2,0.8,0.1,2,1,2.4c0.9,0.4,2.4,0.4,2.9-0.8c0.2-0.6,0.4-0.4-0.3-0.5c0.3,0.1,0.8,0.5,1,0.7c0.8,0.9,0.7,1.7,0.4,2.7\
+				c-0.6,1.9-1.6,7.8-4.6,7.1C25.9,14.3,25.5,15.2,26.1,15.5L26.1,15.5z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="35.5px" height="42.6px" viewBox="0 0 35.5 42.6" style="enable-background:new 0 0 35.5 42.6;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_20_">\
+		<g id="XMLID_21_">\
+			<path id="XMLID_22_" class="st0" d="M0.9,20.5c-3,2.3,2.6,6.4,4.6,7.2c3.7,1.4,8.5,0.4,10.2-3.5c0.3-0.6-0.3-1.5-1-1\
+				c-2.1,1.3-4.2,2.6-6.7,2.6c-1.8,0-3.6-0.7-4.9-1.9c-1.1-1-1.1-2.2-1.8-3.3C1.1,20.5,1,20.5,0.9,20.5L0.9,20.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_17_">\
+		<g id="XMLID_18_">\
+			<path id="XMLID_19_" class="st0" d="M3.8,11.2c-2.4,2.6-0.3,6.1,1.9,8c1.2,1,2.5,1.8,4,2.2c1.8,0.6,3,0.3,4.6-0.6\
+				c0.6-0.4,0.5-1.3-0.2-1.5c-0.9-0.3-1.7-0.7-2.7-0.9c-1.1-0.2-2-0.5-3-1c-2-1.1-3.7-3.4-3.5-5.8C5,11.1,4.2,10.8,3.8,11.2\
+				L3.8,11.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M13,6.4c-0.2,5.3-0.5,10.6-0.7,15.9c-0.2,4.4-0.9,8.8,1.1,12.8c0.4,0.8,1.7,0.8,2.1,0\
+				c1.9-4.1,1-8.4,0.7-12.8C15.8,17,15.4,11.7,15,6.4C14.8,5.1,13,5.1,13,6.4L13,6.4z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M13.8,5.9c1.6,3.2,5.8,5.2,8.6,7.4c3.7,2.7,7.2,6.2,11.3,8.4c1.3,0.7,2.3-0.9,1.5-1.9\
+				c-2.8-3.4-7.1-6.1-10.6-8.6c-2.9-2-7-5.5-10.6-5.5C13.8,5.7,13.7,5.8,13.8,5.9L13.8,5.9z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M14,16.4c1.5-0.7,3.1-1.2,4.6-1.9c1.2-0.6,2.9-1.4,3.6-2.6c0.5-0.8-0.2-1.8-1.1-1.8\
+				c-1.4-0.1-3.2,1-4.4,1.8c-1.3,0.9-2.5,2.3-3.6,3.5C12.7,15.9,13.3,16.7,14,16.4L14,16.4z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M14.3,34.6c-2.4-0.7-4.2,2.1-3.9,4.3c0.3,2.3,2.5,4.1,4.8,3.7c2.8-0.5,4.1-3.5,2.9-6\
+				c-1.1-2.2-3.8-2.7-5.8-1.4c-0.3,0.2-0.1,0.6,0.2,0.5c1.3-0.5,2.7,0,3.4,1.3c0.7,1.3-0.2,2.6-1.2,3.4c-1.6,1.3-3.1-0.5-3-2.2\
+				c0.1-1.6,1.5-2.2,2.6-2.9C14.7,35.1,14.7,34.7,14.3,34.6L14.3,34.6z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M26.1,15.5c4,2.3,8-3.9,8.2-7.2C34.4,6,34,3.2,32.4,1.4c-2-2.2-5.4-1.8-6.2,1.3\
+				c-0.2,0.8,0.1,2,1,2.4c0.9,0.4,2.4,0.4,2.9-0.8c0.2-0.6,0.4-0.4-0.3-0.5c0.3,0.1,0.8,0.5,1,0.7c0.8,0.9,0.7,1.7,0.4,2.7\
+				c-0.6,1.9-1.6,7.8-4.6,7.1C25.9,14.3,25.5,15.2,26.1,15.5L26.1,15.5z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>'
 }, {
   name: 'Gul',
   image: '<svg version="1.1"\
@@ -2079,10 +3461,88 @@ module.exports = [{
 </svg>',
   requiredLevel: 53,
   properties: {
-    weapon: '20% Bonus To Attack Rating',
-    armorHelm: '5% To Maximum Poison Resist',
-    shield: '5% To Maximum Poison Resist'
-  }
+  weapon: '20% Bonus To Attack Rating',
+  armorHelm: '5% To Maximum Poison Resist',
+  shield: '5% To Maximum Poison Resist'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="42.4px" height="48.7px" viewBox="0 0 42.4 48.7" style="enable-background:new 0 0 42.4 48.7;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M12.4,0.1C8.7,2.9,6,6,3.8,10.2c-1.7,3.3-4.4,8.4-3.7,12.2c0.5,3.1,4.1,5.5,6.4,7.3\
+				c2.2,1.8,4.9,3.3,6.7,5.5c2.3,2.8,2.1,6.2,3.4,9.5c0.5,1.3,2.7,1.7,3.1,0c1.7-8.6-4.9-12.5-10.9-16.7c-1.7-1.1-5.1-3.3-6-5.2\
+				c-0.9-2,0.4-5.3,1.1-7.2C5.8,10.1,9.1,5,12.7,0.5C12.9,0.3,12.6-0.1,12.4,0.1L12.4,0.1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M38.9,6.1c-0.7,2.3-1.8,4.4-3.4,6.2c-2.2,2.3-4.4,2.4-7.4,2.8c-3.2,0.4-5.8,2-7.6,4.7\
+				c-2.4,3.4-2.7,7.7-3,11.7c-0.4,5.2-1.7,11.1-0.4,16.1c0.4,1.6,2.5,1.4,3.1,0c1.8-4.6,1.3-10.3,1.6-15.1c0.2-2.9,0.3-6,1.4-8.7\
+				c1.5-3.7,3.9-4.8,7.7-5.4c6.3-1,9.1-6,8.9-12.2C39.6,5.8,39,5.7,38.9,6.1L38.9,6.1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M42.2,17.3c-2.9,4.1-8,7.3-13.1,7.4c-3.3,0.1-5-0.3-7.5,2c-3.4,3.2-8.1,11.1-4.7,15.5\
+				c0.3,0.4,0.9,0.2,1.1-0.1c2.1-3.2,1.2-7.3,3.5-10.8c1.2-1.8,2.6-3.5,4.8-3.9c1.4-0.3,3,0.1,4.5-0.1c5.7-0.9,9.7-4.6,11.6-10\
+				C42.5,17.2,42.3,17.2,42.2,17.3L42.2,17.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M6.8,8.8c-1.2,2.5-1,4.9-0.3,7.6C6.9,18,7.7,19.5,8,21c0.6,2.6-0.2,4.5-1,6.8\
+				c-0.4,1.2,1.4,2.3,2.2,1.3C14.9,22.5,5.4,15.8,7.4,9C7.5,8.7,7,8.4,6.8,8.8L6.8,8.8z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="42.4px" height="48.7px" viewBox="0 0 42.4 48.7" style="enable-background:new 0 0 42.4 48.7;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M12.4,0.1C8.7,2.9,6,6,3.8,10.2c-1.7,3.3-4.4,8.4-3.7,12.2c0.5,3.1,4.1,5.5,6.4,7.3\
+				c2.2,1.8,4.9,3.3,6.7,5.5c2.3,2.8,2.1,6.2,3.4,9.5c0.5,1.3,2.7,1.7,3.1,0c1.7-8.6-4.9-12.5-10.9-16.7c-1.7-1.1-5.1-3.3-6-5.2\
+				c-0.9-2,0.4-5.3,1.1-7.2C5.8,10.1,9.1,5,12.7,0.5C12.9,0.3,12.6-0.1,12.4,0.1L12.4,0.1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M38.9,6.1c-0.7,2.3-1.8,4.4-3.4,6.2c-2.2,2.3-4.4,2.4-7.4,2.8c-3.2,0.4-5.8,2-7.6,4.7\
+				c-2.4,3.4-2.7,7.7-3,11.7c-0.4,5.2-1.7,11.1-0.4,16.1c0.4,1.6,2.5,1.4,3.1,0c1.8-4.6,1.3-10.3,1.6-15.1c0.2-2.9,0.3-6,1.4-8.7\
+				c1.5-3.7,3.9-4.8,7.7-5.4c6.3-1,9.1-6,8.9-12.2C39.6,5.8,39,5.7,38.9,6.1L38.9,6.1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M42.2,17.3c-2.9,4.1-8,7.3-13.1,7.4c-3.3,0.1-5-0.3-7.5,2c-3.4,3.2-8.1,11.1-4.7,15.5\
+				c0.3,0.4,0.9,0.2,1.1-0.1c2.1-3.2,1.2-7.3,3.5-10.8c1.2-1.8,2.6-3.5,4.8-3.9c1.4-0.3,3,0.1,4.5-0.1c5.7-0.9,9.7-4.6,11.6-10\
+				C42.5,17.2,42.3,17.2,42.2,17.3L42.2,17.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M6.8,8.8c-1.2,2.5-1,4.9-0.3,7.6C6.9,18,7.7,19.5,8,21c0.6,2.6-0.2,4.5-1,6.8\
+				c-0.4,1.2,1.4,2.3,2.2,1.3C14.9,22.5,5.4,15.8,7.4,9C7.5,8.7,7,8.4,6.8,8.8L6.8,8.8z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>'
 }, {
   name: 'Vex',
   image: '<svg version="1.1"\
@@ -2132,10 +3592,74 @@ module.exports = [{
 </svg>',
   requiredLevel: 55,
   properties: {
-    weapon: '7% Mana Stolen Per Hit',
-    armorHelm: '5% To Maximum Fire Resist',
-    shield: '5% To Maximum Fire Resist'
-  }
+  weapon: '7% Mana Stolen Per Hit',
+  armorHelm: '5% To Maximum Fire Resist',
+  shield: '5% To Maximum Fire Resist'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="36.7px" height="35.6px" viewBox="0 0 36.7 35.6" style="enable-background:new 0 0 36.7 35.6;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_9_">\
+		<g id="XMLID_10_">\
+			<path id="XMLID_11_" class="st0" d="M1.2,0.2C8.5,4,15.1,13.4,19.6,20.1c3.4,5,6.5,13,12.9,14.6c0.9,0.2,1.3-0.8,0.8-1.4\
+				c-2.8-3.5-5.8-6.4-8.1-10.5c-2.1-3.6-4.3-7.2-6.8-10.5C14.2,6.9,8.4,0.4,1.2,0C1.1,0,1.1,0.2,1.2,0.2L1.2,0.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_6_">\
+		<g id="XMLID_7_">\
+			<path id="XMLID_8_" class="st0" d="M1.1,33.5c1.4-1.4,3.6-2,5.2-3.2c1.8-1.3,3.5-2.7,5.3-4c3.1-2.4,6.2-4.6,8.7-7.6\
+				c1.2-1.5-0.3-3.6-2.1-2.7c-4,2.2-7.2,5.3-10.6,8.2c-2.8,2.4-6.5,4.9-7.6,8.7C-0.1,33.5,0.7,33.9,1.1,33.5L1.1,33.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_3_">\
+		<g id="XMLID_4_">\
+			<path id="XMLID_5_" class="st0" d="M24.2,27.1c1.3,4.1,5.7,8.3,10.1,8.5c2.6,0.1,3.1-3.3,1.2-4.6c-1.6-1.1-3.5-1.4-5.3-2.3\
+				c-1.7-0.8-3.3-1.7-5-2.5C24.7,26,24,26.4,24.2,27.1L24.2,27.1z"/>\
+		</g>\
+	</g>\
+	<path id="XMLID_2_" class="st0" d="M16.8,25l-7.3,6.8c-0.5,0.5-0.4,2,0.4,2h14c0.7,0,1-0.6,0.5-1.1l-6.3-7.6\
+		C17.7,24.7,17.2,24.7,16.8,25z"/>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="36.7px" height="35.6px" viewBox="0 0 36.7 35.6" style="enable-background:new 0 0 36.7 35.6;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_9_">\
+		<g id="XMLID_10_">\
+			<path id="XMLID_11_" class="st0" d="M1.2,0.2C8.5,4,15.1,13.4,19.6,20.1c3.4,5,6.5,13,12.9,14.6c0.9,0.2,1.3-0.8,0.8-1.4\
+				c-2.8-3.5-5.8-6.4-8.1-10.5c-2.1-3.6-4.3-7.2-6.8-10.5C14.2,6.9,8.4,0.4,1.2,0C1.1,0,1.1,0.2,1.2,0.2L1.2,0.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_6_">\
+		<g id="XMLID_7_">\
+			<path id="XMLID_8_" class="st0" d="M1.1,33.5c1.4-1.4,3.6-2,5.2-3.2c1.8-1.3,3.5-2.7,5.3-4c3.1-2.4,6.2-4.6,8.7-7.6\
+				c1.2-1.5-0.3-3.6-2.1-2.7c-4,2.2-7.2,5.3-10.6,8.2c-2.8,2.4-6.5,4.9-7.6,8.7C-0.1,33.5,0.7,33.9,1.1,33.5L1.1,33.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_3_">\
+		<g id="XMLID_4_">\
+			<path id="XMLID_5_" class="st0" d="M24.2,27.1c1.3,4.1,5.7,8.3,10.1,8.5c2.6,0.1,3.1-3.3,1.2-4.6c-1.6-1.1-3.5-1.4-5.3-2.3\
+				c-1.7-0.8-3.3-1.7-5-2.5C24.7,26,24,26.4,24.2,27.1L24.2,27.1z"/>\
+		</g>\
+	</g>\
+	<path id="XMLID_2_" class="st0" d="M16.8,25l-7.3,6.8c-0.5,0.5-0.4,2,0.4,2h14c0.7,0,1-0.6,0.5-1.1l-6.3-7.6\
+		C17.7,24.7,17.2,24.7,16.8,25z"/>\
+</g>\
+</svg>'
 }, {
   name: 'Ohm',
   image: '<svg version="1.1"\
@@ -2188,10 +3712,100 @@ module.exports = [{
 </svg>',
   requiredLevel: 57,
   properties: {
-    weapon: '+50% Enhanced Damage',
-    armorHelm: '+5% To Maximum Cold Resist',
-    shield: '+5% To Maximum Cold Resist'
-  }
+  weapon: '+50% Enhanced Damage',
+  armorHelm: '+5% To Maximum Cold Resist',
+  shield: '+5% To Maximum Cold Resist'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="37px" height="44.2px" viewBox="0 0 37 44.2" style="enable-background:new 0 0 37 44.2;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M36,9.1c1.3-1.8,1.4-5.4-0.6-6.8c-0.6-0.4-1.2-0.4-2-0.4c-1.6-0.1-3.3,0.7-5,0.5\
+				c-2-0.3-3.8-1.4-5.6-2.2s-3.3,1.1-2.1,2.7c2,2.5,4.8,3.8,7,6.1c3.1,3.1,3.8,7.5,3.8,11.7c0,7.5-2.9,15.4,0.1,22.6\
+				c0.6,1.5,2.6,0.9,2.4-0.6c-1.3-9,1.9-17.7,0.5-26.6c-0.5-3-1.5-5.9-3.4-8.3c-2.3-2.8-5.7-4.3-7.9-7.2c-0.7,0.9-1.4,1.8-2.1,2.7\
+				c2.7,1.2,5.5,2.4,8.5,2.3c-0.7,0,4.2-0.5,3.4-0.7c2.2,0.6,1.9,2.8,2.9,4.4C35.9,9.2,36,9.2,36,9.1L36,9.1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M22.9,43.6c1.8-0.2,3.7-0.4,5.2-1.5c1.7-1.2,3.4-2.4,3.5-4.5c0.1-1.2-1.1-1.9-2.2-1.6\
+				c-1.7,0.4-2.6,1.9-3.8,3s-2.1,2.4-3.2,3.6C22.1,42.9,22.4,43.6,22.9,43.6L22.9,43.6z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M14.8,28.2c7,1.9,15.4-2.3,19-8.5c0.7-1.2-1-2.5-1.9-1.5c-4.2,4.8-11.3,7.2-17.1,9.3\
+				C14.5,27.6,14.5,28.1,14.8,28.2L14.8,28.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M14.8,23.4c3.4,1.5,7.2-0.4,10-2.5c3.3-2.5,5.8-6.5,6.5-10.5c0.2-1.1-1.1-2.1-2-1.2\
+				c-2.4,2.5-3.9,5.7-6.2,8.3c-2.4,2.6-5.6,3.5-8.3,5.6C14.6,23.1,14.7,23.3,14.8,23.4L14.8,23.4z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M16.2,22.8c-0.5-5.1-6.6-6.8-10.9-5.1c-4.2,1.6-6.5,6.7-4.7,10.9c1.7,3.9,6.6,6.2,10.7,4.9\
+				c4.4-1.4,6.5-6.5,4.7-10.7c-0.4-0.9-1.7-0.7-2.1,0c-1.1,1.8-1.5,4.3-2.8,5.9C9.5,30.6,6,30,4.5,28.2c-1.8-2.1-0.8-5.6,1.6-6.8\
+				c2.9-1.5,5.6,0.3,7.6,2.3C14.6,24.6,16.3,24.1,16.2,22.8L16.2,22.8z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="37px" height="44.2px" viewBox="0 0 37 44.2" style="enable-background:new 0 0 37 44.2;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M36,9.1c1.3-1.8,1.4-5.4-0.6-6.8c-0.6-0.4-1.2-0.4-2-0.4c-1.6-0.1-3.3,0.7-5,0.5\
+				c-2-0.3-3.8-1.4-5.6-2.2s-3.3,1.1-2.1,2.7c2,2.5,4.8,3.8,7,6.1c3.1,3.1,3.8,7.5,3.8,11.7c0,7.5-2.9,15.4,0.1,22.6\
+				c0.6,1.5,2.6,0.9,2.4-0.6c-1.3-9,1.9-17.7,0.5-26.6c-0.5-3-1.5-5.9-3.4-8.3c-2.3-2.8-5.7-4.3-7.9-7.2c-0.7,0.9-1.4,1.8-2.1,2.7\
+				c2.7,1.2,5.5,2.4,8.5,2.3c-0.7,0,4.2-0.5,3.4-0.7c2.2,0.6,1.9,2.8,2.9,4.4C35.9,9.2,36,9.2,36,9.1L36,9.1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M22.9,43.6c1.8-0.2,3.7-0.4,5.2-1.5c1.7-1.2,3.4-2.4,3.5-4.5c0.1-1.2-1.1-1.9-2.2-1.6\
+				c-1.7,0.4-2.6,1.9-3.8,3s-2.1,2.4-3.2,3.6C22.1,42.9,22.4,43.6,22.9,43.6L22.9,43.6z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M14.8,28.2c7,1.9,15.4-2.3,19-8.5c0.7-1.2-1-2.5-1.9-1.5c-4.2,4.8-11.3,7.2-17.1,9.3\
+				C14.5,27.6,14.5,28.1,14.8,28.2L14.8,28.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M14.8,23.4c3.4,1.5,7.2-0.4,10-2.5c3.3-2.5,5.8-6.5,6.5-10.5c0.2-1.1-1.1-2.1-2-1.2\
+				c-2.4,2.5-3.9,5.7-6.2,8.3c-2.4,2.6-5.6,3.5-8.3,5.6C14.6,23.1,14.7,23.3,14.8,23.4L14.8,23.4z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M16.2,22.8c-0.5-5.1-6.6-6.8-10.9-5.1c-4.2,1.6-6.5,6.7-4.7,10.9c1.7,3.9,6.6,6.2,10.7,4.9\
+				c4.4-1.4,6.5-6.5,4.7-10.7c-0.4-0.9-1.7-0.7-2.1,0c-1.1,1.8-1.5,4.3-2.8,5.9C9.5,30.6,6,30,4.5,28.2c-1.8-2.1-0.8-5.6,1.6-6.8\
+				c2.9-1.5,5.6,0.3,7.6,2.3C14.6,24.6,16.3,24.1,16.2,22.8L16.2,22.8z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>'
 }, {
   name: 'Lo',
   image: '<svg version="1.1"\
@@ -2234,10 +3848,106 @@ module.exports = [{
 </svg>',
   requiredLevel: 59,
   properties: {
-    weapon: '20% Deadly Strike',
-    armorHelm: '5% To Maximum Lightning Resist',
-    shield: '5% To Maximum Lightning Resist'
-  }
+  weapon: '20% Deadly Strike',
+  armorHelm: '5% To Maximum Lightning Resist',
+  shield: '5% To Maximum Lightning Resist'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="31.5px" height="43.2px" viewBox="0 0 31.5 43.2" style="enable-background:new 0 0 31.5 43.2;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_15_">\
+		<g id="XMLID_16_">\
+			<path id="XMLID_17_" class="st0" d="M0.8,0.2c-3,7.8,5.5,13.3,11.8,15.2c3.5,1.1,6-1,8.9-2.9c1.8-1.2,3.4-2.7,5.2-3.9\
+				c1.2-0.9,1.1-1.6,2.5-0.3c-0.6-0.5,1.1,3.2,0.9,2.7c0.2,0.5,1,0.4,1.1-0.1c0.5-2.4-0.5-3.9-2-5.7C29,5,28.5,4.9,28.3,5.1\
+				c-3.4,2.4-10.7,8.8-15.1,7.3C8.1,10.7,3.1,5.1,1.5,0.2C1.4-0.1,0.9-0.1,0.8,0.2L0.8,0.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_12_">\
+		<g id="XMLID_13_">\
+			<path id="XMLID_14_" class="st0" d="M0.1,13.3c1.1,2.5,1,5.1,3.5,6.7c2.5,1.5,7.6,3.4,10.5,3.4c3.3,0,6.6-3.2,9.4-4.8\
+				c1.1-0.6,2.2-1.2,3.3-1.7c0.5,0.8,0.9,1.7,1.2,2.6c-0.5,1.2-2.5,1.4-3.5,2c-0.7,0.4-1,1.3-0.5,2c0.1,0.2,0.3,0.4,0.4,0.6\
+				c0.6,0.8,1.5,1.2,2.5,1c2.5-0.6,4.6-2.4,4.6-5.1c0-1.8-1.7-5.4-3.6-6c-1.1-0.3-2.2,0.5-3.1,1c-3.1,1.8-5.5,4.7-9.2,5\
+				c-6,0.5-10.5-3.8-14.8-7.2C0.3,12.6-0.1,12.9,0.1,13.3L0.1,13.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_9_">\
+		<g id="XMLID_10_">\
+			<path id="XMLID_11_" class="st0" d="M20.1,43.2c0.2,0,0.2-0.3,0-0.3C19.9,42.9,19.9,43.2,20.1,43.2L20.1,43.2z"/>\
+		</g>\
+	</g>\
+	<path id="XMLID_8_" class="st0" d="M2.4,23.1c0,0,3,1.3,4,5.7C7.4,33.1,9,39.1,9,39.1s2.7,2,6.7,2.3s7.1,0,7.1,0s0.4-0.9-0.7-1\
+		c-2.6-0.1-8-1.4-9.7-1.5C8.8,38.6,9,25.7,9,24.7S6,22.4,2.4,23.1z"/>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M13,22.7c-0.8,3.8-1,8,0.1,11.7c0.7,2.5,4.5,4.1,6.9,3.8c2.5-0.3,3.6-4.4,0.6-4.8\
+				c-1.2-0.2-2.1-0.1-3.3,0.2c-0.4,0.1-1.2,0.4-1.6,0.3c-1.1-0.2-1.4-1.5-1.5-2.6c-0.1-1.2,0.1-2.5,0.1-3.8c0-1.6-0.2-3.1-0.2-4.7\
+				C14.2,22.2,13.2,22,13,22.7L13,22.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M15.3,20.6c-0.4,0.3-0.9,0.5-1.2,1c-0.3,0.5-0.2,1.4-0.3,1.9c-0.2,1.7-0.3,3.5-0.3,5.2\
+				c0,0.3,0.4,0.3,0.5,0.1c0.4-1.5,0.8-3,1.1-4.5c0.2-0.7,0.5-1.5,0.5-2.1c0-0.5-0.3-1-0.2-1.4C15.5,20.6,15.4,20.5,15.3,20.6\
+				L15.3,20.6z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="31.5px" height="43.2px" viewBox="0 0 31.5 43.2" style="enable-background:new 0 0 31.5 43.2;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_15_">\
+		<g id="XMLID_16_">\
+			<path id="XMLID_17_" class="st0" d="M0.8,0.2c-3,7.8,5.5,13.3,11.8,15.2c3.5,1.1,6-1,8.9-2.9c1.8-1.2,3.4-2.7,5.2-3.9\
+				c1.2-0.9,1.1-1.6,2.5-0.3c-0.6-0.5,1.1,3.2,0.9,2.7c0.2,0.5,1,0.4,1.1-0.1c0.5-2.4-0.5-3.9-2-5.7C29,5,28.5,4.9,28.3,5.1\
+				c-3.4,2.4-10.7,8.8-15.1,7.3C8.1,10.7,3.1,5.1,1.5,0.2C1.4-0.1,0.9-0.1,0.8,0.2L0.8,0.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_12_">\
+		<g id="XMLID_13_">\
+			<path id="XMLID_14_" class="st0" d="M0.1,13.3c1.1,2.5,1,5.1,3.5,6.7c2.5,1.5,7.6,3.4,10.5,3.4c3.3,0,6.6-3.2,9.4-4.8\
+				c1.1-0.6,2.2-1.2,3.3-1.7c0.5,0.8,0.9,1.7,1.2,2.6c-0.5,1.2-2.5,1.4-3.5,2c-0.7,0.4-1,1.3-0.5,2c0.1,0.2,0.3,0.4,0.4,0.6\
+				c0.6,0.8,1.5,1.2,2.5,1c2.5-0.6,4.6-2.4,4.6-5.1c0-1.8-1.7-5.4-3.6-6c-1.1-0.3-2.2,0.5-3.1,1c-3.1,1.8-5.5,4.7-9.2,5\
+				c-6,0.5-10.5-3.8-14.8-7.2C0.3,12.6-0.1,12.9,0.1,13.3L0.1,13.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_9_">\
+		<g id="XMLID_10_">\
+			<path id="XMLID_11_" class="st0" d="M20.1,43.2c0.2,0,0.2-0.3,0-0.3C19.9,42.9,19.9,43.2,20.1,43.2L20.1,43.2z"/>\
+		</g>\
+	</g>\
+	<path id="XMLID_8_" class="st0" d="M2.4,23.1c0,0,3,1.3,4,5.7C7.4,33.1,9,39.1,9,39.1s2.7,2,6.7,2.3s7.1,0,7.1,0s0.4-0.9-0.7-1\
+		c-2.6-0.1-8-1.4-9.7-1.5C8.8,38.6,9,25.7,9,24.7S6,22.4,2.4,23.1z"/>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M13,22.7c-0.8,3.8-1,8,0.1,11.7c0.7,2.5,4.5,4.1,6.9,3.8c2.5-0.3,3.6-4.4,0.6-4.8\
+				c-1.2-0.2-2.1-0.1-3.3,0.2c-0.4,0.1-1.2,0.4-1.6,0.3c-1.1-0.2-1.4-1.5-1.5-2.6c-0.1-1.2,0.1-2.5,0.1-3.8c0-1.6-0.2-3.1-0.2-4.7\
+				C14.2,22.2,13.2,22,13,22.7L13,22.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M15.3,20.6c-0.4,0.3-0.9,0.5-1.2,1c-0.3,0.5-0.2,1.4-0.3,1.9c-0.2,1.7-0.3,3.5-0.3,5.2\
+				c0,0.3,0.4,0.3,0.5,0.1c0.4-1.5,0.8-3,1.1-4.5c0.2-0.7,0.5-1.5,0.5-2.1c0-0.5-0.3-1-0.2-1.4C15.5,20.6,15.4,20.5,15.3,20.6\
+				L15.3,20.6z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>'
 }, {
   name: 'Sur',
   image: '<svg version="1.1"\
@@ -2276,10 +3986,86 @@ module.exports = [{
 </svg>',
   requiredLevel: 61,
   properties: {
-    weapon: 'Hit Blinds Target',
-    armorHelm: 'Maximum Mana 5%',
-    shield: '+50 To Mana'
-  }
+  weapon: 'Hit Blinds Target',
+  armorHelm: 'Maximum Mana 5%',
+  shield: '+50 To Mana'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="50.8px" height="43.1px" viewBox="0 0 50.8 43.1" style="enable-background:new 0 0 50.8 43.1;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<path id="XMLID_11_" class="st0" d="M18.6,24.1c0.3-0.9-7.3,10.5-9,11.5s-3.8-1.7-4.2-2.5c-0.3-0.8-4.7,1.8-2.8,5.3\
+		s3.7,5.2,4.2,4.5C7.3,42.3,12.6,39.8,18.6,24.1z"/>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M22.1,14.6c1.4-4.3,2.5-8.5,2.7-13.1c-1,0.3-2.1,0.6-3.1,0.8c4.2,7.1,4,15.9,6.6,23.6\
+				c2.1,6.2,6.1,10.8,10.4,15.6c0.5,0.6,1.3,0.6,1.9,0.3c3.2-1.6,5.8-4,5.6-7.8c-0.1-1-1.5-1.9-2.3-0.9c-1.7,2-2.8,4.4-4.9,6\
+				c0.6,0.1,1.3,0.2,1.9,0.3c-11.6-9.5-13-24.5-16.1-38.2c-0.4-1.9-3.3-1.4-3.3,0.4c0,4.3,0.3,8.7,0.2,13\
+				C21.6,14.8,22,14.8,22.1,14.6L22.1,14.6z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M14.1,10.7C6.9,13.5,2.4,19.8,0.1,27c-0.7,2,1.9,3,3.3,1.9c6.1-4.9,15.4-8.7,23.3-7.8\
+				C35,22,41.5,26.3,48.1,31c1.4,1,2.9-0.6,2.6-2c-0.7-3.5-1.7-7.4-3.8-10.3c-2.4-3.4-5.6-3.3-8.7-5.5c-1.3-1-2.5,1-1.6,2.1\
+				c1.1,1.1,1.7,2.4,1.6,4.1c-2.6,0.3-1.8,4.2,0.5,3.4c4.9-1.8,1.4-5.7,0.2-8.8c-0.8,0.3-1.7,0.7-2.5,1c1.1,1.6,2.3,2.4,4.1,3.2\
+				c5.3,2.3,7.1,5.7,6.8,11.3c1-0.4,2-0.8,3.1-1.3c-6.1-6.4-16.1-10.7-24.9-11.1c-8.6-0.4-18.2,3.8-24.7,9.1\
+				c1.1,0.6,2.2,1.3,3.3,1.9c2.1-6.4,6.4-10.9,11.6-15.1C16.5,12.1,15.4,10.2,14.1,10.7L14.1,10.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M28.7,39.4c-1.3-1.6-1.7-3.6-3.7-4.6c-0.8-0.4-1.8-0.1-2.3,0.7c-0.6,1-1.2,2.4-1.4,3.5\
+				c-0.1,0.6,0.5,1.2,1.1,0.8c1-0.7,1.5-1.8,2.4-2.5c-0.4,0-0.8,0.1-1.1,0.1c-0.4-0.1-0.5-0.4-0.3,0.1c0.1,0.2,0.2,0.4,0.3,0.6\
+				c0.3,0.5,0.7,0.9,1.1,1.3c0.7,0.7,1.4,1.4,2.2,2C28.5,42.4,29.6,40.5,28.7,39.4L28.7,39.4z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="50.8px" height="43.1px" viewBox="0 0 50.8 43.1" style="enable-background:new 0 0 50.8 43.1;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<path id="XMLID_11_" class="st0" d="M18.6,24.1c0.3-0.9-7.3,10.5-9,11.5s-3.8-1.7-4.2-2.5c-0.3-0.8-4.7,1.8-2.8,5.3\
+		s3.7,5.2,4.2,4.5C7.3,42.3,12.6,39.8,18.6,24.1z"/>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M22.1,14.6c1.4-4.3,2.5-8.5,2.7-13.1c-1,0.3-2.1,0.6-3.1,0.8c4.2,7.1,4,15.9,6.6,23.6\
+				c2.1,6.2,6.1,10.8,10.4,15.6c0.5,0.6,1.3,0.6,1.9,0.3c3.2-1.6,5.8-4,5.6-7.8c-0.1-1-1.5-1.9-2.3-0.9c-1.7,2-2.8,4.4-4.9,6\
+				c0.6,0.1,1.3,0.2,1.9,0.3c-11.6-9.5-13-24.5-16.1-38.2c-0.4-1.9-3.3-1.4-3.3,0.4c0,4.3,0.3,8.7,0.2,13\
+				C21.6,14.8,22,14.8,22.1,14.6L22.1,14.6z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M14.1,10.7C6.9,13.5,2.4,19.8,0.1,27c-0.7,2,1.9,3,3.3,1.9c6.1-4.9,15.4-8.7,23.3-7.8\
+				C35,22,41.5,26.3,48.1,31c1.4,1,2.9-0.6,2.6-2c-0.7-3.5-1.7-7.4-3.8-10.3c-2.4-3.4-5.6-3.3-8.7-5.5c-1.3-1-2.5,1-1.6,2.1\
+				c1.1,1.1,1.7,2.4,1.6,4.1c-2.6,0.3-1.8,4.2,0.5,3.4c4.9-1.8,1.4-5.7,0.2-8.8c-0.8,0.3-1.7,0.7-2.5,1c1.1,1.6,2.3,2.4,4.1,3.2\
+				c5.3,2.3,7.1,5.7,6.8,11.3c1-0.4,2-0.8,3.1-1.3c-6.1-6.4-16.1-10.7-24.9-11.1c-8.6-0.4-18.2,3.8-24.7,9.1\
+				c1.1,0.6,2.2,1.3,3.3,1.9c2.1-6.4,6.4-10.9,11.6-15.1C16.5,12.1,15.4,10.2,14.1,10.7L14.1,10.7z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M28.7,39.4c-1.3-1.6-1.7-3.6-3.7-4.6c-0.8-0.4-1.8-0.1-2.3,0.7c-0.6,1-1.2,2.4-1.4,3.5\
+				c-0.1,0.6,0.5,1.2,1.1,0.8c1-0.7,1.5-1.8,2.4-2.5c-0.4,0-0.8,0.1-1.1,0.1c-0.4-0.1-0.5-0.4-0.3,0.1c0.1,0.2,0.2,0.4,0.3,0.6\
+				c0.3,0.5,0.7,0.9,1.1,1.3c0.7,0.7,1.4,1.4,2.2,2C28.5,42.4,29.6,40.5,28.7,39.4L28.7,39.4z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>'
 }, {
   name: 'Ber',
   image: '<svg version="1.1"\
@@ -2329,10 +4115,78 @@ module.exports = [{
 </svg>',
   requiredLevel: 63,
   properties: {
-    weapon: '20% Chance of Crushing Blow',
-    armorHelm: 'Damage Reduced by 8%',
-    shield: 'Damage Reduced by 8%'
-  }
+  weapon: '20% Chance of Crushing Blow',
+  armorHelm: 'Damage Reduced by 8%',
+  shield: 'Damage Reduced by 8%'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="35.1px" height="39.4px" viewBox="0 0 35.1 39.4" style="enable-background:new 0 0 35.1 39.4;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M3.2,8.8c0.2-0.1,0.4-0.2,0.5-0.2c-0.7,0-1.4,0-2.1,0c4.6,2.3,0.3,10.5,4.3,12.7\
+				c2.4,1.3,6-2.1,7.6-3.6c2.8-2.8,3.8-6.1,2.4-9.9c-0.5-1.2-2.3-2.8-1.4-3.9c0.8-1,3.9-0.3,5.1-0.1c2.8,0.6,5.2,2,8.1,2.2\
+				c1.5,0.1,1.9-1.8,1.1-2.7c-3.9-4.6-11-3.4-16.3-2.5c-0.4,0.1-0.9,0.5-0.9,0.9c-0.4,2.5,0.5,3.8,1.4,6c1.5,3.6,1,7.8-2.7,10\
+				C6.4,19.9,6,18.5,6,15.5s0.5-11-4-10.9C-1.3,4.8-0.2,10.4,3.2,8.8L3.2,8.8z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M34.7,27.6c-3.1-2.4-1.3-6-3.8-8.7c-1.8-1.9-4.7-2.5-7.1-1.6c-2.6,1-4.1,3.5-4.7,6.2\
+				c-1.2,5.4-0.6,9.9-6,13c0.8,0.4,1.6,0.9,2.3,1.3c-0.3-3.7,2.2-8,2.7-11.7c0.5-3.4,0.5-6.9,0.4-10.3c-0.1-1.3-1.9-1.3-2,0\
+				c-0.2,4.2-0.9,8.4-1.8,12.5c-0.7,3.1-2.6,6.3-2.4,9.5c0.1,1.2,1.3,1.9,2.3,1.3c6.1-3.4,6.2-8,7.5-14.2c0.2-1.1,0.5-2.1,1.1-3\
+				c4.1-1,5.7-0.3,4.8,2.2c0.2,0.7-0.1,1.4,0.2,2.1c0.8,2.1,3,3.1,5,3.8C34.6,30.6,35.8,28.5,34.7,27.6L34.7,27.6z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M17.1,19.6c1.9,0,3.7-1.7,3.6-3.6c-0.1-2-1.6-3.6-3.6-3.6c-1.9,0-3.7,1.7-3.6,3.6\
+				C13.6,17.9,15.1,19.6,17.1,19.6L17.1,19.6z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="35.1px" height="39.4px" viewBox="0 0 35.1 39.4" style="enable-background:new 0 0 35.1 39.4;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M3.2,8.8c0.2-0.1,0.4-0.2,0.5-0.2c-0.7,0-1.4,0-2.1,0c4.6,2.3,0.3,10.5,4.3,12.7\
+				c2.4,1.3,6-2.1,7.6-3.6c2.8-2.8,3.8-6.1,2.4-9.9c-0.5-1.2-2.3-2.8-1.4-3.9c0.8-1,3.9-0.3,5.1-0.1c2.8,0.6,5.2,2,8.1,2.2\
+				c1.5,0.1,1.9-1.8,1.1-2.7c-3.9-4.6-11-3.4-16.3-2.5c-0.4,0.1-0.9,0.5-0.9,0.9c-0.4,2.5,0.5,3.8,1.4,6c1.5,3.6,1,7.8-2.7,10\
+				C6.4,19.9,6,18.5,6,15.5s0.5-11-4-10.9C-1.3,4.8-0.2,10.4,3.2,8.8L3.2,8.8z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M34.7,27.6c-3.1-2.4-1.3-6-3.8-8.7c-1.8-1.9-4.7-2.5-7.1-1.6c-2.6,1-4.1,3.5-4.7,6.2\
+				c-1.2,5.4-0.6,9.9-6,13c0.8,0.4,1.6,0.9,2.3,1.3c-0.3-3.7,2.2-8,2.7-11.7c0.5-3.4,0.5-6.9,0.4-10.3c-0.1-1.3-1.9-1.3-2,0\
+				c-0.2,4.2-0.9,8.4-1.8,12.5c-0.7,3.1-2.6,6.3-2.4,9.5c0.1,1.2,1.3,1.9,2.3,1.3c6.1-3.4,6.2-8,7.5-14.2c0.2-1.1,0.5-2.1,1.1-3\
+				c4.1-1,5.7-0.3,4.8,2.2c0.2,0.7-0.1,1.4,0.2,2.1c0.8,2.1,3,3.1,5,3.8C34.6,30.6,35.8,28.5,34.7,27.6L34.7,27.6z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M17.1,19.6c1.9,0,3.7-1.7,3.6-3.6c-0.1-2-1.6-3.6-3.6-3.6c-1.9,0-3.7,1.7-3.6,3.6\
+				C13.6,17.9,15.1,19.6,17.1,19.6L17.1,19.6z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>'
 }, {
   name: 'Jah',
   image: '<svg version="1.1"\
@@ -2381,10 +4235,100 @@ module.exports = [{
 </svg>',
   requiredLevel: 65,
   properties: {
-    weapon: 'Ignore Targets Defense',
-    armorHelm: 'Increase Maximum Life 5%',
-    shield: '+50 Life'
-  }
+  weapon: 'Ignore Targets Defense',
+  armorHelm: 'Increase Maximum Life 5%',
+  shield: '+50 Life'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="29.6px" height="55.8px" viewBox="0 0 29.6 55.8" style="enable-background:new 0 0 29.6 55.8;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M1.7,0.1C0.2,8.5,1.5,17.7,1.4,26.2c-0.1,9.3-0.5,18.7-1.4,28c-0.1,1.4,1.9,2.1,2.7,1.1\
+				c2.2-2.5,4.4-5.3,5-8.6c0.3-1.6-1.6-2.4-2.6-1.1C3.3,48,2.2,50.7,0.4,53c0.9,0.4,1.8,0.8,2.7,1.1c0.4-9.3,0.8-18.6,0.8-28\
+				c0-8.2,0.7-17.9-1.9-26C2,0,1.7-0.1,1.7,0.1L1.7,0.1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M2,32.5c1.4,0,2.8,0.8,4.2,0.9c2.2,0.3,4.5,0.1,6.7,0.2c3.9,0.1,8.8,1.2,12.2-0.9\
+				c0.6-0.4,0.6-1.3,0-1.6c-3.6-2.1-9-0.7-13.1-0.5C8.9,30.7,4.7,30.4,1.9,32C1.7,32.1,1.8,32.5,2,32.5L2,32.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M21.8,32.5c1.2,2,1,3.9,1.1,6.2c0,1,1.5,1,1.5,0c0-1.3,0.2-2.7-0.1-4s-1.1-1.9-2.2-2.5\
+				C21.9,32.1,21.7,32.3,21.8,32.5L21.8,32.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M2,21.8c6.3,4,17.7,4.1,23.8-0.6c0.4-0.3,0.3-0.9,0-1.2c-1.4-2.7-0.9-5.2,1.4-7.5\
+				c2.6,1.1,3.7-4.4,0-3.8c-2.6,0.4-2.9,3.2-3.4,5.4c-0.6,2.5-1.2,5.2,0.8,7.1c0.1-0.5,0.3-1,0.4-1.4c-7.3,1-15.2,2.8-22.4,0.9\
+				C1.8,20.4,1.4,21.4,2,21.8L2,21.8z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M14.9,9.8c-0.4,0.5-0.3,0.9-0.2,1.6c0.1,0.9,0.1,1.9,0,2.8c0,0.3-0.2,0.8-0.1,1.2\
+				c2.1,0.8,2.9,1.1,2.1,0.8c0-0.1,0.1-0.2,0.1-0.3c0.4-0.8,0.5-1.6,0.5-2.4c0-1.2,0-2.9-1.6-2.9s-2.9,2.4-3.1,3.7\
+				c-0.2,1.6-0.1,3.4,1.4,4.4c1.6,1,3.4,0,3.9-1.7c0.5-1.5,0-3.6-0.7-5C17,11.6,15.7,8.9,14.9,9.8L14.9,9.8z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="29.6px" height="55.8px" viewBox="0 0 29.6 55.8" style="enable-background:new 0 0 29.6 55.8;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M1.7,0.1C0.2,8.5,1.5,17.7,1.4,26.2c-0.1,9.3-0.5,18.7-1.4,28c-0.1,1.4,1.9,2.1,2.7,1.1\
+				c2.2-2.5,4.4-5.3,5-8.6c0.3-1.6-1.6-2.4-2.6-1.1C3.3,48,2.2,50.7,0.4,53c0.9,0.4,1.8,0.8,2.7,1.1c0.4-9.3,0.8-18.6,0.8-28\
+				c0-8.2,0.7-17.9-1.9-26C2,0,1.7-0.1,1.7,0.1L1.7,0.1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M2,32.5c1.4,0,2.8,0.8,4.2,0.9c2.2,0.3,4.5,0.1,6.7,0.2c3.9,0.1,8.8,1.2,12.2-0.9\
+				c0.6-0.4,0.6-1.3,0-1.6c-3.6-2.1-9-0.7-13.1-0.5C8.9,30.7,4.7,30.4,1.9,32C1.7,32.1,1.8,32.5,2,32.5L2,32.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M21.8,32.5c1.2,2,1,3.9,1.1,6.2c0,1,1.5,1,1.5,0c0-1.3,0.2-2.7-0.1-4s-1.1-1.9-2.2-2.5\
+				C21.9,32.1,21.7,32.3,21.8,32.5L21.8,32.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M2,21.8c6.3,4,17.7,4.1,23.8-0.6c0.4-0.3,0.3-0.9,0-1.2c-1.4-2.7-0.9-5.2,1.4-7.5\
+				c2.6,1.1,3.7-4.4,0-3.8c-2.6,0.4-2.9,3.2-3.4,5.4c-0.6,2.5-1.2,5.2,0.8,7.1c0.1-0.5,0.3-1,0.4-1.4c-7.3,1-15.2,2.8-22.4,0.9\
+				C1.8,20.4,1.4,21.4,2,21.8L2,21.8z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M14.9,9.8c-0.4,0.5-0.3,0.9-0.2,1.6c0.1,0.9,0.1,1.9,0,2.8c0,0.3-0.2,0.8-0.1,1.2\
+				c2.1,0.8,2.9,1.1,2.1,0.8c0-0.1,0.1-0.2,0.1-0.3c0.4-0.8,0.5-1.6,0.5-2.4c0-1.2,0-2.9-1.6-2.9s-2.9,2.4-3.1,3.7\
+				c-0.2,1.6-0.1,3.4,1.4,4.4c1.6,1,3.4,0,3.9-1.7c0.5-1.5,0-3.6-0.7-5C17,11.6,15.7,8.9,14.9,9.8L14.9,9.8z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>'
 }, {
   name: 'Cham',
   image: '<svg version="1.1"\
@@ -2439,10 +4383,98 @@ module.exports = [{
 </svg>',
   requiredLevel: 67,
   properties: {
-    weapon: 'Freeze Target +3',
-    armorHelm: 'Cannot Be Frozen',
-    shield: 'Cannot Be Frozen'
-  }
+  weapon: 'Freeze Target +3',
+  armorHelm: 'Cannot Be Frozen',
+  shield: 'Cannot Be Frozen'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="38.3px" height="43.1px" viewBox="0 0 38.3 43.1" style="enable-background:new 0 0 38.3 43.1;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M4,42.9c1.4-6.7,1.4-12.8,0.9-19.6c-0.2-3.2-0.6-6.5-0.7-9.8c0-2.9,1.3-5.1,1.7-7.8\
+				c0.2-1.3-0.7-2.4-2.1-2.1c-5.3,1.2-3.6,9-3.1,12.8c1,8.8,2.1,17.6,2.8,26.4C3.5,43.1,3.9,43.2,4,42.9L4,42.9z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M1.4,13c13,4.3,22.1,14.8,33.5,21.6c0.8,0.5,1.4-0.6,0.9-1.2C31.2,28,24.4,23.8,18.5,20\
+				C13,16.4,8,13.4,1.4,12.7C1.3,12.6,1.2,12.9,1.4,13L1.4,13z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M34.3,39.3c1-5.8,1.9-11.5,2.4-17.4c0.5-5.7,0.2-12.3,1.6-17.8c0.3-1.2-0.2-2.8-1.4-3.4\
+				c-0.3-0.1-0.6-0.3-0.9-0.4c-2-1-4.2,0.6-3.7,2.9c0.5,2,1.1,3.1,1.1,5.3c0,3.5-0.3,7-0.4,10.5c-0.2,6.7-0.2,13.4,0.1,20.1\
+				C33.2,39.7,34.2,39.9,34.3,39.3L34.3,39.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M4.3,32.3c9.6-8.1,21.4-13.2,31.6-20.5c0.7-0.5,0.1-1.5-0.7-1.1c-6.6,3-12.6,7-18.7,10.9\
+				c-4.8,3-9.3,5.8-12.7,10.4C3.6,32.2,4.1,32.5,4.3,32.3L4.3,32.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M18,35.6c-1.6,0.5-4.6,2.3-4.3,4.4c0.1,1.1,1.5,1.9,2.3,2.4c1.1,0.6,2.4,0.9,3.7,0.6\
+				c2.2-0.5,3.8-2.7,3.2-5c-0.6-2.2-3-3.4-5.1-2.7c-0.8,0.3-1,1.7,0,1.8c0.9,0.1,2.1,0.5,2.6,1.4c0.5,1-0.4,2-1.3,2.3\
+				c-1,0.4-3.8,0-3.6-1.6c0.1-1.1,1.9-2.1,2.8-2.5C19,36.4,18.6,35.4,18,35.6L18,35.6z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="38.3px" height="43.1px" viewBox="0 0 38.3 43.1" style="enable-background:new 0 0 38.3 43.1;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M4,42.9c1.4-6.7,1.4-12.8,0.9-19.6c-0.2-3.2-0.6-6.5-0.7-9.8c0-2.9,1.3-5.1,1.7-7.8\
+				c0.2-1.3-0.7-2.4-2.1-2.1c-5.3,1.2-3.6,9-3.1,12.8c1,8.8,2.1,17.6,2.8,26.4C3.5,43.1,3.9,43.2,4,42.9L4,42.9z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M1.4,13c13,4.3,22.1,14.8,33.5,21.6c0.8,0.5,1.4-0.6,0.9-1.2C31.2,28,24.4,23.8,18.5,20\
+				C13,16.4,8,13.4,1.4,12.7C1.3,12.6,1.2,12.9,1.4,13L1.4,13z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M34.3,39.3c1-5.8,1.9-11.5,2.4-17.4c0.5-5.7,0.2-12.3,1.6-17.8c0.3-1.2-0.2-2.8-1.4-3.4\
+				c-0.3-0.1-0.6-0.3-0.9-0.4c-2-1-4.2,0.6-3.7,2.9c0.5,2,1.1,3.1,1.1,5.3c0,3.5-0.3,7-0.4,10.5c-0.2,6.7-0.2,13.4,0.1,20.1\
+				C33.2,39.7,34.2,39.9,34.3,39.3L34.3,39.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M4.3,32.3c9.6-8.1,21.4-13.2,31.6-20.5c0.7-0.5,0.1-1.5-0.7-1.1c-6.6,3-12.6,7-18.7,10.9\
+				c-4.8,3-9.3,5.8-12.7,10.4C3.6,32.2,4.1,32.5,4.3,32.3L4.3,32.3z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M18,35.6c-1.6,0.5-4.6,2.3-4.3,4.4c0.1,1.1,1.5,1.9,2.3,2.4c1.1,0.6,2.4,0.9,3.7,0.6\
+				c2.2-0.5,3.8-2.7,3.2-5c-0.6-2.2-3-3.4-5.1-2.7c-0.8,0.3-1,1.7,0,1.8c0.9,0.1,2.1,0.5,2.6,1.4c0.5,1-0.4,2-1.3,2.3\
+				c-1,0.4-3.8,0-3.6-1.6c0.1-1.1,1.9-2.1,2.8-2.5C19,36.4,18.6,35.4,18,35.6L18,35.6z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>'
 }, {
   name: 'Zod',
   image: '<svg version="1.1"\
@@ -2487,8 +4519,108 @@ module.exports = [{
 </svg>',
   requiredLevel: 69,
   properties: {
-    weapon: 'Indestructible',
-    armorHelm: 'Indestructible',
-    shield: 'Indestructible'
-  }
+  weapon: 'Indestructible',
+  armorHelm: 'Indestructible',
+  shield: 'Indestructible'
+},
+  combination: '<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="22.7px" height="38.6px" viewBox="0 0 22.7 38.6" style="enable-background:new 0 0 22.7 38.6;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_17_">\
+		<g id="XMLID_18_">\
+			<path id="XMLID_19_" class="st0" d="M2.4,1.9c2,0,3.8,0.6,5.7,0.8c2.2,0.3,4.4,0.6,6.5,1.1c0.5,0.1,1.1,0,1.5-0.4\
+				c0.4-0.5,0.6-0.8,0.4-1.5c-0.1-0.5-0.5-1-1-1c-4.3-0.7-8.9-1.5-13.2,0C1.8,1.2,1.9,1.9,2.4,1.9L2.4,1.9z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M1.9,1c-0.5,6.5-0.7,13-1,19.5c-0.2,5.6-1.7,12.2-0.4,17.7c0.1,0.6,0.9,0.5,1.1,0\
+				c2-5.3,1.2-12.1,1.4-17.7C3.2,14,3.2,7.5,2.7,1C2.6,0.6,2,0.6,1.9,1L1.9,1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M1,38.2c1.8,0,3.2,0.2,4.9-0.4c1.6-0.6,3.2-1.2,4.8-2c2.7-1.4,6-3.4,8.2-5.6\
+				c3.2-3.2-4.1-5.7-3.8-1.6c0,0.7-2.2,2.2-2.6,2.6c-1.3,1.1-2.6,2-4,2.8c-2.4,1.4-5,2.8-7.5,4C0.9,38,0.9,38.2,1,38.2L1,38.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M1.6,25.5c2.9,1.1,7.7-0.6,10.3-1.9c2.8-1.4,7.5-3.7,8.2-7c0.2-1-0.7-2.1-1.7-1.7\
+				c-1.3,0.4-2,1.2-3,2.1c-1.6,1.4-3.5,2.4-5.3,3.4c-1.6,0.8-3.1,1.7-4.7,2.4c-1.4,0.7-2.8,1-3.9,2.1C1.2,25.1,1.3,25.4,1.6,25.5\
+				L1.6,25.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M8.9,14.2c2.6,1.3,5.8,2.1,8.8,1.7c1-0.1,1-1.6,0.3-2.1c-2.5-1.5-5.9-1-8.7-0.9\
+				C8.6,13,8.3,13.9,8.9,14.2L8.9,14.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M2.4,13.5c2.1,0.6,5.6-1,7.5-1.6c4.2-1.4,8.3-3.3,11.8-6c0.8-0.6,1.1-1.3,0.9-2.3\
+				c0-0.1,0-0.2-0.1-0.4c-0.1-0.5-0.5-0.9-1-1c-1.7-0.4-2.4,0.5-3.6,1.6c-1.9,1.7-4,3.1-6.2,4.4c-2.1,1.3-6.6,5-9.3,4.8\
+				C2.1,12.9,2.1,13.4,2.4,13.5L2.4,13.5z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>\
+<svg class="rune-horadric" version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	 x="0px" y="0px" width="22.7px" height="38.6px" viewBox="0 0 22.7 38.6" style="enable-background:new 0 0 22.7 38.6;"\
+	 xml:space="preserve">\
+<style type="text/css">\
+	.st0{fill:#171617;}\
+</style>\
+<defs>\
+</defs>\
+<g id="XMLID_1_">\
+	<g id="XMLID_17_">\
+		<g id="XMLID_18_">\
+			<path id="XMLID_19_" class="st0" d="M2.4,1.9c2,0,3.8,0.6,5.7,0.8c2.2,0.3,4.4,0.6,6.5,1.1c0.5,0.1,1.1,0,1.5-0.4\
+				c0.4-0.5,0.6-0.8,0.4-1.5c-0.1-0.5-0.5-1-1-1c-4.3-0.7-8.9-1.5-13.2,0C1.8,1.2,1.9,1.9,2.4,1.9L2.4,1.9z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_14_">\
+		<g id="XMLID_15_">\
+			<path id="XMLID_16_" class="st0" d="M1.9,1c-0.5,6.5-0.7,13-1,19.5c-0.2,5.6-1.7,12.2-0.4,17.7c0.1,0.6,0.9,0.5,1.1,0\
+				c2-5.3,1.2-12.1,1.4-17.7C3.2,14,3.2,7.5,2.7,1C2.6,0.6,2,0.6,1.9,1L1.9,1z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_11_">\
+		<g id="XMLID_12_">\
+			<path id="XMLID_13_" class="st0" d="M1,38.2c1.8,0,3.2,0.2,4.9-0.4c1.6-0.6,3.2-1.2,4.8-2c2.7-1.4,6-3.4,8.2-5.6\
+				c3.2-3.2-4.1-5.7-3.8-1.6c0,0.7-2.2,2.2-2.6,2.6c-1.3,1.1-2.6,2-4,2.8c-2.4,1.4-5,2.8-7.5,4C0.9,38,0.9,38.2,1,38.2L1,38.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_8_">\
+		<g id="XMLID_9_">\
+			<path id="XMLID_10_" class="st0" d="M1.6,25.5c2.9,1.1,7.7-0.6,10.3-1.9c2.8-1.4,7.5-3.7,8.2-7c0.2-1-0.7-2.1-1.7-1.7\
+				c-1.3,0.4-2,1.2-3,2.1c-1.6,1.4-3.5,2.4-5.3,3.4c-1.6,0.8-3.1,1.7-4.7,2.4c-1.4,0.7-2.8,1-3.9,2.1C1.2,25.1,1.3,25.4,1.6,25.5\
+				L1.6,25.5z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_5_">\
+		<g id="XMLID_6_">\
+			<path id="XMLID_7_" class="st0" d="M8.9,14.2c2.6,1.3,5.8,2.1,8.8,1.7c1-0.1,1-1.6,0.3-2.1c-2.5-1.5-5.9-1-8.7-0.9\
+				C8.6,13,8.3,13.9,8.9,14.2L8.9,14.2z"/>\
+		</g>\
+	</g>\
+	<g id="XMLID_2_">\
+		<g id="XMLID_3_">\
+			<path id="XMLID_4_" class="st0" d="M2.4,13.5c2.1,0.6,5.6-1,7.5-1.6c4.2-1.4,8.3-3.3,11.8-6c0.8-0.6,1.1-1.3,0.9-2.3\
+				c0-0.1,0-0.2-0.1-0.4c-0.1-0.5-0.5-0.9-1-1c-1.7-0.4-2.4,0.5-3.6,1.6c-1.9,1.7-4,3.1-6.2,4.4c-2.1,1.3-6.6,5-9.3,4.8\
+				C2.1,12.9,2.1,13.4,2.4,13.5L2.4,13.5z"/>\
+		</g>\
+	</g>\
+</g>\
+</svg>'
 }]
