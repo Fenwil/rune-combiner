@@ -1,0 +1,24 @@
+Rune Combiner: 
+* Amn = 3 Thul + Chipped Topaz
+* Sol = 3 Amn + Chipped Amethyst
+* Shael = 3 Sol + Chipped Sappire
+* Dol = 3 Shael + Chipped Ruby
+* Hel = 3 Dol + Chipped Emerald
+* Io = 3 Hel +  Chipped Diamond
+* Lum = 3 Io + Flawed Topaz
+* Ko = 3 Lum + Flawed Amethyst
+* Fal = 3 Ko + Flawed Shappire
+* Lem = 3 Fal + Flawed Ruby
+* Pul = 3 Lem + Flawed Emerald
+* Um = 2 Pul + Flawed Diamond
+* Mal = 2 Um + Normal Topaz
+* Ist = 2 Mal + Normal Amethyst
+* Gul = 2 Ist + Normal Sapphire
+* Vex = 2 Gul + Normal Ruby
+* Ohm = 2 Vex + Normal Emerald
+* Lo = 2 Ohm + Normal Diamond
+* Sur = 2 Lo + Flawless Topaz
+* Ber =  2 Sur + Flawless Amethyst
+* Jah = 2 Ber + Flawless Sapphire
+* Cham = 2 Jah + Flawless Ruby
+* Zod = 2 Cham + Flawless Emerald

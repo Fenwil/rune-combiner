@@ -8,9 +8,9 @@ new Vue({
     filterune: '',
     picked: '',
     searchBy: '',
-    dRunes: false, // true
+    dRunes: true, // true
     dRunewords: false,
-    dAll: true,
+    dAll: false, // true
     bRunes: true,
     bRunewords: false,
     runes: runes,
