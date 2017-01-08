@@ -2228,8 +2228,8 @@ exports.loHc = function () {
 }
 
 exports.sur = function () {
-	'<svg version="1.1"\
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
+	return '<svg version="1.1"\
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"\ xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="35.1px" height="39.4px" viewBox="0 0 35.1 39.4" style="enable-background:new 0 0 35.1 39.4;"\
 	 xml:space="preserve">\
 <style type="text/css">\
@@ -2265,7 +2265,7 @@ exports.sur = function () {
 }
 
 exports.surHc = function () {
-	'<svg class="rune-horadric" version="1.1"\
+	return '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="35.1px" height="39.4px" viewBox="0 0 35.1 39.4" style="enable-background:new 0 0 35.1 39.4;"\
 	 xml:space="preserve">\
@@ -2492,7 +2492,7 @@ exports.jahHc = function () {
 }
 
 exports.cham = function () {
-	'<svg version="1.1"\
+	return '<svg version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="22.7px" height="38.6px" viewBox="0 0 22.7 38.6" style="enable-background:new 0 0 22.7 38.6;"\
 	 xml:space="preserve">\
@@ -2545,7 +2545,7 @@ exports.cham = function () {
 }
 
 exports.chamHc = function () {
-	'<svg class="rune-horadric" version="1.1"\
+	return '<svg class="rune-horadric" version="1.1"\
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"\
 	 x="0px" y="0px" width="22.7px" height="38.6px" viewBox="0 0 22.7 38.6" style="enable-background:new 0 0 22.7 38.6;"\
 	 xml:space="preserve">\

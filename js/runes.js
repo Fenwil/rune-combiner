@@ -281,7 +281,7 @@ module.exports = [{
   combination: (runesSVG.ohmHc() + runesSVG.ohmHc())
 }, {
   name: 'Sur',
-  image: runesSVG.sur(),
+  image: runesSVG.lo(),
   requiredLevel: 61,
   properties: {
     weapon: 'Hit Blinds Target',

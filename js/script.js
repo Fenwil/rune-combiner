@@ -8,9 +8,9 @@ new Vue({
     filterune: '',
     picked: '',
     searchBy: '',
-    dRunes: true, // true
+    dRunes: false, // true
     dRunewords: false,
-    dAll: false, // true
+    dAll: true, // true
     bRunes: true,
     bRunewords: false,
     runes: runes,
@@ -41,9 +41,10 @@ new Vue({
       this.bRunewords = false
     },
     byRunewords: function (e) {
+      var inputs = document.querySelectorAll('input[type="radio"]')
       if (e.target.checked) {
         this.disableInputRadio(true)
-        var inputs = document.querySelectorAll('input[type="radio"]')
+        inputs = document.querySelectorAll('input[type="radio"]')
         inputs[1].checked = true
         this.clearInput()
         this.displayRunewords()
@@ -51,7 +52,7 @@ new Vue({
         this.bRunes = false
       } else {
         this.disableInputRadio(false)
-        var inputs = document.querySelectorAll('input[type="radio"]')
+        inputs = document.querySelectorAll('input[type="radio"]')
         inputs[2].checked = true
         this.clearInput()
         this.byRunes()
